@@ -25,6 +25,6 @@
     "node-html-parser": "^6.1.11"
   },
   "engines": {
-    "node": "18.x"
+    "node": "16.14.x"
   }
 }
