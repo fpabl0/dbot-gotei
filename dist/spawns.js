@@ -34828,7 +34828,7 @@ exports.HALLOWEEN_SPECIAL_BY_POKEMON = {
     "Bulbasaur-H": [
         {
             "pokemon": "Bulbasaur-H",
-            "rarity": "VR",
+            "rarity": "UR",
             "method": "Box - 150 Cursed Ores"
         }
     ],

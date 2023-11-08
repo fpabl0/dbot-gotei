@@ -34836,7 +34836,7 @@ export const HALLOWEEN_SPECIAL_BY_POKEMON: {[key: string]: SpecialSpawn[]} = {
   "Bulbasaur-H": [
     {
       "pokemon": "Bulbasaur-H",
-      "rarity": "VR",
+      "rarity": "UR",
       "method": "Box - 150 Cursed Ores"
     }
   ],
