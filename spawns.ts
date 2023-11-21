@@ -15664,11 +15664,32 @@ export const SPAWN_POKEMON_NAMES = [
   "Tympole",
   "Venipede",
   "Blipbug",
+  "Eevee",
+  "Mew",
+  "Hatenna",
+  "Skarmory",
   "Bulbasaur",
   "Charmander",
   "Squirtle",
-  "Skarmory",
-  "Hattena",
+  "Terrakion",
+  "Virizion",
+  "Cobalion",
+  "Ferroseed",
+  "Darumaka",
+  "Moltres-galar",
+  "Victini",
+  "Zapdos-galar",
+  "Type-Null",
+  "Articuno-galar",
+  "Togepi",
+  "Axew",
+  "Porygon",
+  "Hoopa",
+  "Volcanion",
+  "Heatran",
+  "Entei",
+  "Raikou",
+  "Suicune",
   "Vullaby",
   "Growlithe",
   "Timburr",
@@ -15676,11 +15697,7 @@ export const SPAWN_POKEMON_NAMES = [
   "Rockruff",
   "Uxie",
   "Azelf",
-  "Mesprit",
-  "Porygon",
-  "Togepi",
-  "Axew",
-  "Heatran"
+  "Mesprit"
 ]
 
 export const NORMAL_SPAWNS_BY_POKEMON: {[key: string]: NormalSpawn[]} = {
@@ -31193,6 +31210,12 @@ export const SPECIAL_SPAWNS_BY_POKEMON: {[key: string]: SpecialSpawn[]} = {
       "pokemon": "Swinub",
       "rarity": "VR",
       "method": "Swarm"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/swinub.gif",
+      "pokemon": "Swinub",
+      "rarity": "VR",
+      "method": "Swinub chest (100 Ranked battle tokens)"
     }
   ],
   "Abra": [
@@ -31285,186 +31308,336 @@ export const SPECIAL_SPAWNS_BY_POKEMON: {[key: string]: SpecialSpawn[]} = {
   ],
   "Dratini": [
     {
-      "sprite": "http://play.pokemonshowdown.com/sprites/ani/dratini.gif",
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/dratini.gif",
       "pokemon": "Dratini",
       "rarity": "UR",
-      "method": "Fishing during the Fishing Contest or in Fisherman's box"
-    }
-  ],
-  "Larvesta": [
+      "method": "Dratini chest (1st place in fish contest)"
+    },
     {
-      "sprite": "http://play.pokemonshowdown.com/sprites/ani/larvesta.gif",
-      "pokemon": "Larvesta",
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/dratini.gif",
+      "pokemon": "Dratini",
       "rarity": "UR",
-      "method": "Walking during the Bug Catching Contest or in Bug box"
+      "method": "Fisherman's chest (5th-2nd in fish contest)"
     }
   ],
   "Chewtle": [
     {
-      "sprite": "http://play.pokemonshowdown.com/sprites/ani/chewtle.gif",
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/chewtle.gif",
       "pokemon": "Chewtle",
-      "rarity": "--",
-      "method": "Box Pokemon (In Fisherman's Box)"
+      "rarity": "VR",
+      "method": "Fisherman's chest (5th-2nd in fish contest)"
     }
   ],
   "Tympole": [
     {
-      "sprite": "http://play.pokemonshowdown.com/sprites/ani/tympole.gif",
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tympole.gif",
       "pokemon": "Tympole",
-      "rarity": "--",
-      "method": "Box Pokemon (In Fisherman's Box)"
+      "rarity": "VR",
+      "method": "Fisherman's chest (5th-2nd in fish contest)"
+    }
+  ],
+  "Larvesta": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/larvesta.gif",
+      "pokemon": "Larvesta",
+      "rarity": "UR",
+      "method": "Larvesta chest (1st in bug competition)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/larvesta.gif",
+      "pokemon": "Larvesta",
+      "rarity": "UR",
+      "method": "Bugcatcher's chest (5th-2nd in bug competition)"
     }
   ],
   "Venipede": [
     {
-      "sprite": "http://play.pokemonshowdown.com/sprites/ani/venipede.gif",
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/venipede.gif",
       "pokemon": "Venipede",
-      "rarity": "--",
-      "method": "Box Pokemon (In Bug box)"
+      "rarity": "VR",
+      "method": "Bugcatcher's chest (5th-2nd in bug competition)"
     }
   ],
   "Blipbug": [
     {
-      "sprite": "http://play.pokemonshowdown.com/sprites/ani/blipbug.gif",
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/blipbug.gif",
       "pokemon": "Blipbug",
-      "rarity": "--",
-      "method": "Box Pokemon (In Bug box)"
+      "rarity": "VR",
+      "method": "Bugcatcher's chest (5th-2nd in bug competition)"
     }
   ],
-  "Bulbasaur": [
+  "Eevee": [
     {
-      "sprite": "http://play.pokemonshowdown.com/sprites/ani/bulbasaur.gif",
-      "pokemon": "Bulbasaur",
-      "rarity": "--",
-      "method": "Box Pokemon (Dynamax Prize Store)"
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/eevee.gif",
+      "pokemon": "Eevee",
+      "rarity": "UR",
+      "method": "Eevee chest (250 goodwill tokens)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/eevee.gif",
+      "pokemon": "Eevee",
+      "rarity": "UR",
+      "method": "Eevee chest (250 goodwill tokens)"
     }
   ],
-  "Charmander": [
+  "Mew": [
     {
-      "sprite": "http://play.pokemonshowdown.com/sprites/ani/charmander.gif",
-      "pokemon": "Charmander",
-      "rarity": "--",
-      "method": "Box Pokemon (Dynamax Prize Store)"
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/mew.gif",
+      "pokemon": "Mew",
+      "rarity": "L",
+      "method": "Mew chest (1000 goodwill tokens)"
     }
   ],
-  "Squirtle": [
+  "Hatenna": [
     {
-      "sprite": "http://play.pokemonshowdown.com/sprites/ani/squirtle.gif",
-      "pokemon": "Squirtle",
-      "rarity": "--",
-      "method": "Box Pokemon (Dynamax Prize Store)"
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/hatenna.gif",
+      "pokemon": "Hatenna",
+      "rarity": "UR",
+      "method": "Hatenna chest (150 dynite ores)"
     }
   ],
   "Skarmory": [
     {
-      "sprite": "http://play.pokemonshowdown.com/sprites/ani/skarmory.gif",
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/skarmory.gif",
       "pokemon": "Skarmory",
-      "rarity": "--",
-      "method": "Box Pokemon (Dynamax Prize Shore)"
+      "rarity": "UR",
+      "method": "Skarmory chest (150 dynite ores)"
     }
   ],
-  "Hattena": [
+  "Bulbasaur": [
     {
-      "sprite": "http://play.pokemonshowdown.com/sprites/ani/hatenna.gif",
-      "pokemon": "Hattena",
-      "rarity": "--",
-      "method": "Box Pokemon (Dynamax Prize Store)"
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/bulbasaur.gif",
+      "pokemon": "Bulbasaur",
+      "rarity": "VR",
+      "method": "Bulbasaur chest (75 dynite ores)"
     }
   ],
-  "Vullaby": [
+  "Charmander": [
     {
-      "sprite": "http://play.pokemonshowdown.com/sprites/ani/vullaby.gif",
-      "pokemon": "Vullaby",
-      "rarity": "--",
-      "method": "Trader Pokemon (Monthly Trader)"
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/charmander.gif",
+      "pokemon": "Charmander",
+      "rarity": "VR",
+      "method": "Charmander chest (75 dynite ores)"
     }
   ],
-  "Growlithe": [
+  "Squirtle": [
     {
-      "sprite": "http://play.pokemonshowdown.com/sprites/ani/growlithe.gif",
-      "pokemon": "Growlithe",
-      "rarity": "--",
-      "method": "Trader Pokemon (Monthly Trader)"
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/squirtle.gif",
+      "pokemon": "Squirtle",
+      "rarity": "VR",
+      "method": "Squirtle chest (75 dynite ores)"
     }
   ],
-  "Timburr": [
+  "Terrakion": [
     {
-      "sprite": "http://play.pokemonshowdown.com/sprites/ani/timburr.gif",
-      "pokemon": "Timburr",
-      "rarity": "--",
-      "method": "Trader Pokemon (Monthly Trader)"
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/terrakion.gif",
+      "pokemon": "Terrakion",
+      "rarity": "L",
+      "method": "Terrakion chest (3000 Ranked battle tokens)"
     }
   ],
-  "Corphish": [
+  "Virizion": [
     {
-      "sprite": "http://play.pokemonshowdown.com/sprites/ani/corphish.gif",
-      "pokemon": "Corphish",
-      "rarity": "--",
-      "method": "Trader Pokemon (Monthly Trader)"
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/virizion.gif",
+      "pokemon": "Virizion",
+      "rarity": "L",
+      "method": "Virizion chest (3000 Ranked battle tokens)"
     }
   ],
-  "Rockruff": [
+  "Cobalion": [
     {
-      "sprite": "http://play.pokemonshowdown.com/sprites/ani/rockruff.gif",
-      "pokemon": "Rockruff",
-      "rarity": "--",
-      "method": "One off free Pokemon (Talk to Cynthia in Eterna Pass, must have free space in party)"
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/cobalion.gif",
+      "pokemon": "Cobalion",
+      "rarity": "L",
+      "method": "Cobalion chest (3000 Ranked battle tokens)"
     }
   ],
-  "Uxie": [
+  "Ferroseed": [
     {
-      "sprite": "http://play.pokemonshowdown.com/sprites/ani/uxie.gif",
-      "pokemon": "Uxie",
-      "rarity": "--",
-      "method": "Box Pokemon (Chance from Legendary Caverns)"
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/ferroseed.gif",
+      "pokemon": "Ferroseed",
+      "rarity": "UR",
+      "method": "Ferroseed chest (450 Ranked battle tokens)"
     }
   ],
-  "Azelf": [
+  "Darumaka": [
     {
-      "sprite": "http://play.pokemonshowdown.com/sprites/ani/azelf.gif",
-      "pokemon": "Azelf",
-      "rarity": "--",
-      "method": "Box Pokemon (Chance from Legendary Caverns)"
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/darumaka.gif",
+      "pokemon": "Darumaka",
+      "rarity": "UR",
+      "method": "Darumaka chest (450 Ranked battle tokens)"
     }
   ],
-  "Mesprit": [
+  "Ralts": [
     {
-      "sprite": "http://play.pokemonshowdown.com/sprites/ani/mesprit.gif",
-      "pokemon": "Mesprit",
-      "rarity": "--",
-      "method": "Box Pokemon (Chance from Legendary Caverns)"
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/ralts.gif",
+      "pokemon": "Ralts",
+      "rarity": "VR",
+      "method": "Ralts chest (80 Ranked battle tokens)"
     }
   ],
-  "Porygon": [
+  "Moltres-galar": [
     {
-      "sprite": "http://play.pokemonshowdown.com/sprites/ani/porygon.gif",
-      "pokemon": "Porygon",
-      "rarity": "--",
-      "method": "Box Pokemon (Battle Tokens Shop)"
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/moltres-galar.gif",
+      "pokemon": "Moltres-galar",
+      "rarity": "L",
+      "method": "Galarian-Moltres chest (2000 Crew war tokens)"
+    }
+  ],
+  "Victini": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/victini.gif",
+      "pokemon": "Victini",
+      "rarity": "L",
+      "method": "Victini chest (15000 Casino tokens)"
+    }
+  ],
+  "Zapdos-galar": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/zapdos-galar.gif",
+      "pokemon": "Zapdos-galar",
+      "rarity": "L",
+      "method": "Galarian-Zapdos chest (15000 Casino tokens)"
+    }
+  ],
+  "Type-Null": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/typenull.gif",
+      "pokemon": "Type-Null",
+      "rarity": "UR",
+      "method": "Type:null chest (15000 Casino tokens)"
+    }
+  ],
+  "Articuno-galar": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/articuno-galar.gif",
+      "pokemon": "Articuno-galar",
+      "rarity": "L",
+      "method": "Galarian-Articuno chest (3000 Battle tokens)"
     }
   ],
   "Togepi": [
     {
-      "sprite": "http://play.pokemonshowdown.com/sprites/ani/togepi.gif",
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/togepi.gif",
       "pokemon": "Togepi",
-      "rarity": "--",
-      "method": "Box Pokemon (Battle Tokens Shop)"
+      "rarity": "VR",
+      "method": "Togepi chest (220 Battle tokens)"
     }
   ],
   "Axew": [
     {
-      "sprite": "http://play.pokemonshowdown.com/sprites/ani/axew.gif",
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/axew.gif",
       "pokemon": "Axew",
-      "rarity": "--",
-      "method": "Box Pokemon (Battle Tokens Shop)"
+      "rarity": "UR",
+      "method": "Axew chest (220 Battle tokens)"
+    }
+  ],
+  "Porygon": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/porygon.gif",
+      "pokemon": "Porygon",
+      "rarity": "UR",
+      "method": "Porygon chest (150 Battle tokens)"
+    }
+  ],
+  "Hoopa": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/hoopa.gif",
+      "pokemon": "Hoopa",
+      "rarity": "L",
+      "method": "Ladder Monthly Reward chest (2500 Ranked Reward ladder points)"
+    }
+  ],
+  "Volcanion": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/volcanion.gif",
+      "pokemon": "Volcanion",
+      "rarity": "L",
+      "method": "Ladder Master chest (Top 10 rank monthly OU ladder)"
     }
   ],
   "Heatran": [
     {
-      "sprite": "http://play.pokemonshowdown.com/sprites/ani/heatran.gif",
       "pokemon": "Heatran",
-      "rarity": "--",
-      "method": "Roaming Pokemon"
+      "rarity": "L",
+      "method": "Roaming Pokemon - Sinnoh"
+    }
+  ],
+  "Entei": [
+    {
+      "pokemon": "Entei",
+      "rarity": "L",
+      "method": "Roaming Pokemon - Jvaloh"
+    }
+  ],
+  "Raikou": [
+    {
+      "pokemon": "Raikou",
+      "rarity": "L",
+      "method": "Roaming Pokemon - Jvaloh"
+    }
+  ],
+  "Suicune": [
+    {
+      "pokemon": "Suicune",
+      "rarity": "L",
+      "method": "Roaming Pokemon - Jvaloh"
+    }
+  ],
+  "Vullaby": [
+    {
+      "pokemon": "Vullaby",
+      "rarity": "VR",
+      "method": "Trade Croakgunk -> Vullaby on 7th of month in Lost Tower 5F"
+    }
+  ],
+  "Growlithe": [
+    {
+      "pokemon": "Growlithe",
+      "rarity": "VR",
+      "method": "Trade Heracross -> Growlithe on 14th of month in Jubilife City Global Terminal"
+    }
+  ],
+  "Timburr": [
+    {
+      "pokemon": "Timburr",
+      "rarity": "VR",
+      "method": "Trade Mawile -> Timburr on 21st of month in Iron Islands B3F 1 (the exit)"
+    }
+  ],
+  "Corphish": [
+    {
+      "pokemon": "Corphish",
+      "rarity": "VR",
+      "method": "Trade Clamperl -> Corphish on 28th of month in Lake Acuity"
+    }
+  ],
+  "Rockruff": [
+    {
+      "pokemon": "Rockruff",
+      "rarity": "VR",
+      "method": "Talk to Cynthia in Eterna Pass, must have free space in party"
+    }
+  ],
+  "Uxie": [
+    {
+      "pokemon": "Uxie",
+      "rarity": "L",
+      "method": "Box Pokemon - Chance from Legendary Caverns"
+    }
+  ],
+  "Azelf": [
+    {
+      "pokemon": "Azelf",
+      "rarity": "L",
+      "method": "Box Pokemon - Chance from Legendary Caverns"
+    }
+  ],
+  "Mesprit": [
+    {
+      "pokemon": "Mesprit",
+      "rarity": "L",
+      "method": "Box Pokemon - Chance from Legendary Caverns"
     }
   ]
 }

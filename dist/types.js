@@ -9,7 +9,7 @@ var CommandType;
     CommandType[CommandType["CharInput"] = 1] = "CharInput";
     CommandType[CommandType["User"] = 2] = "User";
     CommandType[CommandType["Message"] = 3] = "Message";
-})(CommandType || (exports.CommandType = CommandType = {}));
+})(CommandType = exports.CommandType || (exports.CommandType = {}));
 ;
 var CommandOptionType;
 (function (CommandOptionType) {
@@ -18,6 +18,6 @@ var CommandOptionType;
     CommandOptionType[CommandOptionType["Boolean"] = 5] = "Boolean";
     CommandOptionType[CommandOptionType["User"] = 6] = "User";
     CommandOptionType[CommandOptionType["Number"] = 10] = "Number";
-})(CommandOptionType || (exports.CommandOptionType = CommandOptionType = {}));
+})(CommandOptionType = exports.CommandOptionType || (exports.CommandOptionType = {}));
 ;
 //# sourceMappingURL=types.js.map
