@@ -31657,6 +31657,8 @@ export const HALLOWEEN_PLACES = [
   "Route 4 (Parallel)",
   "Route 4 Shores (Parallel)",
   "Boulder Cavern - B1F (Parallel)",
+  "Boulder Cavern - B2F (Parallel)",
+  "Boulder Cavern - B3F (Parallel)",
   "Underground Cavern (Parallel)",
   "Old Power Plant - Room 1 (Parallel)",
   "Old Power Plant - Stairs 1F (Parallel)",
@@ -31692,6 +31694,8 @@ export const HALLOWEEN_POKEMON_NAMES = [
   "Pikipek",
   "Toucannon-H",
   "Grimer-Alola",
+  "Pawniard",
+  "Bisharp-H",
   "Absol",
   "Absol-H2",
   "Pumpkaboo",
@@ -31703,13 +31707,17 @@ export const HALLOWEEN_POKEMON_NAMES = [
   "Cubone",
   "Cubone-H",
   "Inkay",
+  "Houndoom-H",
   "Joltik",
-  "Pawniard",
+  "Larvitar",
+  "Tyranitar-H",
+  "Rotom-Heat",
   "Elekid",
   "Electabuzz-H",
-  "Rotom-Heat",
   "Rotom-Fan",
   "Rotom-Mow",
+  "Carvanha",
+  "Sharpedo-H",
   "Rotom",
   "Impidimp",
   "Gible",
@@ -31742,7 +31750,10 @@ export const HALLOWEEN_POKEMON_NAMES = [
   "Entei-H2",
   "Charmander-H",
   "Scyther-H2",
-  "Bagon-H"
+  "Bagon-H",
+  "Hydreigon-H",
+  "Yveltal",
+  "Heatran-H"
 ]
 
 export const HALLOWEEN_BY_PLACE: {[key: string]: NormalSpawn[]} = {
@@ -32349,6 +32360,24 @@ export const HALLOWEEN_BY_PLACE: {[key: string]: NormalSpawn[]} = {
       "method": "🍀",
       "level": "9-12",
       "place": "Power Lane (Parallel)"
+    },
+    {
+      "sprite": "https://f003.backblazeb2.com/file/forums-uploads/halloween-2023/pawniard.png",
+      "pokemon": "Pawniard",
+      "rarity": "UR",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "9-12",
+      "place": "Power Lane (Parallel)"
+    },
+    {
+      "sprite": "https://f003.backblazeb2.com/file/forums-uploads/halloween-2023/bisharph.png",
+      "pokemon": "Bisharp-H",
+      "rarity": "UR",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "9-12",
+      "place": "Power Lane (Parallel)"
     }
   ],
   "Route 3 (Parallel)": [
@@ -32620,6 +32649,163 @@ export const HALLOWEEN_BY_PLACE: {[key: string]: NormalSpawn[]} = {
       "place": "Boulder Cavern - B1F (Parallel)"
     }
   ],
+  "Boulder Cavern - B2F (Parallel)": [
+    {
+      "sprite": "https://f003.backblazeb2.com/file/forums-uploads/halloween-2023/gastly.png",
+      "pokemon": "Gastly",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "12-15",
+      "place": "Boulder Cavern - B2F (Parallel)"
+    },
+    {
+      "sprite": "https://f003.backblazeb2.com/file/forums-uploads/halloween-2023/shuppet.png",
+      "pokemon": "Shuppet",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "12-15",
+      "place": "Boulder Cavern - B2F (Parallel)"
+    },
+    {
+      "sprite": "https://f003.backblazeb2.com/file/forums-uploads/halloween-2023/poochyena.png",
+      "pokemon": "Poochyena",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "12-15",
+      "place": "Boulder Cavern - B2F (Parallel)"
+    },
+    {
+      "sprite": "https://f003.backblazeb2.com/file/forums-uploads/halloween-2023/houndour.png",
+      "pokemon": "Houndour",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "12-15",
+      "place": "Boulder Cavern - B2F (Parallel)"
+    },
+    {
+      "sprite": "https://f003.backblazeb2.com/file/forums-uploads/halloween-2023/shuppeth2.png",
+      "pokemon": "Shuppet-H2",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "12-15",
+      "place": "Boulder Cavern - B2F (Parallel)"
+    },
+    {
+      "sprite": "https://f003.backblazeb2.com/file/forums-uploads/halloween-2023/cubone.png",
+      "pokemon": "Cubone",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "12-15",
+      "place": "Boulder Cavern - B2F (Parallel)"
+    },
+    {
+      "sprite": "https://f003.backblazeb2.com/file/forums-uploads/halloween-2023/cuboneh.png",
+      "pokemon": "Cubone-H",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "12-15",
+      "place": "Boulder Cavern - B2F (Parallel)"
+    },
+    {
+      "sprite": "https://f003.backblazeb2.com/file/forums-uploads/halloween-2023/inkay.png",
+      "pokemon": "Inkay",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "12-15",
+      "place": "Boulder Cavern - B2F (Parallel)"
+    },
+    {
+      "sprite": "https://f003.backblazeb2.com/file/forums-uploads/halloween-2023/houndoomh.png",
+      "pokemon": "Houndoom-H",
+      "rarity": "UR",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "12-15",
+      "place": "Boulder Cavern - B2F (Parallel)"
+    }
+  ],
+  "Boulder Cavern - B3F (Parallel)": [
+    {
+      "sprite": "https://f003.backblazeb2.com/file/forums-uploads/halloween-2023/gastly.png",
+      "pokemon": "Gastly",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "12-15",
+      "place": "Boulder Cavern - B3F (Parallel)"
+    },
+    {
+      "sprite": "https://f003.backblazeb2.com/file/forums-uploads/halloween-2023/shuppet.png",
+      "pokemon": "Shuppet",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "12-15",
+      "place": "Boulder Cavern - B3F (Parallel)"
+    },
+    {
+      "sprite": "https://f003.backblazeb2.com/file/forums-uploads/halloween-2023/poochyena.png",
+      "pokemon": "Poochyena",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "12-15",
+      "place": "Boulder Cavern - B3F (Parallel)"
+    },
+    {
+      "sprite": "https://f003.backblazeb2.com/file/forums-uploads/halloween-2023/houndour.png",
+      "pokemon": "Houndour",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "12-15",
+      "place": "Boulder Cavern - B3F (Parallel)"
+    },
+    {
+      "sprite": "https://f003.backblazeb2.com/file/forums-uploads/halloween-2023/shuppeth2.png",
+      "pokemon": "Shuppet-H2",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "12-15",
+      "place": "Boulder Cavern - B3F (Parallel)"
+    },
+    {
+      "sprite": "https://f003.backblazeb2.com/file/forums-uploads/halloween-2023/cubone.png",
+      "pokemon": "Cubone",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "12-15",
+      "place": "Boulder Cavern - B3F (Parallel)"
+    },
+    {
+      "sprite": "https://f003.backblazeb2.com/file/forums-uploads/halloween-2023/cuboneh.png",
+      "pokemon": "Cubone-H",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "12-15",
+      "place": "Boulder Cavern - B3F (Parallel)"
+    },
+    {
+      "sprite": "https://f003.backblazeb2.com/file/forums-uploads/halloween-2023/inkay.png",
+      "pokemon": "Inkay",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "12-15",
+      "place": "Boulder Cavern - B3F (Parallel)"
+    }
+  ],
   "Underground Cavern (Parallel)": [
     {
       "sprite": "https://f003.backblazeb2.com/file/forums-uploads/halloween-2023/gastly.png",
@@ -32676,8 +32862,8 @@ export const HALLOWEEN_BY_PLACE: {[key: string]: NormalSpawn[]} = {
       "place": "Underground Cavern (Parallel)"
     },
     {
-      "sprite": "https://f003.backblazeb2.com/file/forums-uploads/halloween-2023/pawniard.png",
-      "pokemon": "Pawniard",
+      "sprite": "https://f003.backblazeb2.com/file/forums-uploads/halloween-2023/larvitar.png",
+      "pokemon": "Larvitar",
       "rarity": "UR",
       "time": "🌓",
       "method": "🍀",
@@ -32685,17 +32871,8 @@ export const HALLOWEEN_BY_PLACE: {[key: string]: NormalSpawn[]} = {
       "place": "Underground Cavern (Parallel)"
     },
     {
-      "sprite": "https://f003.backblazeb2.com/file/forums-uploads/halloween-2023/elekid.png",
-      "pokemon": "Elekid",
-      "rarity": "UR",
-      "time": "🌓",
-      "method": "🍀",
-      "level": "19-23",
-      "place": "Underground Cavern (Parallel)"
-    },
-    {
-      "sprite": "https://f003.backblazeb2.com/file/forums-uploads/halloween-2023/electabuzzh.png",
-      "pokemon": "Electabuzz-H",
+      "sprite": "https://f003.backblazeb2.com/file/forums-uploads/halloween-2023/tyranitarh.png",
+      "pokemon": "Tyranitar-H",
       "rarity": "UR",
       "time": "🌓",
       "method": "🍀",
@@ -32753,6 +32930,24 @@ export const HALLOWEEN_BY_PLACE: {[key: string]: NormalSpawn[]} = {
       "sprite": "https://f003.backblazeb2.com/file/forums-uploads/halloween-2023/rotomheat.png",
       "pokemon": "Rotom-Heat",
       "rarity": "VR",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "14-17",
+      "place": "Old Power Plant - Room 1 (Parallel)"
+    },
+    {
+      "sprite": "https://f003.backblazeb2.com/file/forums-uploads/halloween-2023/elekid.png",
+      "pokemon": "Elekid",
+      "rarity": "UR",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "14-17",
+      "place": "Old Power Plant - Room 1 (Parallel)"
+    },
+    {
+      "sprite": "https://f003.backblazeb2.com/file/forums-uploads/halloween-2023/electabuzzh.png",
+      "pokemon": "Electabuzz-H",
+      "rarity": "UR",
       "time": "🌓",
       "method": "🍀",
       "level": "14-17",
@@ -32867,7 +33062,25 @@ export const HALLOWEEN_BY_PLACE: {[key: string]: NormalSpawn[]} = {
       "rarity": "VR",
       "time": "🌓",
       "method": "🍀",
-      "level": "14-17",
+      "level": "16-19",
+      "place": "Old Power Plant - Stairs B1F (Parallel)"
+    },
+    {
+      "sprite": "https://f003.backblazeb2.com/file/forums-uploads/halloween-2023/carvanha.png",
+      "pokemon": "Carvanha",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "16-19",
+      "place": "Old Power Plant - Stairs B1F (Parallel)"
+    },
+    {
+      "sprite": "https://f003.backblazeb2.com/file/forums-uploads/halloween-2023/sharpedoh.png",
+      "pokemon": "Sharpedo-H",
+      "rarity": "UR",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "16-19",
       "place": "Old Power Plant - Stairs B1F (Parallel)"
     }
   ],
@@ -33458,6 +33671,24 @@ export const HALLOWEEN_BY_POKEMON: {[key: string]: NormalSpawn[]} = {
       "rarity": "UC",
       "time": "🌓",
       "method": "🍀",
+      "level": "12-15",
+      "place": "Boulder Cavern - B2F (Parallel)"
+    },
+    {
+      "sprite": "https://f003.backblazeb2.com/file/forums-uploads/halloween-2023/gastly.png",
+      "pokemon": "Gastly",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "12-15",
+      "place": "Boulder Cavern - B3F (Parallel)"
+    },
+    {
+      "sprite": "https://f003.backblazeb2.com/file/forums-uploads/halloween-2023/gastly.png",
+      "pokemon": "Gastly",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🍀",
       "level": "14-17",
       "place": "Underground Cavern (Parallel)"
     },
@@ -33667,6 +33898,24 @@ export const HALLOWEEN_BY_POKEMON: {[key: string]: NormalSpawn[]} = {
       "rarity": "C",
       "time": "🌓",
       "method": "🍀",
+      "level": "12-15",
+      "place": "Boulder Cavern - B2F (Parallel)"
+    },
+    {
+      "sprite": "https://f003.backblazeb2.com/file/forums-uploads/halloween-2023/shuppet.png",
+      "pokemon": "Shuppet",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "12-15",
+      "place": "Boulder Cavern - B3F (Parallel)"
+    },
+    {
+      "sprite": "https://f003.backblazeb2.com/file/forums-uploads/halloween-2023/shuppet.png",
+      "pokemon": "Shuppet",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
       "level": "14-17",
       "place": "Underground Cavern (Parallel)"
     },
@@ -33860,6 +34109,24 @@ export const HALLOWEEN_BY_POKEMON: {[key: string]: NormalSpawn[]} = {
       "rarity": "R",
       "time": "🌓",
       "method": "🍀",
+      "level": "12-15",
+      "place": "Boulder Cavern - B2F (Parallel)"
+    },
+    {
+      "sprite": "https://f003.backblazeb2.com/file/forums-uploads/halloween-2023/houndour.png",
+      "pokemon": "Houndour",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "12-15",
+      "place": "Boulder Cavern - B3F (Parallel)"
+    },
+    {
+      "sprite": "https://f003.backblazeb2.com/file/forums-uploads/halloween-2023/houndour.png",
+      "pokemon": "Houndour",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🍀",
       "level": "14-17",
       "place": "Underground Cavern (Parallel)"
     },
@@ -34015,6 +34282,24 @@ export const HALLOWEEN_BY_POKEMON: {[key: string]: NormalSpawn[]} = {
       "rarity": "R",
       "time": "🌓",
       "method": "🍀",
+      "level": "12-15",
+      "place": "Boulder Cavern - B2F (Parallel)"
+    },
+    {
+      "sprite": "https://f003.backblazeb2.com/file/forums-uploads/halloween-2023/shuppeth2.png",
+      "pokemon": "Shuppet-H2",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "12-15",
+      "place": "Boulder Cavern - B3F (Parallel)"
+    },
+    {
+      "sprite": "https://f003.backblazeb2.com/file/forums-uploads/halloween-2023/shuppeth2.png",
+      "pokemon": "Shuppet-H2",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🍀",
       "level": "14-17",
       "place": "Underground Cavern (Parallel)"
     },
@@ -34163,6 +34448,24 @@ export const HALLOWEEN_BY_POKEMON: {[key: string]: NormalSpawn[]} = {
       "method": "🍀",
       "level": "12-15",
       "place": "Boulder Cavern - B1F (Parallel)"
+    },
+    {
+      "sprite": "https://f003.backblazeb2.com/file/forums-uploads/halloween-2023/poochyena.png",
+      "pokemon": "Poochyena",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "12-15",
+      "place": "Boulder Cavern - B2F (Parallel)"
+    },
+    {
+      "sprite": "https://f003.backblazeb2.com/file/forums-uploads/halloween-2023/poochyena.png",
+      "pokemon": "Poochyena",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "12-15",
+      "place": "Boulder Cavern - B3F (Parallel)"
     },
     {
       "sprite": "https://f003.backblazeb2.com/file/forums-uploads/halloween-2023/poochyena.png",
@@ -34487,6 +34790,28 @@ export const HALLOWEEN_BY_POKEMON: {[key: string]: NormalSpawn[]} = {
       "place": "Power Lane (Parallel)"
     }
   ],
+  "Pawniard": [
+    {
+      "sprite": "https://f003.backblazeb2.com/file/forums-uploads/halloween-2023/pawniard.png",
+      "pokemon": "Pawniard",
+      "rarity": "UR",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "9-12",
+      "place": "Power Lane (Parallel)"
+    }
+  ],
+  "Bisharp-H": [
+    {
+      "sprite": "https://f003.backblazeb2.com/file/forums-uploads/halloween-2023/bisharph.png",
+      "pokemon": "Bisharp-H",
+      "rarity": "UR",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "9-12",
+      "place": "Power Lane (Parallel)"
+    }
+  ],
   "Absol": [
     {
       "sprite": "https://f003.backblazeb2.com/file/forums-uploads/halloween-2023/absol.png",
@@ -34638,6 +34963,24 @@ export const HALLOWEEN_BY_POKEMON: {[key: string]: NormalSpawn[]} = {
       "method": "🍀",
       "level": "12-15",
       "place": "Boulder Cavern - B1F (Parallel)"
+    },
+    {
+      "sprite": "https://f003.backblazeb2.com/file/forums-uploads/halloween-2023/cubone.png",
+      "pokemon": "Cubone",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "12-15",
+      "place": "Boulder Cavern - B2F (Parallel)"
+    },
+    {
+      "sprite": "https://f003.backblazeb2.com/file/forums-uploads/halloween-2023/cubone.png",
+      "pokemon": "Cubone",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "12-15",
+      "place": "Boulder Cavern - B3F (Parallel)"
     }
   ],
   "Cubone-H": [
@@ -34649,6 +34992,24 @@ export const HALLOWEEN_BY_POKEMON: {[key: string]: NormalSpawn[]} = {
       "method": "🍀",
       "level": "12-15",
       "place": "Boulder Cavern - B1F (Parallel)"
+    },
+    {
+      "sprite": "https://f003.backblazeb2.com/file/forums-uploads/halloween-2023/cuboneh.png",
+      "pokemon": "Cubone-H",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "12-15",
+      "place": "Boulder Cavern - B2F (Parallel)"
+    },
+    {
+      "sprite": "https://f003.backblazeb2.com/file/forums-uploads/halloween-2023/cuboneh.png",
+      "pokemon": "Cubone-H",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "12-15",
+      "place": "Boulder Cavern - B3F (Parallel)"
     }
   ],
   "Inkay": [
@@ -34660,6 +35021,35 @@ export const HALLOWEEN_BY_POKEMON: {[key: string]: NormalSpawn[]} = {
       "method": "🍀",
       "level": "12-15",
       "place": "Boulder Cavern - B1F (Parallel)"
+    },
+    {
+      "sprite": "https://f003.backblazeb2.com/file/forums-uploads/halloween-2023/inkay.png",
+      "pokemon": "Inkay",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "12-15",
+      "place": "Boulder Cavern - B2F (Parallel)"
+    },
+    {
+      "sprite": "https://f003.backblazeb2.com/file/forums-uploads/halloween-2023/inkay.png",
+      "pokemon": "Inkay",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "12-15",
+      "place": "Boulder Cavern - B3F (Parallel)"
+    }
+  ],
+  "Houndoom-H": [
+    {
+      "sprite": "https://f003.backblazeb2.com/file/forums-uploads/halloween-2023/houndoomh.png",
+      "pokemon": "Houndoom-H",
+      "rarity": "UR",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "12-15",
+      "place": "Boulder Cavern - B2F (Parallel)"
     }
   ],
   "Joltik": [
@@ -34673,10 +35063,10 @@ export const HALLOWEEN_BY_POKEMON: {[key: string]: NormalSpawn[]} = {
       "place": "Underground Cavern (Parallel)"
     }
   ],
-  "Pawniard": [
+  "Larvitar": [
     {
-      "sprite": "https://f003.backblazeb2.com/file/forums-uploads/halloween-2023/pawniard.png",
-      "pokemon": "Pawniard",
+      "sprite": "https://f003.backblazeb2.com/file/forums-uploads/halloween-2023/larvitar.png",
+      "pokemon": "Larvitar",
       "rarity": "UR",
       "time": "🌓",
       "method": "🍀",
@@ -34684,21 +35074,10 @@ export const HALLOWEEN_BY_POKEMON: {[key: string]: NormalSpawn[]} = {
       "place": "Underground Cavern (Parallel)"
     }
   ],
-  "Elekid": [
+  "Tyranitar-H": [
     {
-      "sprite": "https://f003.backblazeb2.com/file/forums-uploads/halloween-2023/elekid.png",
-      "pokemon": "Elekid",
-      "rarity": "UR",
-      "time": "🌓",
-      "method": "🍀",
-      "level": "19-23",
-      "place": "Underground Cavern (Parallel)"
-    }
-  ],
-  "Electabuzz-H": [
-    {
-      "sprite": "https://f003.backblazeb2.com/file/forums-uploads/halloween-2023/electabuzzh.png",
-      "pokemon": "Electabuzz-H",
+      "sprite": "https://f003.backblazeb2.com/file/forums-uploads/halloween-2023/tyranitarh.png",
+      "pokemon": "Tyranitar-H",
       "rarity": "UR",
       "time": "🌓",
       "method": "🍀",
@@ -34711,6 +35090,28 @@ export const HALLOWEEN_BY_POKEMON: {[key: string]: NormalSpawn[]} = {
       "sprite": "https://f003.backblazeb2.com/file/forums-uploads/halloween-2023/rotomheat.png",
       "pokemon": "Rotom-Heat",
       "rarity": "VR",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "14-17",
+      "place": "Old Power Plant - Room 1 (Parallel)"
+    }
+  ],
+  "Elekid": [
+    {
+      "sprite": "https://f003.backblazeb2.com/file/forums-uploads/halloween-2023/elekid.png",
+      "pokemon": "Elekid",
+      "rarity": "UR",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "14-17",
+      "place": "Old Power Plant - Room 1 (Parallel)"
+    }
+  ],
+  "Electabuzz-H": [
+    {
+      "sprite": "https://f003.backblazeb2.com/file/forums-uploads/halloween-2023/electabuzzh.png",
+      "pokemon": "Electabuzz-H",
+      "rarity": "UR",
       "time": "🌓",
       "method": "🍀",
       "level": "14-17",
@@ -34735,7 +35136,29 @@ export const HALLOWEEN_BY_POKEMON: {[key: string]: NormalSpawn[]} = {
       "rarity": "VR",
       "time": "🌓",
       "method": "🍀",
-      "level": "14-17",
+      "level": "16-19",
+      "place": "Old Power Plant - Stairs B1F (Parallel)"
+    }
+  ],
+  "Carvanha": [
+    {
+      "sprite": "https://f003.backblazeb2.com/file/forums-uploads/halloween-2023/carvanha.png",
+      "pokemon": "Carvanha",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "16-19",
+      "place": "Old Power Plant - Stairs B1F (Parallel)"
+    }
+  ],
+  "Sharpedo-H": [
+    {
+      "sprite": "https://f003.backblazeb2.com/file/forums-uploads/halloween-2023/sharpedoh.png",
+      "pokemon": "Sharpedo-H",
+      "rarity": "UR",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "16-19",
       "place": "Old Power Plant - Stairs B1F (Parallel)"
     }
   ],
@@ -35074,6 +35497,27 @@ export const HALLOWEEN_SPECIAL_BY_POKEMON: {[key: string]: SpecialSpawn[]} = {
       "pokemon": "Bagon-H",
       "rarity": "UR",
       "method": "Swarm"
+    }
+  ],
+  "Hydreigon-H": [
+    {
+      "pokemon": "Hydreigon-H",
+      "rarity": "UR",
+      "method": "Swarm"
+    }
+  ],
+  "Yveltal": [
+    {
+      "pokemon": "Yveltal",
+      "rarity": "L",
+      "method": "Roaming pokemon - after finish Halloween main story"
+    }
+  ],
+  "Heatran-H": [
+    {
+      "pokemon": "Heatran-H",
+      "rarity": "L",
+      "method": "Roaming pokemon - after talking with NPC in Lost World 3"
     }
   ]
 }

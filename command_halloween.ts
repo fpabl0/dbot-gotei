@@ -21,6 +21,7 @@ export const HALLOWEEN_COMMAND: Command = {
         { name: "|||| Part 3", value: 2 },
         { name: "|||| Part 4", value: 3 },
         { name: "|||| Part 5", value: 4 },
+        { name: "|||| Part 6", value: 5 },
       ],
     },
   ],
