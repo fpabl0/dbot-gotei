@@ -1,7 +1,8 @@
 import 'dotenv/config';
-import fetch from "node-fetch"; // to use in Glitch server
 import { verifyKey } from 'discord-interactions';
 import * as http from "http";
+
+const fetch = require("node-fetch"); // to use in Glitch server
 
 export const verifyDiscordRequest = (publicKey: string) => {
   return function (req: http.IncomingMessage, res: http.ServerResponse, buf: Buffer, encoding: string) {

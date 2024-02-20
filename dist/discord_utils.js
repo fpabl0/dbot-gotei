@@ -8,14 +8,11 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
         step((generator = generator.apply(thisArg, _arguments || [])).next());
     });
 };
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.discordRequest = exports.verifyDiscordRequest = void 0;
 require("dotenv/config");
-const node_fetch_1 = __importDefault(require("node-fetch")); // to use in Glitch server
 const discord_interactions_1 = require("discord-interactions");
+const fetch = require("node-fetch"); // to use in Glitch server
 const verifyDiscordRequest = (publicKey) => {
     return function (req, res, buf, encoding) {
         const signature = req.headers['x-signature-ed25519'];
@@ -34,7 +31,7 @@ const discordRequest = (endpoint, options) => __awaiter(void 0, void 0, void 0, 
     if (options.body)
         options.body = JSON.stringify(options.body);
     // Use node-fetch to make requests
-    const res = yield (0, node_fetch_1.default)(url, Object.assign({ headers: {
+    const res = yield fetch(url, Object.assign({ headers: {
             Authorization: `Bot ${process.env.BOT_TOKEN}`,
             'Content-Type': 'application/json; charset=UTF-8',
             'User-Agent': 'DiscordBot (https://github.com/discord/discord-example-app, 1.0.0)',
