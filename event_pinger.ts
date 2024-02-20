@@ -15,6 +15,7 @@ export const handleEventPinger = async (req: Request, res: Response) => {
   }
   try {
     const message = pingEventMessage(req.query["event"] as string ?? "");
+    console.log("i am here"); // TODO delete
     await discordRequest(`channels/${PING_CHANNEL_ID}/messages`, {
       method: "POST",
       body: {
@@ -26,6 +27,8 @@ export const handleEventPinger = async (req: Request, res: Response) => {
     });
     res.sendStatus(200);
   } catch (e) {
+    console.log("Catch error: "); // TODO delete
+    console.log(e); // TODO delete
     res.status(500).send({ error: e });
   }
 };
