@@ -1,4 +1,5 @@
 import 'dotenv/config';
+import fetch from "node-fetch"; // to use in Glitch server
 import { verifyKey } from 'discord-interactions';
 import * as http from "http";
 

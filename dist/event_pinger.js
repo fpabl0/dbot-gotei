@@ -25,7 +25,6 @@ const handleEventPinger = (req, res) => __awaiter(void 0, void 0, void 0, functi
     }
     try {
         const message = pingEventMessage((_a = req.query["event"]) !== null && _a !== void 0 ? _a : "");
-        console.log("i am here"); // TODO delete
         yield (0, discord_utils_1.discordRequest)(`channels/${PING_CHANNEL_ID}/messages`, {
             method: "POST",
             body: {
@@ -38,8 +37,6 @@ const handleEventPinger = (req, res) => __awaiter(void 0, void 0, void 0, functi
         res.sendStatus(200);
     }
     catch (e) {
-        console.log("Catch error: "); // TODO delete
-        console.log(e); // TODO delete
         res.status(500).send({ error: e });
     }
 });
