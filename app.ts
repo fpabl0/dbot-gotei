@@ -7,14 +7,11 @@ import {
 import { verifyDiscordRequest } from "./discord_utils";
 import { SPAWN_COMMAND, handleSpawnCommand } from "./command_spawn";
 import { HALLOWEEN_COMMAND, handleHalloweenCommand } from "./command_halloween";
-import { handleEventPinger } from "./event_pinger";
 
 const PORT = process.env.PORT || "3000";
 
 const app = express();
 app.use(express.json({ verify: verifyDiscordRequest(process.env.PUBLIC_KEY) }));
-
-app.get("/rcv_ping", handleEventPinger);
 
 app.post("/interactions", async (req, res) => {
   const { type, id, data } = req.body as { type: InteractionType, id: string, data: any; };

@@ -18,11 +18,9 @@ const discord_interactions_1 = require("discord-interactions");
 const discord_utils_1 = require("./discord_utils");
 const command_spawn_1 = require("./command_spawn");
 const command_halloween_1 = require("./command_halloween");
-const event_pinger_1 = require("./event_pinger");
 const PORT = process.env.PORT || "3000";
 const app = (0, express_1.default)();
 app.use(express_1.default.json({ verify: (0, discord_utils_1.verifyDiscordRequest)(process.env.PUBLIC_KEY) }));
-app.get("/rcv_ping", event_pinger_1.handleEventPinger);
 app.post("/interactions", (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     const { type, id, data } = req.body;
     if (type === discord_interactions_1.InteractionType.PING) {
