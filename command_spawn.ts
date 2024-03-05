@@ -1,7 +1,7 @@
 import { Request, Response } from "express";
 import { Command, CommandOptionType, CommandType } from "./types";
 import { InteractionResponseType } from "discord-interactions";
-import { HALLOWEEN_BY_PLACE, HALLOWEEN_BY_POKEMON, HALLOWEEN_PLACES, HALLOWEEN_POKEMON_NAMES, HALLOWEEN_SPECIAL_BY_POKEMON, NORMAL_SPAWNS_BY_PLACE, NORMAL_SPAWNS_BY_POKEMON, SPAWN_PLACES, SPAWN_POKEMON_NAMES, SPECIAL_SPAWNS_BY_POKEMON } from './spawns';
+import { EASTER_BY_PLACE, EASTER_BY_POKEMON, EASTER_PLACES, EASTER_POKEMON_NAMES, HALLOWEEN_BY_PLACE, HALLOWEEN_BY_POKEMON, HALLOWEEN_PLACES, HALLOWEEN_POKEMON_NAMES, HALLOWEEN_SPECIAL_BY_POKEMON, NORMAL_SPAWNS_BY_PLACE, NORMAL_SPAWNS_BY_POKEMON, SPAWN_PLACES, SPAWN_POKEMON_NAMES, SPECIAL_SPAWNS_BY_POKEMON } from './spawns';
 import { EmbedBuilder } from 'discord.js';
 import { createByPlaceTable, createByPokeSpecialTable, createByPokeTable, findSimilar } from "./cmd_utils";
 
@@ -66,7 +66,8 @@ const handleSpawnsByPokemon = (userInputPokemon: string) => {
   // find similar pokemon name
   const poke = findSimilar(userInputPokemon, SPAWN_POKEMON_NAMES);
   const hallowPoke = findSimilar(userInputPokemon, HALLOWEEN_POKEMON_NAMES);
-  if (poke === undefined && hallowPoke === undefined) return undefined;
+  const easterPoke = findSimilar(userInputPokemon, EASTER_POKEMON_NAMES);
+  if (poke === undefined && hallowPoke === undefined && easterPoke === undefined) return undefined;
 
   const embeds: EmbedBuilder[] = [];
 
@@ -90,6 +91,12 @@ const handleSpawnsByPokemon = (userInputPokemon: string) => {
   if (halloweenSpecialSpawnEmbeds.length > 0) {
     embeds.push(...halloweenSpecialSpawnEmbeds);
   }
+  // Easter
+  const easterSpawnEmbeds = createByPokeTable("**Easter 2023**\n", easterPoke, EASTER_BY_POKEMON);
+  if (easterSpawnEmbeds.length > 0) {
+    embeds.push(...easterSpawnEmbeds);
+  }
+
 
   if (embeds.length === 0) return undefined;
   return embeds;
@@ -100,7 +107,8 @@ const handleSpawnsByPlace = (userInputPlace: string) => {
   // find similar place
   const place = findSimilar(userInputPlace, SPAWN_PLACES);
   const hallowPlace = findSimilar(userInputPlace, HALLOWEEN_PLACES);
-  if (place === undefined && hallowPlace === undefined) return undefined;
+  const easterPlace = findSimilar(userInputPlace, EASTER_PLACES);
+  if (place === undefined && hallowPlace === undefined && easterPlace === undefined) return undefined;
 
   const embeds: EmbedBuilder[] = [];
 
@@ -113,6 +121,11 @@ const handleSpawnsByPlace = (userInputPlace: string) => {
   const halloweenSpawnEmbeds = createByPlaceTable("**Halloween 2023**\n", hallowPlace, HALLOWEEN_BY_PLACE);
   if (halloweenSpawnEmbeds.length > 0) {
     embeds.push(...halloweenSpawnEmbeds);
+  }
+  // EASTER
+  const easterSpawnEmbeds = createByPlaceTable("**Easter 2023**\n", easterPlace, EASTER_BY_PLACE);
+  if (easterSpawnEmbeds.length > 0) {
+    embeds.push(...easterSpawnEmbeds);
   }
 
   if (embeds.length === 0) return undefined;

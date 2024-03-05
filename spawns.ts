@@ -35521,3 +35521,678 @@ export const HALLOWEEN_SPECIAL_BY_POKEMON: {[key: string]: SpecialSpawn[]} = {
     }
   ]
 }
+
+export const EASTER_PLACES = [
+  "Easter Island #1",
+  "Easter Island #2",
+  "Easter Island #3",
+  "Easter Island #4"
+]
+
+export const EASTER_POKEMON_NAMES = [
+  "Jigglypuff",
+  "Bellsprout",
+  "Buneary",
+  "Pansage",
+  "Pansear",
+  "Fomantis",
+  "Gothita",
+  "Exeggcute",
+  "Skiddo",
+  "Goomy",
+  "Applin",
+  "Woobat",
+  "Genesect"
+]
+
+export const EASTER_BY_PLACE: {[key: string]: NormalSpawn[]} = {
+  "Easter Island #1": [
+    {
+      "sprite": "",
+      "place": "Easter Island #1",
+      "pokemon": "Jigglypuff",
+      "method": "Walking",
+      "rarity": "Common",
+      "level": "3-5",
+      "time": "All"
+    },
+    {
+      "sprite": "",
+      "place": "Easter Island #1",
+      "pokemon": "Bellsprout",
+      "method": "Walking",
+      "rarity": "Uncommon",
+      "level": "3-5",
+      "time": "All"
+    },
+    {
+      "sprite": "",
+      "place": "Easter Island #1",
+      "pokemon": "Buneary",
+      "method": "Walking",
+      "rarity": "Uncommon",
+      "level": "3-5",
+      "time": "All"
+    },
+    {
+      "sprite": "",
+      "place": "Easter Island #1",
+      "pokemon": "Pansage",
+      "method": "Walking",
+      "rarity": "Uncommon",
+      "level": "3-5",
+      "time": "All"
+    },
+    {
+      "sprite": "",
+      "place": "Easter Island #1",
+      "pokemon": "Pansear",
+      "method": "Walking",
+      "rarity": "Uncommon",
+      "level": "3-5",
+      "time": "All"
+    },
+    {
+      "sprite": "",
+      "place": "Easter Island #1",
+      "pokemon": "Fomantis",
+      "method": "Walking",
+      "rarity": "Rare",
+      "level": "3-5",
+      "time": "All"
+    },
+    {
+      "sprite": "",
+      "place": "Easter Island #1",
+      "pokemon": "Gothita",
+      "method": "Walking",
+      "rarity": "Ultra Rare",
+      "level": "3-5",
+      "time": "All"
+    }
+  ],
+  "Easter Island #2": [
+    {
+      "sprite": "",
+      "place": "Easter Island #2",
+      "pokemon": "Jigglypuff",
+      "method": "Walking",
+      "rarity": "Common",
+      "level": "3-5",
+      "time": "All"
+    },
+    {
+      "sprite": "",
+      "place": "Easter Island #2",
+      "pokemon": "Bellsprout",
+      "method": "Walking",
+      "rarity": "Uncommon",
+      "level": "3-5",
+      "time": "All"
+    },
+    {
+      "sprite": "",
+      "place": "Easter Island #2",
+      "pokemon": "Buneary",
+      "method": "Walking",
+      "rarity": "Uncommon",
+      "level": "3-5",
+      "time": "All"
+    },
+    {
+      "sprite": "",
+      "place": "Easter Island #2",
+      "pokemon": "Pansage",
+      "method": "Walking",
+      "rarity": "Uncommon",
+      "level": "3-5",
+      "time": "All"
+    },
+    {
+      "sprite": "",
+      "place": "Easter Island #2",
+      "pokemon": "Pansear",
+      "method": "Walking",
+      "rarity": "Uncommon",
+      "level": "3-5",
+      "time": "All"
+    },
+    {
+      "sprite": "",
+      "place": "Easter Island #2",
+      "pokemon": "Fomantis",
+      "method": "Walking",
+      "rarity": "Rare",
+      "level": "3-5",
+      "time": "All"
+    },
+    {
+      "sprite": "",
+      "place": "Easter Island #2",
+      "pokemon": "Exeggcute",
+      "method": "Walking",
+      "rarity": "Rare",
+      "level": "3-5",
+      "time": "All"
+    },
+    {
+      "sprite": "",
+      "place": "Easter Island #2",
+      "pokemon": "Skiddo",
+      "method": "Walking",
+      "rarity": "Very Rare",
+      "level": "3-5",
+      "time": "All"
+    },
+    {
+      "sprite": "",
+      "place": "Easter Island #2",
+      "pokemon": "Goomy",
+      "method": "Walking",
+      "rarity": "Ultra Rare",
+      "level": "3-5",
+      "time": "All"
+    }
+  ],
+  "Easter Island #3": [
+    {
+      "sprite": "",
+      "place": "Easter Island #3",
+      "pokemon": "Jigglypuff",
+      "method": "Walking",
+      "rarity": "Common",
+      "level": "3-5",
+      "time": "All"
+    },
+    {
+      "sprite": "",
+      "place": "Easter Island #3",
+      "pokemon": "Bellsprout",
+      "method": "Walking",
+      "rarity": "Uncommon",
+      "level": "3-5",
+      "time": "All"
+    },
+    {
+      "sprite": "",
+      "place": "Easter Island #3",
+      "pokemon": "Buneary",
+      "method": "Walking",
+      "rarity": "Uncommon",
+      "level": "3-5",
+      "time": "All"
+    },
+    {
+      "sprite": "",
+      "place": "Easter Island #3",
+      "pokemon": "Pansage",
+      "method": "Walking",
+      "rarity": "Uncommon",
+      "level": "3-5",
+      "time": "All"
+    },
+    {
+      "sprite": "",
+      "place": "Easter Island #3",
+      "pokemon": "Pansear",
+      "method": "Walking",
+      "rarity": "Uncommon",
+      "level": "3-5",
+      "time": "All"
+    },
+    {
+      "sprite": "",
+      "place": "Easter Island #3",
+      "pokemon": "Fomantis",
+      "method": "Walking",
+      "rarity": "Rare",
+      "level": "3-5",
+      "time": "All"
+    },
+    {
+      "sprite": "",
+      "place": "Easter Island #3",
+      "pokemon": "Exeggcute",
+      "method": "Walking",
+      "rarity": "Rare",
+      "level": "3-5",
+      "time": "All"
+    },
+    {
+      "sprite": "",
+      "place": "Easter Island #3",
+      "pokemon": "Skiddo",
+      "method": "Walking",
+      "rarity": "Very Rare",
+      "level": "3-5",
+      "time": "All"
+    },
+    {
+      "sprite": "",
+      "place": "Easter Island #3",
+      "pokemon": "Applin",
+      "method": "Walking",
+      "rarity": "Ultra Rare",
+      "level": "3-5",
+      "time": "All"
+    }
+  ],
+  "Easter Island #4": [
+    {
+      "sprite": "",
+      "place": "Easter Island #4",
+      "pokemon": "Jigglypuff",
+      "method": "Walking",
+      "rarity": "Common",
+      "level": "3-5",
+      "time": "All"
+    },
+    {
+      "sprite": "",
+      "place": "Easter Island #4",
+      "pokemon": "Bellsprout",
+      "method": "Walking",
+      "rarity": "Uncommon",
+      "level": "3-5",
+      "time": "All"
+    },
+    {
+      "sprite": "",
+      "place": "Easter Island #4",
+      "pokemon": "Buneary",
+      "method": "Walking",
+      "rarity": "Uncommon",
+      "level": "3-5",
+      "time": "All"
+    },
+    {
+      "sprite": "",
+      "place": "Easter Island #4",
+      "pokemon": "Pansage",
+      "method": "Walking",
+      "rarity": "Uncommon",
+      "level": "3-5",
+      "time": "All"
+    },
+    {
+      "sprite": "",
+      "place": "Easter Island #4",
+      "pokemon": "Pansear",
+      "method": "Walking",
+      "rarity": "Uncommon",
+      "level": "3-5",
+      "time": "All"
+    },
+    {
+      "sprite": "",
+      "place": "Easter Island #4",
+      "pokemon": "Fomantis",
+      "method": "Walking",
+      "rarity": "Rare",
+      "level": "3-5",
+      "time": "All"
+    },
+    {
+      "sprite": "",
+      "place": "Easter Island #4",
+      "pokemon": "Exeggcute",
+      "method": "Walking",
+      "rarity": "Rare",
+      "level": "3-5",
+      "time": "All"
+    },
+    {
+      "sprite": "",
+      "place": "Easter Island #4",
+      "pokemon": "Woobat",
+      "method": "Walking",
+      "rarity": "Very Rare",
+      "level": "3-5",
+      "time": "All"
+    },
+    {
+      "sprite": "",
+      "place": "Easter Island #4",
+      "pokemon": "Genesect",
+      "method": "Walking",
+      "rarity": "Ultra Rare",
+      "level": "3-5",
+      "time": "All"
+    }
+  ]
+}
+
+export const EASTER_BY_POKEMON: {[key: string]: NormalSpawn[]} = {
+  "Jigglypuff": [
+    {
+      "sprite": "",
+      "place": "Easter Island #1",
+      "pokemon": "Jigglypuff",
+      "method": "Walking",
+      "rarity": "Common",
+      "level": "3-5",
+      "time": "All"
+    },
+    {
+      "sprite": "",
+      "place": "Easter Island #2",
+      "pokemon": "Jigglypuff",
+      "method": "Walking",
+      "rarity": "Common",
+      "level": "3-5",
+      "time": "All"
+    },
+    {
+      "sprite": "",
+      "place": "Easter Island #3",
+      "pokemon": "Jigglypuff",
+      "method": "Walking",
+      "rarity": "Common",
+      "level": "3-5",
+      "time": "All"
+    },
+    {
+      "sprite": "",
+      "place": "Easter Island #4",
+      "pokemon": "Jigglypuff",
+      "method": "Walking",
+      "rarity": "Common",
+      "level": "3-5",
+      "time": "All"
+    }
+  ],
+  "Bellsprout": [
+    {
+      "sprite": "",
+      "place": "Easter Island #1",
+      "pokemon": "Bellsprout",
+      "method": "Walking",
+      "rarity": "Uncommon",
+      "level": "3-5",
+      "time": "All"
+    },
+    {
+      "sprite": "",
+      "place": "Easter Island #2",
+      "pokemon": "Bellsprout",
+      "method": "Walking",
+      "rarity": "Uncommon",
+      "level": "3-5",
+      "time": "All"
+    },
+    {
+      "sprite": "",
+      "place": "Easter Island #3",
+      "pokemon": "Bellsprout",
+      "method": "Walking",
+      "rarity": "Uncommon",
+      "level": "3-5",
+      "time": "All"
+    },
+    {
+      "sprite": "",
+      "place": "Easter Island #4",
+      "pokemon": "Bellsprout",
+      "method": "Walking",
+      "rarity": "Uncommon",
+      "level": "3-5",
+      "time": "All"
+    }
+  ],
+  "Buneary": [
+    {
+      "sprite": "",
+      "place": "Easter Island #1",
+      "pokemon": "Buneary",
+      "method": "Walking",
+      "rarity": "Uncommon",
+      "level": "3-5",
+      "time": "All"
+    },
+    {
+      "sprite": "",
+      "place": "Easter Island #2",
+      "pokemon": "Buneary",
+      "method": "Walking",
+      "rarity": "Uncommon",
+      "level": "3-5",
+      "time": "All"
+    },
+    {
+      "sprite": "",
+      "place": "Easter Island #3",
+      "pokemon": "Buneary",
+      "method": "Walking",
+      "rarity": "Uncommon",
+      "level": "3-5",
+      "time": "All"
+    },
+    {
+      "sprite": "",
+      "place": "Easter Island #4",
+      "pokemon": "Buneary",
+      "method": "Walking",
+      "rarity": "Uncommon",
+      "level": "3-5",
+      "time": "All"
+    }
+  ],
+  "Pansage": [
+    {
+      "sprite": "",
+      "place": "Easter Island #1",
+      "pokemon": "Pansage",
+      "method": "Walking",
+      "rarity": "Uncommon",
+      "level": "3-5",
+      "time": "All"
+    },
+    {
+      "sprite": "",
+      "place": "Easter Island #2",
+      "pokemon": "Pansage",
+      "method": "Walking",
+      "rarity": "Uncommon",
+      "level": "3-5",
+      "time": "All"
+    },
+    {
+      "sprite": "",
+      "place": "Easter Island #3",
+      "pokemon": "Pansage",
+      "method": "Walking",
+      "rarity": "Uncommon",
+      "level": "3-5",
+      "time": "All"
+    },
+    {
+      "sprite": "",
+      "place": "Easter Island #4",
+      "pokemon": "Pansage",
+      "method": "Walking",
+      "rarity": "Uncommon",
+      "level": "3-5",
+      "time": "All"
+    }
+  ],
+  "Pansear": [
+    {
+      "sprite": "",
+      "place": "Easter Island #1",
+      "pokemon": "Pansear",
+      "method": "Walking",
+      "rarity": "Uncommon",
+      "level": "3-5",
+      "time": "All"
+    },
+    {
+      "sprite": "",
+      "place": "Easter Island #2",
+      "pokemon": "Pansear",
+      "method": "Walking",
+      "rarity": "Uncommon",
+      "level": "3-5",
+      "time": "All"
+    },
+    {
+      "sprite": "",
+      "place": "Easter Island #3",
+      "pokemon": "Pansear",
+      "method": "Walking",
+      "rarity": "Uncommon",
+      "level": "3-5",
+      "time": "All"
+    },
+    {
+      "sprite": "",
+      "place": "Easter Island #4",
+      "pokemon": "Pansear",
+      "method": "Walking",
+      "rarity": "Uncommon",
+      "level": "3-5",
+      "time": "All"
+    }
+  ],
+  "Fomantis": [
+    {
+      "sprite": "",
+      "place": "Easter Island #1",
+      "pokemon": "Fomantis",
+      "method": "Walking",
+      "rarity": "Rare",
+      "level": "3-5",
+      "time": "All"
+    },
+    {
+      "sprite": "",
+      "place": "Easter Island #2",
+      "pokemon": "Fomantis",
+      "method": "Walking",
+      "rarity": "Rare",
+      "level": "3-5",
+      "time": "All"
+    },
+    {
+      "sprite": "",
+      "place": "Easter Island #3",
+      "pokemon": "Fomantis",
+      "method": "Walking",
+      "rarity": "Rare",
+      "level": "3-5",
+      "time": "All"
+    },
+    {
+      "sprite": "",
+      "place": "Easter Island #4",
+      "pokemon": "Fomantis",
+      "method": "Walking",
+      "rarity": "Rare",
+      "level": "3-5",
+      "time": "All"
+    }
+  ],
+  "Gothita": [
+    {
+      "sprite": "",
+      "place": "Easter Island #1",
+      "pokemon": "Gothita",
+      "method": "Walking",
+      "rarity": "Ultra Rare",
+      "level": "3-5",
+      "time": "All"
+    }
+  ],
+  "Exeggcute": [
+    {
+      "sprite": "",
+      "place": "Easter Island #2",
+      "pokemon": "Exeggcute",
+      "method": "Walking",
+      "rarity": "Rare",
+      "level": "3-5",
+      "time": "All"
+    },
+    {
+      "sprite": "",
+      "place": "Easter Island #3",
+      "pokemon": "Exeggcute",
+      "method": "Walking",
+      "rarity": "Rare",
+      "level": "3-5",
+      "time": "All"
+    },
+    {
+      "sprite": "",
+      "place": "Easter Island #4",
+      "pokemon": "Exeggcute",
+      "method": "Walking",
+      "rarity": "Rare",
+      "level": "3-5",
+      "time": "All"
+    }
+  ],
+  "Skiddo": [
+    {
+      "sprite": "",
+      "place": "Easter Island #2",
+      "pokemon": "Skiddo",
+      "method": "Walking",
+      "rarity": "Very Rare",
+      "level": "3-5",
+      "time": "All"
+    },
+    {
+      "sprite": "",
+      "place": "Easter Island #3",
+      "pokemon": "Skiddo",
+      "method": "Walking",
+      "rarity": "Very Rare",
+      "level": "3-5",
+      "time": "All"
+    }
+  ],
+  "Goomy": [
+    {
+      "sprite": "",
+      "place": "Easter Island #2",
+      "pokemon": "Goomy",
+      "method": "Walking",
+      "rarity": "Ultra Rare",
+      "level": "3-5",
+      "time": "All"
+    }
+  ],
+  "Applin": [
+    {
+      "sprite": "",
+      "place": "Easter Island #3",
+      "pokemon": "Applin",
+      "method": "Walking",
+      "rarity": "Ultra Rare",
+      "level": "3-5",
+      "time": "All"
+    }
+  ],
+  "Woobat": [
+    {
+      "sprite": "",
+      "place": "Easter Island #4",
+      "pokemon": "Woobat",
+      "method": "Walking",
+      "rarity": "Very Rare",
+      "level": "3-5",
+      "time": "All"
+    }
+  ],
+  "Genesect": [
+    {
+      "sprite": "",
+      "place": "Easter Island #4",
+      "pokemon": "Genesect",
+      "method": "Walking",
+      "rarity": "Ultra Rare",
+      "level": "3-5",
+      "time": "All"
+    }
+  ]
+}

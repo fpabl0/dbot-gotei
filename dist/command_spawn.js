@@ -61,7 +61,8 @@ const handleSpawnsByPokemon = (userInputPokemon) => {
     // find similar pokemon name
     const poke = (0, cmd_utils_1.findSimilar)(userInputPokemon, spawns_1.SPAWN_POKEMON_NAMES);
     const hallowPoke = (0, cmd_utils_1.findSimilar)(userInputPokemon, spawns_1.HALLOWEEN_POKEMON_NAMES);
-    if (poke === undefined && hallowPoke === undefined)
+    const easterPoke = (0, cmd_utils_1.findSimilar)(userInputPokemon, spawns_1.EASTER_POKEMON_NAMES);
+    if (poke === undefined && hallowPoke === undefined && easterPoke === undefined)
         return undefined;
     const embeds = [];
     // normal spawns
@@ -84,6 +85,11 @@ const handleSpawnsByPokemon = (userInputPokemon) => {
     if (halloweenSpecialSpawnEmbeds.length > 0) {
         embeds.push(...halloweenSpecialSpawnEmbeds);
     }
+    // Easter
+    const easterSpawnEmbeds = (0, cmd_utils_1.createByPokeTable)("**Easter 2023**\n", easterPoke, spawns_1.EASTER_BY_POKEMON);
+    if (easterSpawnEmbeds.length > 0) {
+        embeds.push(...easterSpawnEmbeds);
+    }
     if (embeds.length === 0)
         return undefined;
     return embeds;
@@ -92,7 +98,8 @@ const handleSpawnsByPlace = (userInputPlace) => {
     // find similar place
     const place = (0, cmd_utils_1.findSimilar)(userInputPlace, spawns_1.SPAWN_PLACES);
     const hallowPlace = (0, cmd_utils_1.findSimilar)(userInputPlace, spawns_1.HALLOWEEN_PLACES);
-    if (place === undefined && hallowPlace === undefined)
+    const easterPlace = (0, cmd_utils_1.findSimilar)(userInputPlace, spawns_1.EASTER_PLACES);
+    if (place === undefined && hallowPlace === undefined && easterPlace === undefined)
         return undefined;
     const embeds = [];
     // NORMAL SPAWNS
@@ -104,6 +111,11 @@ const handleSpawnsByPlace = (userInputPlace) => {
     const halloweenSpawnEmbeds = (0, cmd_utils_1.createByPlaceTable)("**Halloween 2023**\n", hallowPlace, spawns_1.HALLOWEEN_BY_PLACE);
     if (halloweenSpawnEmbeds.length > 0) {
         embeds.push(...halloweenSpawnEmbeds);
+    }
+    // EASTER
+    const easterSpawnEmbeds = (0, cmd_utils_1.createByPlaceTable)("**Easter 2023**\n", easterPlace, spawns_1.EASTER_BY_PLACE);
+    if (easterSpawnEmbeds.length > 0) {
+        embeds.push(...easterSpawnEmbeds);
     }
     if (embeds.length === 0)
         return undefined;
