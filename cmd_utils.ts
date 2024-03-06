@@ -11,6 +11,15 @@ export const findSimilar = (like: string, all: string[]) => {
   return undefined;
 };
 
+export const findStartsWith = (starts: string, all: string[]) => {
+  for (const v of all) {
+    if (v.toLowerCase().startsWith(starts.toLowerCase())) {
+      return v;
+    }
+  }
+  return undefined;
+};
+
 export const createByPokeSpecialTable = (prefix: string, poke: string | undefined, specialSpawnMap: { [key: string]: SpecialSpawn[]; }) => {
   const embeds: EmbedBuilder[] = [];
 

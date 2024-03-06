@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.createByPlaceSpecialTable = exports.createByPlaceTable = exports.createByPokeTable = exports.createByPokeSpecialTable = exports.findSimilar = void 0;
+exports.createByPlaceSpecialTable = exports.createByPlaceTable = exports.createByPokeTable = exports.createByPokeSpecialTable = exports.findStartsWith = exports.findSimilar = void 0;
 const discord_js_1 = require("discord.js");
 const embed_table_1 = require("embed-table");
 const findSimilar = (like, all) => {
@@ -12,6 +12,15 @@ const findSimilar = (like, all) => {
     return undefined;
 };
 exports.findSimilar = findSimilar;
+const findStartsWith = (starts, all) => {
+    for (const v of all) {
+        if (v.toLowerCase().startsWith(starts.toLowerCase())) {
+            return v;
+        }
+    }
+    return undefined;
+};
+exports.findStartsWith = findStartsWith;
 const createByPokeSpecialTable = (prefix, poke, specialSpawnMap) => {
     const embeds = [];
     if (poke === undefined)

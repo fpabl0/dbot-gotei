@@ -59,10 +59,8 @@ const handleSpawnCommand = (req, res) => {
 exports.handleSpawnCommand = handleSpawnCommand;
 const handleSpawnsByPokemon = (userInputPokemon) => {
     // find similar pokemon name
-    const poke = (0, cmd_utils_1.findSimilar)(userInputPokemon, spawns_1.SPAWN_POKEMON_NAMES);
-    const hallowPoke = (0, cmd_utils_1.findSimilar)(userInputPokemon, spawns_1.HALLOWEEN_POKEMON_NAMES);
-    const easterPoke = (0, cmd_utils_1.findSimilar)(userInputPokemon, spawns_1.EASTER_POKEMON_NAMES);
-    if (poke === undefined && hallowPoke === undefined && easterPoke === undefined)
+    const poke = (0, cmd_utils_1.findStartsWith)(userInputPokemon, spawns_1.ALL_POKEMON_NAMES);
+    if (poke === undefined)
         return undefined;
     const embeds = [];
     // normal spawns
@@ -76,17 +74,17 @@ const handleSpawnsByPokemon = (userInputPokemon) => {
         embeds.push(...specialSpawnEmbeds);
     }
     // Halloween
-    const halloweenSpawnEmbeds = (0, cmd_utils_1.createByPokeTable)("**Halloween 2023**\n", hallowPoke, spawns_1.HALLOWEEN_BY_POKEMON);
+    const halloweenSpawnEmbeds = (0, cmd_utils_1.createByPokeTable)("**Halloween 2023**\n", poke, spawns_1.HALLOWEEN_BY_POKEMON);
     if (halloweenSpawnEmbeds.length > 0) {
         embeds.push(...halloweenSpawnEmbeds);
     }
     // Halloween special spawns
-    const halloweenSpecialSpawnEmbeds = (0, cmd_utils_1.createByPokeSpecialTable)("**Halloween 2023**\n", hallowPoke, spawns_1.HALLOWEEN_SPECIAL_BY_POKEMON);
+    const halloweenSpecialSpawnEmbeds = (0, cmd_utils_1.createByPokeSpecialTable)("**Halloween 2023**\n", poke, spawns_1.HALLOWEEN_SPECIAL_BY_POKEMON);
     if (halloweenSpecialSpawnEmbeds.length > 0) {
         embeds.push(...halloweenSpecialSpawnEmbeds);
     }
     // Easter
-    const easterSpawnEmbeds = (0, cmd_utils_1.createByPokeTable)("**Easter 2023**\n", easterPoke, spawns_1.EASTER_BY_POKEMON);
+    const easterSpawnEmbeds = (0, cmd_utils_1.createByPokeTable)("**Easter 2023**\n", poke, spawns_1.EASTER_BY_POKEMON);
     if (easterSpawnEmbeds.length > 0) {
         embeds.push(...easterSpawnEmbeds);
     }
