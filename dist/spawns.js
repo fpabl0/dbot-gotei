@@ -450,11 +450,14 @@ exports.ALL_POKEMON_NAMES = [
     "Bellsprout",
     "Pansage",
     "Pansear",
+    "Woobat",
     "Gothita",
+    "Kommo-o-E",
+    "Azumarill-E",
     "Skiddo",
     "Goomy",
+    "Staraptor-E",
     "Applin",
-    "Woobat",
     "Genesect"
 ];
 exports.SPAWN_PLACES = [
@@ -35558,7 +35561,25 @@ exports.EASTER_BY_PLACE = {
         {
             "sprite": "",
             "place": "Easter Island #1",
+            "pokemon": "Woobat",
+            "method": "🍀",
+            "rarity": "VR",
+            "level": "3-5",
+            "time": "🌓"
+        },
+        {
+            "sprite": "",
+            "place": "Easter Island #1",
             "pokemon": "Gothita",
+            "method": "🍀",
+            "rarity": "VR",
+            "level": "3-5",
+            "time": "🌓"
+        },
+        {
+            "sprite": "",
+            "place": "Easter Island #1",
+            "pokemon": "Kommo-o-E",
             "method": "🍀",
             "rarity": "UR",
             "level": "3-5",
@@ -35614,7 +35635,7 @@ exports.EASTER_BY_PLACE = {
         {
             "sprite": "",
             "place": "Easter Island #2",
-            "pokemon": "Fomantis",
+            "pokemon": "Azumarill-E",
             "method": "🍀",
             "rarity": "R",
             "level": "3-5",
@@ -35715,7 +35736,7 @@ exports.EASTER_BY_PLACE = {
         {
             "sprite": "",
             "place": "Easter Island #3",
-            "pokemon": "Skiddo",
+            "pokemon": "Staraptor-E",
             "method": "🍀",
             "rarity": "VR",
             "level": "3-5",
@@ -35780,7 +35801,7 @@ exports.EASTER_BY_PLACE = {
         {
             "sprite": "",
             "place": "Easter Island #4",
-            "pokemon": "Fomantis",
+            "pokemon": "Azumarill-E",
             "method": "🍀",
             "rarity": "R",
             "level": "3-5",
@@ -36018,28 +36039,30 @@ exports.EASTER_BY_POKEMON = {
         },
         {
             "sprite": "",
-            "place": "Easter Island #2",
-            "pokemon": "Fomantis",
-            "method": "🍀",
-            "rarity": "R",
-            "level": "3-5",
-            "time": "🌓"
-        },
-        {
-            "sprite": "",
             "place": "Easter Island #3",
             "pokemon": "Fomantis",
             "method": "🍀",
             "rarity": "R",
             "level": "3-5",
             "time": "🌓"
+        }
+    ],
+    "Woobat": [
+        {
+            "sprite": "",
+            "place": "Easter Island #1",
+            "pokemon": "Woobat",
+            "method": "🍀",
+            "rarity": "VR",
+            "level": "3-5",
+            "time": "🌓"
         },
         {
             "sprite": "",
             "place": "Easter Island #4",
-            "pokemon": "Fomantis",
+            "pokemon": "Woobat",
             "method": "🍀",
-            "rarity": "R",
+            "rarity": "VR",
             "level": "3-5",
             "time": "🌓"
         }
@@ -36050,7 +36073,38 @@ exports.EASTER_BY_POKEMON = {
             "place": "Easter Island #1",
             "pokemon": "Gothita",
             "method": "🍀",
+            "rarity": "VR",
+            "level": "3-5",
+            "time": "🌓"
+        }
+    ],
+    "Kommo-o-E": [
+        {
+            "sprite": "",
+            "place": "Easter Island #1",
+            "pokemon": "Kommo-o-E",
+            "method": "🍀",
             "rarity": "UR",
+            "level": "3-5",
+            "time": "🌓"
+        }
+    ],
+    "Azumarill-E": [
+        {
+            "sprite": "",
+            "place": "Easter Island #2",
+            "pokemon": "Azumarill-E",
+            "method": "🍀",
+            "rarity": "R",
+            "level": "3-5",
+            "time": "🌓"
+        },
+        {
+            "sprite": "",
+            "place": "Easter Island #4",
+            "pokemon": "Azumarill-E",
+            "method": "🍀",
+            "rarity": "R",
             "level": "3-5",
             "time": "🌓"
         }
@@ -36093,15 +36147,6 @@ exports.EASTER_BY_POKEMON = {
             "rarity": "VR",
             "level": "3-5",
             "time": "🌓"
-        },
-        {
-            "sprite": "",
-            "place": "Easter Island #3",
-            "pokemon": "Skiddo",
-            "method": "🍀",
-            "rarity": "VR",
-            "level": "3-5",
-            "time": "🌓"
         }
     ],
     "Goomy": [
@@ -36115,6 +36160,17 @@ exports.EASTER_BY_POKEMON = {
             "time": "🌓"
         }
     ],
+    "Staraptor-E": [
+        {
+            "sprite": "",
+            "place": "Easter Island #3",
+            "pokemon": "Staraptor-E",
+            "method": "🍀",
+            "rarity": "VR",
+            "level": "3-5",
+            "time": "🌓"
+        }
+    ],
     "Applin": [
         {
             "sprite": "",
@@ -36122,17 +36178,6 @@ exports.EASTER_BY_POKEMON = {
             "pokemon": "Applin",
             "method": "🍀",
             "rarity": "UR",
-            "level": "3-5",
-            "time": "🌓"
-        }
-    ],
-    "Woobat": [
-        {
-            "sprite": "",
-            "place": "Easter Island #4",
-            "pokemon": "Woobat",
-            "method": "🍀",
-            "rarity": "VR",
             "level": "3-5",
             "time": "🌓"
         }

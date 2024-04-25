@@ -90,7 +90,7 @@ const handleSpawnsByPokemon = (userInputPokemon: string) => {
     embeds.push(...halloweenSpecialSpawnEmbeds);
   }
   // Easter
-  const easterSpawnEmbeds = createByPokeTable("**Easter 2023**\n", poke, EASTER_BY_POKEMON);
+  const easterSpawnEmbeds = createByPokeTable("**Easter 2024**\n", poke, EASTER_BY_POKEMON);
   if (easterSpawnEmbeds.length > 0) {
     embeds.push(...easterSpawnEmbeds);
   }
