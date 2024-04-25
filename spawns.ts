@@ -331,6 +331,64 @@ export const ALL_POKEMON_NAMES = [
   "Flaaffy",
   "Falinks",
   "Dreepy",
+  "Voltorb-Hisui",
+  "Lillipup",
+  "Poochyena",
+  "Slakoth",
+  "Ducklett",
+  "Deerling",
+  "Swanna",
+  "Tarountula",
+  "Taillow",
+  "Lickitung",
+  "Jigglypuff",
+  "Pelipper",
+  "Blitzle",
+  "Minccino",
+  "Tatsugiri",
+  "Frigibax",
+  "Toedscool",
+  "Lombre",
+  "Nuzleaf",
+  "Grimer",
+  "Bouffalant",
+  "Silicobra",
+  "Sawk",
+  "Throh",
+  "Salandit",
+  "Vigoroth",
+  "Electrode-Hisui",
+  "Linoone",
+  "Nickit",
+  "Gloom",
+  "Haunter",
+  "Elgyem",
+  "Pansage",
+  "Poliwrath",
+  "Politoed",
+  "Dewgong",
+  "Cramorant",
+  "Gyarados",
+  "Wattrel",
+  "Wynaut",
+  "Torchic",
+  "Bellsprout",
+  "Treecko",
+  "Arrokuda",
+  "Mudkip",
+  "Tinkatink",
+  "Wiglett",
+  "Pikachu-Hoenn",
+  "Pawmi",
+  "Greavard",
+  "Charcadet",
+  "Dondozo",
+  "Basculin-Blue",
+  "Crobat",
+  "Toedscruel",
+  "Beldum",
+  "Slowpoke-Galar",
+  "Sharpedo",
   "Nidoran-F",
   "Nidoran-M",
   "Litleo",
@@ -339,7 +397,6 @@ export const ALL_POKEMON_NAMES = [
   "Flabébé-Orange",
   "Comfey",
   "Cottonee",
-  "Lillipup",
   "Teddiursa",
   "Sandile",
   "Tangela",
@@ -392,7 +449,6 @@ export const ALL_POKEMON_NAMES = [
   "Mesprit",
   "Purrloin",
   "Shuppet-H2",
-  "Poochyena",
   "Phantump",
   "Alakazam-H",
   "Espurr",
@@ -445,9 +501,6 @@ export const ALL_POKEMON_NAMES = [
   "Hydreigon-H",
   "Yveltal",
   "Heatran-H",
-  "Jigglypuff",
-  "Bellsprout",
-  "Pansage",
   "Pansear",
   "Woobat",
   "Gothita",
@@ -654,7 +707,104 @@ export const SPAWN_PLACES = [
   "Dragon Tower Floor 4",
   "Dragon Tower Floor 5",
   "Dragon Tower Floor 6",
-  "Dragon Tower Floor 7"
+  "Dragon Tower Floor 7",
+  "Route 101",
+  "Route 102",
+  "Petalburg City",
+  "Route 104",
+  "Petalburg Woods",
+  "Route 104 (North)",
+  "Route 116",
+  "Route 115",
+  "Route 107",
+  "Route 108",
+  "Route 109",
+  "Slateport City",
+  "Route 103",
+  "Route 110",
+  "Route 117",
+  "Meteor Falls 1F 1R",
+  "Meteor Falls 1F 2R",
+  "Meteor Falls B1F 1R",
+  "Meteor Falls B1F 2R",
+  "Route 114",
+  "Route 113",
+  "Route 111 (South)",
+  "Route 111 (Desert)",
+  "Route 112 (North)",
+  "Route 112",
+  "Fiery Path",
+  "Jagged Pass",
+  "Route 118",
+  "Route 119 (South)",
+  "Route 119 (North)",
+  "Route 120",
+  "Route 121",
+  "Route 122",
+  "Route 123",
+  "Lilycove City",
+  "Route 124",
+  "Mossdeep City",
+  "Route 125",
+  "Route 126",
+  "Route 127",
+  "Route 128",
+  "Route 129",
+  "Route 130",
+  "Route 131",
+  "Route 132",
+  "Route 133",
+  "Route 134",
+  "Pacifidlog Town",
+  "Sootopolis City",
+  "Ever Grande City",
+  "Hoenn Safari Zone",
+  "Hoenn Safari (Desert Biome)",
+  "Hoenn Safari (Grass Biome)",
+  "Hoenn Safari (Water Biome)",
+  "Rusturf Tunnel",
+  "Route 106",
+  "Route 105",
+  "Dewford Town",
+  "Granite Cave 1F",
+  "Granite Cave B1F",
+  "Granite Cave B2F",
+  "Route 107 (Underwater)",
+  "New Mauville",
+  "Mt. Pyre 1F",
+  "Mt. Pyre 2F",
+  "Mt. Pyre 3F",
+  "Mt. Pyre 4F",
+  "Mt. Pyre (Exterior)",
+  "Mt. Pyre (Summit)",
+  "Route 124 (Underwater)",
+  "Route 126 (Underwater)",
+  "Route 128 (Underwater)",
+  "Seafloor Cavern (Entrance)",
+  "Seafloor Cavern (Room 1)",
+  "Seafloor Cavern (Room 2)",
+  "Seafloor Cavern (Room 3)",
+  "Seafloor Cavern (Room 4)",
+  "Seafloor Cavern (Room 5)",
+  "Seafloor Cavern (Room 6)",
+  "Seafloor Cavern (Room 8)",
+  "Seafloor Cavern (Room 7)",
+  "Route 129 (Underwater)",
+  "Route 130 (Underwater)",
+  "Route 134 (Underwater)",
+  "Route 134 (Underwater Tunnel)",
+  "Cave of Origin (Entrance)",
+  "Cave of Origin (1F)",
+  "Cave of Origin (B1F)",
+  "Cave of Origin (B2F)",
+  "Cave of Origin (B3F)",
+  "Cave of Origin (B4F)",
+  "Cave of Origin (Hidden Passage)",
+  "Hoenn Victory Road (Entrance)",
+  "Hoenn Victory Road (B1F)",
+  "Hoenn Victory Road (1F)",
+  "Hoenn Victory Road (2F)",
+  "Abandoned Ship"
 ]
 
 export const NORMAL_SPAWNS_BY_PLACE: {[key: string]: NormalSpawn[]} = {
@@ -15765,6 +15915,6260 @@ export const NORMAL_SPAWNS_BY_PLACE: {[key: string]: NormalSpawn[]} = {
       "ev": "1 SPEED",
       "place": "Dragon Tower Floor 7"
     }
+  ],
+  "Route 101": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/voltorb-hisui.gif",
+      "pokemon": "Voltorb-Hisui",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "2-3",
+      "ev": "1 SPEED",
+      "place": "Route 101"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/pidgey.gif",
+      "pokemon": "Pidgey",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "2-3",
+      "ev": "1 SPEED",
+      "place": "Route 101"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/lillipup.gif",
+      "pokemon": "Lillipup",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "2-3",
+      "ev": "1 ATK",
+      "place": "Route 101"
+    }
+  ],
+  "Route 102": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/zigzagoon.gif",
+      "pokemon": "Zigzagoon",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "2-3",
+      "ev": "1 SPEED",
+      "place": "Route 102"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/sentret.gif",
+      "pokemon": "Sentret",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "2-3",
+      "ev": "1 ATK",
+      "place": "Route 102"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/poochyena.gif",
+      "pokemon": "Poochyena",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "2-3",
+      "ev": "1 ATK",
+      "place": "Route 102"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/slakoth.gif",
+      "pokemon": "Slakoth",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "2-3",
+      "ev": "1 BASE_HP",
+      "place": "Route 102"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/ralts.gif",
+      "pokemon": "Ralts",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "2-3",
+      "ev": "1 SP_ATK",
+      "place": "Route 102"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/goldeen.gif",
+      "pokemon": "Goldeen",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "2-3",
+      "ev": "1 ATK",
+      "place": "Route 102"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/marill.gif",
+      "pokemon": "Marill",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "2-3",
+      "ev": "2 BASE_HP",
+      "place": "Route 102"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/ducklett.gif",
+      "pokemon": "Ducklett",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "20-25",
+      "ev": "1 BASE_HP",
+      "place": "Route 102"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/surskit.gif",
+      "pokemon": "Surskit",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "20-25",
+      "ev": "1 SPEED",
+      "place": "Route 102"
+    }
+  ],
+  "Petalburg City": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/goldeen.gif",
+      "pokemon": "Goldeen",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "2-3",
+      "ev": "1 ATK",
+      "place": "Petalburg City"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/marill.gif",
+      "pokemon": "Marill",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "2-3",
+      "ev": "2 BASE_HP",
+      "place": "Petalburg City"
+    }
+  ],
+  "Route 104": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/voltorb-hisui.gif",
+      "pokemon": "Voltorb-Hisui",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "3-5",
+      "ev": "1 SPEED",
+      "place": "Route 104"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/sentret.gif",
+      "pokemon": "Sentret",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "3-5",
+      "ev": "1 ATK",
+      "place": "Route 104"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/poochyena.gif",
+      "pokemon": "Poochyena",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "3-5",
+      "ev": "1 ATK",
+      "place": "Route 104"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/deerling.gif",
+      "pokemon": "Deerling",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "3-5",
+      "ev": "1 SPEED",
+      "place": "Route 104"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/wingull.gif",
+      "pokemon": "Wingull",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "3-5",
+      "ev": "1 SPEED",
+      "place": "Route 104"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tentacool.gif",
+      "pokemon": "Tentacool",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "3-5",
+      "ev": "1 SP_DEF",
+      "place": "Route 104"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/qwilfish.gif",
+      "pokemon": "Qwilfish",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "3-5",
+      "ev": "1 ATK",
+      "place": "Route 104"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/skrelp.gif",
+      "pokemon": "Skrelp",
+      "rarity": "UR",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "3-5",
+      "ev": "1 SP_DEF",
+      "place": "Route 104"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/ducklett.gif",
+      "pokemon": "Ducklett",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "27-29",
+      "ev": "1 BASE_HP",
+      "place": "Route 104"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/swanna.gif",
+      "pokemon": "Swanna",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "27-29",
+      "ev": "2 SPEED",
+      "place": "Route 104"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tentacruel.gif",
+      "pokemon": "Tentacruel",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "27-29",
+      "ev": "2 SP_DEF",
+      "place": "Route 104"
+    }
+  ],
+  "Petalburg Woods": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/wurmple.gif",
+      "pokemon": "Wurmple",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "4-6",
+      "ev": "1 BASE_HP",
+      "place": "Petalburg Woods"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/silcoon.gif",
+      "pokemon": "Silcoon",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "4-6",
+      "ev": "2 DEF",
+      "place": "Petalburg Woods"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/cascoon.gif",
+      "pokemon": "Cascoon",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "4-6",
+      "ev": "2 DEF",
+      "place": "Petalburg Woods"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tarountula.gif",
+      "pokemon": "Tarountula",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "4-6",
+      "ev": "1 DEF",
+      "place": "Petalburg Woods"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/shroomish.gif",
+      "pokemon": "Shroomish",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "4-6",
+      "ev": "1 BASE_HP",
+      "place": "Petalburg Woods"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/wimpod.gif",
+      "pokemon": "Wimpod",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "4-6",
+      "ev": "1 SPEED",
+      "place": "Petalburg Woods"
+    }
+  ],
+  "Route 104 (North)": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/zigzagoon.gif",
+      "pokemon": "Zigzagoon",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "5-7",
+      "ev": "1 SPEED",
+      "place": "Route 104 (North)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/pidgey.gif",
+      "pokemon": "Pidgey",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "5-7",
+      "ev": "1 SPEED",
+      "place": "Route 104 (North)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/combee.gif",
+      "pokemon": "Combee",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "5-7",
+      "ev": "1 SPEED",
+      "place": "Route 104 (North)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/lotad.gif",
+      "pokemon": "Lotad",
+      "rarity": "R",
+      "time": "🌕",
+      "method": "🍀",
+      "level": "5-7",
+      "ev": "1 SP_DEF",
+      "place": "Route 104 (North)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/seedot.gif",
+      "pokemon": "Seedot",
+      "rarity": "R",
+      "time": "🌑",
+      "method": "🍀",
+      "level": "5-7",
+      "ev": "1 DEF",
+      "place": "Route 104 (North)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/taillow.gif",
+      "pokemon": "Taillow",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "5-7",
+      "ev": "1 SPEED",
+      "place": "Route 104 (North)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/goldeen.gif",
+      "pokemon": "Goldeen",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "5-7",
+      "ev": "1 ATK",
+      "place": "Route 104 (North)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/psyduck.gif",
+      "pokemon": "Psyduck",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "5-7",
+      "ev": "1 SP_ATK",
+      "place": "Route 104 (North)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/marill.gif",
+      "pokemon": "Marill",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "5-7",
+      "ev": "2 BASE_HP",
+      "place": "Route 104 (North)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/ducklett.gif",
+      "pokemon": "Ducklett",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "27-29",
+      "ev": "1 BASE_HP",
+      "place": "Route 104 (North)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/swanna.gif",
+      "pokemon": "Swanna",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "27-29",
+      "ev": "2 SPEED",
+      "place": "Route 104 (North)"
+    }
+  ],
+  "Route 116": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/zigzagoon.gif",
+      "pokemon": "Zigzagoon",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "5-7",
+      "ev": "1 SPEED",
+      "place": "Route 116"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/sentret.gif",
+      "pokemon": "Sentret",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "5-7",
+      "ev": "1 ATK",
+      "place": "Route 116"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/whismur.gif",
+      "pokemon": "Whismur",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "5-7",
+      "ev": "1 BASE_HP",
+      "place": "Route 116"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/taillow.gif",
+      "pokemon": "Taillow",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "5-7",
+      "ev": "1 SPEED",
+      "place": "Route 116"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/lickitung.gif",
+      "pokemon": "Lickitung",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "5-7",
+      "ev": "2 BASE_HP",
+      "place": "Route 116"
+    }
+  ],
+  "Route 115": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/jigglypuff.gif",
+      "pokemon": "Jigglypuff",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "20-22",
+      "ev": "2 BASE_HP",
+      "place": "Route 115"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/taillow.gif",
+      "pokemon": "Taillow",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "20-22",
+      "ev": "1 SPEED",
+      "place": "Route 115"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/wingull.gif",
+      "pokemon": "Wingull",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "20-22",
+      "ev": "1 SPEED",
+      "place": "Route 115"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tentacool.gif",
+      "pokemon": "Tentacool",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "6-8",
+      "ev": "1 SP_DEF",
+      "place": "Route 115"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/qwilfish.gif",
+      "pokemon": "Qwilfish",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "6-8",
+      "ev": "1 ATK",
+      "place": "Route 115"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/staryu.gif",
+      "pokemon": "Staryu",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "6-8",
+      "ev": "1 SPEED",
+      "place": "Route 115"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/golduck.gif",
+      "pokemon": "Golduck",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "27-29",
+      "ev": "2 SP_ATK",
+      "place": "Route 115"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/swanna.gif",
+      "pokemon": "Swanna",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "27-29",
+      "ev": "2 SPEED",
+      "place": "Route 115"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/qwilfish.gif",
+      "pokemon": "Qwilfish",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "27-29",
+      "ev": "1 ATK",
+      "place": "Route 115"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/horsea.gif",
+      "pokemon": "Horsea",
+      "rarity": "UR",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "27-29",
+      "ev": "1 SP_ATK",
+      "place": "Route 115"
+    }
+  ],
+  "Route 107": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tentacool.gif",
+      "pokemon": "Tentacool",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "27-29",
+      "ev": "1 SP_DEF",
+      "place": "Route 107"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/goldeen.gif",
+      "pokemon": "Goldeen",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "27-29",
+      "ev": "1 ATK",
+      "place": "Route 107"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/staryu.gif",
+      "pokemon": "Staryu",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "27-29",
+      "ev": "1 SPEED",
+      "place": "Route 107"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tentacruel.gif",
+      "pokemon": "Tentacruel",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "27-29",
+      "ev": "2 SP_DEF",
+      "place": "Route 107"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/luvdisc.gif",
+      "pokemon": "Luvdisc",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "27-29",
+      "ev": "1 SPEED",
+      "place": "Route 107"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/pelipper.gif",
+      "pokemon": "Pelipper",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "27-29",
+      "ev": "2 DEF",
+      "place": "Route 107"
+    }
+  ],
+  "Route 108": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/krabby.gif",
+      "pokemon": "Krabby",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "20-25",
+      "ev": "1 ATK",
+      "place": "Route 108"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/luvdisc.gif",
+      "pokemon": "Luvdisc",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "20-25",
+      "ev": "1 SPEED",
+      "place": "Route 108"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/staryu.gif",
+      "pokemon": "Staryu",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "20-25",
+      "ev": "1 SPEED",
+      "place": "Route 108"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/horsea.gif",
+      "pokemon": "Horsea",
+      "rarity": "UR",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "20-25",
+      "ev": "1 SP_ATK",
+      "place": "Route 108"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/krabby.gif",
+      "pokemon": "Krabby",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "27-29",
+      "ev": "1 ATK",
+      "place": "Route 108"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/pelipper.gif",
+      "pokemon": "Pelipper",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "27-29",
+      "ev": "2 DEF",
+      "place": "Route 108"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/horsea.gif",
+      "pokemon": "Horsea",
+      "rarity": "UR",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "27-29",
+      "ev": "1 SP_ATK",
+      "place": "Route 108"
+    }
+  ],
+  "Route 109": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tentacool.gif",
+      "pokemon": "Tentacool",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "11-13",
+      "ev": "1 SP_DEF",
+      "place": "Route 109"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/goldeen.gif",
+      "pokemon": "Goldeen",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "11-13",
+      "ev": "1 ATK",
+      "place": "Route 109"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/frillish.gif",
+      "pokemon": "Frillish",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "11-13",
+      "ev": "1 SP_DEF",
+      "place": "Route 109"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/krabby.gif",
+      "pokemon": "Krabby",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "27-29",
+      "ev": "1 ATK",
+      "place": "Route 109"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/kingler.gif",
+      "pokemon": "Kingler",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "27-29",
+      "ev": "2 ATK",
+      "place": "Route 109"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/pelipper.gif",
+      "pokemon": "Pelipper",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "27-29",
+      "ev": "2 DEF",
+      "place": "Route 109"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/horsea.gif",
+      "pokemon": "Horsea",
+      "rarity": "UR",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "27-29",
+      "ev": "1 SP_ATK",
+      "place": "Route 109"
+    }
+  ],
+  "Slateport City": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tentacool.gif",
+      "pokemon": "Tentacool",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "12-14",
+      "ev": "1 SP_DEF",
+      "place": "Slateport City"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tentacruel.gif",
+      "pokemon": "Tentacruel",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "12-14",
+      "ev": "2 SP_DEF",
+      "place": "Slateport City"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/staryu.gif",
+      "pokemon": "Staryu",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "12-14",
+      "ev": "1 SPEED",
+      "place": "Slateport City"
+    }
+  ],
+  "Route 103": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/sentret.gif",
+      "pokemon": "Sentret",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "2-3",
+      "ev": "1 ATK",
+      "place": "Route 103"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/poochyena.gif",
+      "pokemon": "Poochyena",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "2-3",
+      "ev": "1 ATK",
+      "place": "Route 103"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/wingull.gif",
+      "pokemon": "Wingull",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "2-3",
+      "ev": "1 SPEED",
+      "place": "Route 103"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/psyduck.gif",
+      "pokemon": "Psyduck",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "2-3",
+      "ev": "1 SP_ATK",
+      "place": "Route 103"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/remoraid.gif",
+      "pokemon": "Remoraid",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "2-3",
+      "ev": "1 SP_ATK",
+      "place": "Route 103"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/luvdisc.gif",
+      "pokemon": "Luvdisc",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "2-3",
+      "ev": "1 SPEED",
+      "place": "Route 103"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tynamo.gif",
+      "pokemon": "Tynamo",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "2-3",
+      "ev": "1 SPEED",
+      "place": "Route 103"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/ducklett.gif",
+      "pokemon": "Ducklett",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "20-25",
+      "ev": "1 BASE_HP",
+      "place": "Route 103"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/swanna.gif",
+      "pokemon": "Swanna",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "20-25",
+      "ev": "2 SPEED",
+      "place": "Route 103"
+    }
+  ],
+  "Route 110": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/blitzle.gif",
+      "pokemon": "Blitzle",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "12-14",
+      "ev": "1 SPEED",
+      "place": "Route 110"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/zigzagoon.gif",
+      "pokemon": "Zigzagoon",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "12-14",
+      "ev": "1 SPEED",
+      "place": "Route 110"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/gulpin.gif",
+      "pokemon": "Gulpin",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "12-14",
+      "ev": "1 BASE_HP",
+      "place": "Route 110"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/trubbish.gif",
+      "pokemon": "Trubbish",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "12-14",
+      "ev": "1 SPEED",
+      "place": "Route 110"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tentacool.gif",
+      "pokemon": "Tentacool",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "12-14",
+      "ev": "1 SP_DEF",
+      "place": "Route 110"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/goldeen.gif",
+      "pokemon": "Goldeen",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "12-14",
+      "ev": "1 ATK",
+      "place": "Route 110"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/barboach.gif",
+      "pokemon": "Barboach",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "12-14",
+      "ev": "1 BASE_HP",
+      "place": "Route 110"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tentacool.gif",
+      "pokemon": "Tentacool",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "27-29",
+      "ev": "1 SP_DEF",
+      "place": "Route 110"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tynamo.gif",
+      "pokemon": "Tynamo",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "27-29",
+      "ev": "1 SPEED",
+      "place": "Route 110"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/chinchou.gif",
+      "pokemon": "Chinchou",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "27-29",
+      "ev": "1 BASE_HP",
+      "place": "Route 110"
+    }
+  ],
+  "Route 117": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/doduo.gif",
+      "pokemon": "Doduo",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "13-15",
+      "ev": "1 ATK",
+      "place": "Route 117"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/blitzle.gif",
+      "pokemon": "Blitzle",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "13-15",
+      "ev": "1 SPEED",
+      "place": "Route 117"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/minccino.gif",
+      "pokemon": "Minccino",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "13-15",
+      "ev": "1 SPEED",
+      "place": "Route 117"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/lickitung.gif",
+      "pokemon": "Lickitung",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "13-15",
+      "ev": "2 BASE_HP",
+      "place": "Route 117"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/goldeen.gif",
+      "pokemon": "Goldeen",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "13-15",
+      "ev": "1 ATK",
+      "place": "Route 117"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/marill.gif",
+      "pokemon": "Marill",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "13-15",
+      "ev": "2 BASE_HP",
+      "place": "Route 117"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/golduck.gif",
+      "pokemon": "Golduck",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "27-29",
+      "ev": "2 SP_ATK",
+      "place": "Route 117"
+    }
+  ],
+  "Meteor Falls 1F 1R": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/solrock.gif",
+      "pokemon": "Solrock",
+      "rarity": "C",
+      "time": "🌕",
+      "method": "🍀",
+      "level": "16-19",
+      "ev": "2 ATK",
+      "place": "Meteor Falls 1F 1R"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/lunatone.gif",
+      "pokemon": "Lunatone",
+      "rarity": "C",
+      "time": "🌑",
+      "method": "🍀",
+      "level": "16-19",
+      "ev": "2 SP_ATK",
+      "place": "Meteor Falls 1F 1R"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/swablu.gif",
+      "pokemon": "Swablu",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "16-19",
+      "ev": "1 SP_DEF",
+      "place": "Meteor Falls 1F 1R"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/goldeen.gif",
+      "pokemon": "Goldeen",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "16-19",
+      "ev": "1 ATK",
+      "place": "Meteor Falls 1F 1R"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/seaking.gif",
+      "pokemon": "Seaking",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "16-19",
+      "ev": "2 ATK",
+      "place": "Meteor Falls 1F 1R"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/staryu.gif",
+      "pokemon": "Staryu",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "16-19",
+      "ev": "1 SPEED",
+      "place": "Meteor Falls 1F 1R"
+    },
+    {
+      "sprite": "https://forums.pokemonblazeonline.com/data/attachments/0/983-f737c12027fb49621ff64d58a7f57a47.jpg",
+      "pokemon": "Tatsugiri",
+      "rarity": "UR",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "16-19",
+      "ev": "",
+      "place": "Meteor Falls 1F 1R"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/golbat.gif",
+      "pokemon": "Golbat",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "27-29",
+      "ev": "2 SPEED",
+      "place": "Meteor Falls 1F 1R"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/solrock.gif",
+      "pokemon": "Solrock",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "27-29",
+      "ev": "2 ATK",
+      "place": "Meteor Falls 1F 1R"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/lunatone.gif",
+      "pokemon": "Lunatone",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "27-29",
+      "ev": "2 SP_ATK",
+      "place": "Meteor Falls 1F 1R"
+    }
+  ],
+  "Meteor Falls 1F 2R": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/solrock.gif",
+      "pokemon": "Solrock",
+      "rarity": "C",
+      "time": "🌕",
+      "method": "🍀",
+      "level": "52-55",
+      "ev": "2 ATK",
+      "place": "Meteor Falls 1F 2R"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/lunatone.gif",
+      "pokemon": "Lunatone",
+      "rarity": "C",
+      "time": "🌑",
+      "method": "🍀",
+      "level": "52-55",
+      "ev": "2 SP_ATK",
+      "place": "Meteor Falls 1F 2R"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/golbat.gif",
+      "pokemon": "Golbat",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "52-55",
+      "ev": "2 SPEED",
+      "place": "Meteor Falls 1F 2R"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/swablu.gif",
+      "pokemon": "Swablu",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "52-55",
+      "ev": "1 SP_DEF",
+      "place": "Meteor Falls 1F 2R"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/mawile.gif",
+      "pokemon": "Mawile",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "52-55",
+      "ev": "1 DEF, 1 ATK",
+      "place": "Meteor Falls 1F 2R"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/goldeen.gif",
+      "pokemon": "Goldeen",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "52-55",
+      "ev": "1 ATK",
+      "place": "Meteor Falls 1F 2R"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/seaking.gif",
+      "pokemon": "Seaking",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "52-55",
+      "ev": "2 ATK",
+      "place": "Meteor Falls 1F 2R"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/staryu.gif",
+      "pokemon": "Staryu",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "52-55",
+      "ev": "1 SPEED",
+      "place": "Meteor Falls 1F 2R"
+    },
+    {
+      "sprite": "https://forums.pokemonblazeonline.com/data/attachments/0/983-f737c12027fb49621ff64d58a7f57a47.jpg",
+      "pokemon": "Tatsugiri",
+      "rarity": "UR",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "52-55",
+      "ev": "",
+      "place": "Meteor Falls 1F 2R"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/golbat.gif",
+      "pokemon": "Golbat",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "52-55",
+      "ev": "2 SPEED",
+      "place": "Meteor Falls 1F 2R"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/solrock.gif",
+      "pokemon": "Solrock",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "52-55",
+      "ev": "2 ATK",
+      "place": "Meteor Falls 1F 2R"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/lunatone.gif",
+      "pokemon": "Lunatone",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "52-55",
+      "ev": "2 SP_ATK",
+      "place": "Meteor Falls 1F 2R"
+    }
+  ],
+  "Meteor Falls B1F 1R": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/solrock.gif",
+      "pokemon": "Solrock",
+      "rarity": "C",
+      "time": "🌕",
+      "method": "🍀",
+      "level": "52-55",
+      "ev": "2 ATK",
+      "place": "Meteor Falls B1F 1R"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/lunatone.gif",
+      "pokemon": "Lunatone",
+      "rarity": "C",
+      "time": "🌑",
+      "method": "🍀",
+      "level": "52-55",
+      "ev": "2 SP_ATK",
+      "place": "Meteor Falls B1F 1R"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/golbat.gif",
+      "pokemon": "Golbat",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "52-55",
+      "ev": "2 SPEED",
+      "place": "Meteor Falls B1F 1R"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/swablu.gif",
+      "pokemon": "Swablu",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "52-55",
+      "ev": "1 SP_DEF",
+      "place": "Meteor Falls B1F 1R"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/mawile.gif",
+      "pokemon": "Mawile",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "52-55",
+      "ev": "1 DEF, 1 ATK",
+      "place": "Meteor Falls B1F 1R"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/goldeen.gif",
+      "pokemon": "Goldeen",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "52-55",
+      "ev": "1 ATK",
+      "place": "Meteor Falls B1F 1R"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/seaking.gif",
+      "pokemon": "Seaking",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "52-55",
+      "ev": "2 ATK",
+      "place": "Meteor Falls B1F 1R"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/staryu.gif",
+      "pokemon": "Staryu",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "52-55",
+      "ev": "1 SPEED",
+      "place": "Meteor Falls B1F 1R"
+    },
+    {
+      "sprite": "https://forums.pokemonblazeonline.com/data/attachments/0/983-f737c12027fb49621ff64d58a7f57a47.jpg",
+      "pokemon": "Tatsugiri",
+      "rarity": "UR",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "52-55",
+      "ev": "",
+      "place": "Meteor Falls B1F 1R"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/golbat.gif",
+      "pokemon": "Golbat",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "52-55",
+      "ev": "2 SPEED",
+      "place": "Meteor Falls B1F 1R"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/solrock.gif",
+      "pokemon": "Solrock",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "52-55",
+      "ev": "2 ATK",
+      "place": "Meteor Falls B1F 1R"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/lunatone.gif",
+      "pokemon": "Lunatone",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "52-55",
+      "ev": "2 SP_ATK",
+      "place": "Meteor Falls B1F 1R"
+    }
+  ],
+  "Meteor Falls B1F 2R": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/solrock.gif",
+      "pokemon": "Solrock",
+      "rarity": "C",
+      "time": "🌕",
+      "method": "🍀",
+      "level": "52-55",
+      "ev": "2 ATK",
+      "place": "Meteor Falls B1F 2R"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/lunatone.gif",
+      "pokemon": "Lunatone",
+      "rarity": "C",
+      "time": "🌑",
+      "method": "🍀",
+      "level": "52-55",
+      "ev": "2 SP_ATK",
+      "place": "Meteor Falls B1F 2R"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/swablu.gif",
+      "pokemon": "Swablu",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "52-55",
+      "ev": "1 SP_DEF",
+      "place": "Meteor Falls B1F 2R"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/golbat.gif",
+      "pokemon": "Golbat",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "52-55",
+      "ev": "2 SPEED",
+      "place": "Meteor Falls B1F 2R"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/mawile.gif",
+      "pokemon": "Mawile",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "52-55",
+      "ev": "1 DEF, 1 ATK",
+      "place": "Meteor Falls B1F 2R"
+    },
+    {
+      "sprite": "https://forums.pokemonblazeonline.com/data/attachments/0/982-ad81165b1e49ff26480001356afcb2f1.jpg",
+      "pokemon": "Frigibax",
+      "rarity": "UR",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "52-55",
+      "ev": "1 ATK",
+      "place": "Meteor Falls B1F 2R"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/goldeen.gif",
+      "pokemon": "Goldeen",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "52-55",
+      "ev": "1 ATK",
+      "place": "Meteor Falls B1F 2R"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/seaking.gif",
+      "pokemon": "Seaking",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "52-55",
+      "ev": "2 ATK",
+      "place": "Meteor Falls B1F 2R"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/staryu.gif",
+      "pokemon": "Staryu",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "52-55",
+      "ev": "1 SPEED",
+      "place": "Meteor Falls B1F 2R"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/golbat.gif",
+      "pokemon": "Golbat",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "52-55",
+      "ev": "2 SPEED",
+      "place": "Meteor Falls B1F 2R"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/solrock.gif",
+      "pokemon": "Solrock",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "52-55",
+      "ev": "2 ATK",
+      "place": "Meteor Falls B1F 2R"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/lunatone.gif",
+      "pokemon": "Lunatone",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "52-55",
+      "ev": "2 SP_ATK",
+      "place": "Meteor Falls B1F 2R"
+    }
+  ],
+  "Route 114": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/zangoose.gif",
+      "pokemon": "Zangoose",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "17-20",
+      "ev": "2 ATK",
+      "place": "Route 114"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/seviper.gif",
+      "pokemon": "Seviper",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "17-20",
+      "ev": "1 SP_ATK, 1 ATK",
+      "place": "Route 114"
+    },
+    {
+      "sprite": "https://forums.pokemonblazeonline.com/data/attachments/0/984-4efb0a3d59c3d2b03638b56c1d7e4123.jpg",
+      "pokemon": "Toedscool",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "17-20",
+      "ev": "1 SP_DEF",
+      "place": "Route 114"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/lombre.gif",
+      "pokemon": "Lombre",
+      "rarity": "R",
+      "time": "🌕",
+      "method": "🍀",
+      "level": "17-20",
+      "ev": "2 SP_DEF",
+      "place": "Route 114"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/nuzleaf.gif",
+      "pokemon": "Nuzleaf",
+      "rarity": "R",
+      "time": "🌑",
+      "method": "🍀",
+      "level": "17-20",
+      "ev": "2 ATK",
+      "place": "Route 114"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/swablu.gif",
+      "pokemon": "Swablu",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "17-20",
+      "ev": "1 SP_DEF",
+      "place": "Route 114"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/goldeen.gif",
+      "pokemon": "Goldeen",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "17-20",
+      "ev": "1 ATK",
+      "place": "Route 114"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/marill.gif",
+      "pokemon": "Marill",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "17-20",
+      "ev": "2 BASE_HP",
+      "place": "Route 114"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/pidgeotto.gif",
+      "pokemon": "Pidgeotto",
+      "rarity": "C",
+      "time": "🌕",
+      "method": "🌊",
+      "level": "27-29",
+      "ev": "2 SPEED",
+      "place": "Route 114"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/golbat.gif",
+      "pokemon": "Golbat",
+      "rarity": "C",
+      "time": "🌑",
+      "method": "🌊",
+      "level": "27-29",
+      "ev": "2 SPEED",
+      "place": "Route 114"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/surskit.gif",
+      "pokemon": "Surskit",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "27-29",
+      "ev": "1 SPEED",
+      "place": "Route 114"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/golduck.gif",
+      "pokemon": "Golduck",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "27-29",
+      "ev": "2 SP_ATK",
+      "place": "Route 114"
+    }
+  ],
+  "Route 113": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/spinda.gif",
+      "pokemon": "Spinda",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "16-19",
+      "ev": "1 SP_ATK",
+      "place": "Route 113"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/grimer.gif",
+      "pokemon": "Grimer",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "16-19",
+      "ev": "1 BASE_HP",
+      "place": "Route 113"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/slugma.gif",
+      "pokemon": "Slugma",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "16-19",
+      "ev": "1 SP_ATK",
+      "place": "Route 113"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/koffing.gif",
+      "pokemon": "Koffing",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "16-19",
+      "ev": "1 DEF",
+      "place": "Route 113"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/bouffalant.gif",
+      "pokemon": "Bouffalant",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "16-19",
+      "ev": "2 ATK",
+      "place": "Route 113"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/magby.gif",
+      "pokemon": "Magby",
+      "rarity": "UR",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "16-19",
+      "ev": "1 SPEED",
+      "place": "Route 113"
+    }
+  ],
+  "Route 111 (South)": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/goldeen.gif",
+      "pokemon": "Goldeen",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "13-15",
+      "ev": "1 ATK",
+      "place": "Route 111 (South)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/marill.gif",
+      "pokemon": "Marill",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "13-15",
+      "ev": "2 BASE_HP",
+      "place": "Route 111 (South)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/golbat.gif",
+      "pokemon": "Golbat",
+      "rarity": "C",
+      "time": "🌑",
+      "method": "🌊",
+      "level": "27-29",
+      "ev": "2 SPEED",
+      "place": "Route 111 (South)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/seaking.gif",
+      "pokemon": "Seaking",
+      "rarity": "C",
+      "time": "🌕",
+      "method": "🌊",
+      "level": "27-29",
+      "ev": "2 ATK",
+      "place": "Route 111 (South)"
+    }
+  ],
+  "Route 111 (Desert)": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/sandshrew.gif",
+      "pokemon": "Sandshrew",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "20-23",
+      "ev": "1 DEF",
+      "place": "Route 111 (Desert)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/cacnea.gif",
+      "pokemon": "Cacnea",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "20-23",
+      "ev": "1 SP_ATK",
+      "place": "Route 111 (Desert)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/baltoy.gif",
+      "pokemon": "Baltoy",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "20-23",
+      "ev": "1 SP_DEF",
+      "place": "Route 111 (Desert)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/aron.gif",
+      "pokemon": "Aron",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "20-23",
+      "ev": "1 DEF",
+      "place": "Route 111 (Desert)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/silicobra.gif",
+      "pokemon": "Silicobra",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "20-23",
+      "ev": "1 DEF",
+      "place": "Route 111 (Desert)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/hippopotas.gif",
+      "pokemon": "Hippopotas",
+      "rarity": "UR",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "20-23",
+      "ev": "1 DEF",
+      "place": "Route 111 (Desert)"
+    }
+  ],
+  "Route 112 (North)": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/makuhita.gif",
+      "pokemon": "Makuhita",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "15-17",
+      "ev": "1 BASE_HP",
+      "place": "Route 112 (North)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/numel.gif",
+      "pokemon": "Numel",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "15-17",
+      "ev": "1 SP_ATK",
+      "place": "Route 112 (North)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/machop.gif",
+      "pokemon": "Machop",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "15-17",
+      "ev": "1 ATK",
+      "place": "Route 112 (North)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/sawk.gif",
+      "pokemon": "Sawk",
+      "rarity": "VR",
+      "time": "🌕",
+      "method": "🍀",
+      "level": "15-17",
+      "ev": "2 ATK",
+      "place": "Route 112 (North)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/throh.gif",
+      "pokemon": "Throh",
+      "rarity": "VR",
+      "time": "🌑",
+      "method": "🍀",
+      "level": "15-17",
+      "ev": "2 BASE_HP",
+      "place": "Route 112 (North)"
+    }
+  ],
+  "Route 112": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/makuhita.gif",
+      "pokemon": "Makuhita",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "15-17",
+      "ev": "1 BASE_HP",
+      "place": "Route 112"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/numel.gif",
+      "pokemon": "Numel",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "15-17",
+      "ev": "1 SP_ATK",
+      "place": "Route 112"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/sawk.gif",
+      "pokemon": "Sawk",
+      "rarity": "VR",
+      "time": "🌕",
+      "method": "🍀",
+      "level": "15-17",
+      "ev": "2 ATK",
+      "place": "Route 112"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/throh.gif",
+      "pokemon": "Throh",
+      "rarity": "VR",
+      "time": "🌑",
+      "method": "🍀",
+      "level": "15-17",
+      "ev": "2 BASE_HP",
+      "place": "Route 112"
+    }
+  ],
+  "Fiery Path": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/grimer.gif",
+      "pokemon": "Grimer",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "15-17",
+      "ev": "1 BASE_HP",
+      "place": "Fiery Path"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/makuhita.gif",
+      "pokemon": "Makuhita",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "15-17",
+      "ev": "1 BASE_HP",
+      "place": "Fiery Path"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/slugma.gif",
+      "pokemon": "Slugma",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "15-17",
+      "ev": "1 SP_ATK",
+      "place": "Fiery Path"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/torkoal.gif",
+      "pokemon": "Torkoal",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "15-17",
+      "ev": "2 DEF",
+      "place": "Fiery Path"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/salandit.gif",
+      "pokemon": "Salandit",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "15-17",
+      "ev": "1 SPEED",
+      "place": "Fiery Path"
+    }
+  ],
+  "Jagged Pass": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/mankey.gif",
+      "pokemon": "Mankey",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "18-21",
+      "ev": "1 ATK",
+      "place": "Jagged Pass"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/makuhita.gif",
+      "pokemon": "Makuhita",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "18-21",
+      "ev": "1 BASE_HP",
+      "place": "Jagged Pass"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/numel.gif",
+      "pokemon": "Numel",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "18-21",
+      "ev": "1 SP_ATK",
+      "place": "Jagged Pass"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/oricorio.gif",
+      "pokemon": "Oricorio",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "18-21",
+      "ev": "2 SP_ATK",
+      "place": "Jagged Pass"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/sawk.gif",
+      "pokemon": "Sawk",
+      "rarity": "VR",
+      "time": "🌕",
+      "method": "🍀",
+      "level": "18-21",
+      "ev": "2 ATK",
+      "place": "Jagged Pass"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/throh.gif",
+      "pokemon": "Throh",
+      "rarity": "VR",
+      "time": "🌑",
+      "method": "🍀",
+      "level": "18-21",
+      "ev": "2 BASE_HP",
+      "place": "Jagged Pass"
+    }
+  ],
+  "Route 118": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/blitzle.gif",
+      "pokemon": "Blitzle",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "30-34",
+      "ev": "1 SPEED",
+      "place": "Route 118"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/pidgeotto.gif",
+      "pokemon": "Pidgeotto",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "30-34",
+      "ev": "2 SPEED",
+      "place": "Route 118"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/vigoroth.gif",
+      "pokemon": "Vigoroth",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "30-34",
+      "ev": "2 SPEED",
+      "place": "Route 118"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/remoraid.gif",
+      "pokemon": "Remoraid",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "12-14",
+      "ev": "1 SP_ATK",
+      "place": "Route 118"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/octillery.gif",
+      "pokemon": "Octillery",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "12-14",
+      "ev": "1 SP_ATK, 1 ATK",
+      "place": "Route 118"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tentacruel.gif",
+      "pokemon": "Tentacruel",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "12-14",
+      "ev": "2 SP_DEF",
+      "place": "Route 118"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/mantyke.gif",
+      "pokemon": "Mantyke",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "12-14",
+      "ev": "1 SP_DEF",
+      "place": "Route 118"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tentacool.gif",
+      "pokemon": "Tentacool",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "30-34",
+      "ev": "1 SP_DEF",
+      "place": "Route 118"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tentacruel.gif",
+      "pokemon": "Tentacruel",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "30-34",
+      "ev": "2 SP_DEF",
+      "place": "Route 118"
+    }
+  ],
+  "Route 119 (South)": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/electrode-hisui.gif",
+      "pokemon": "Electrode-Hisui",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "31-35",
+      "ev": "2 SPEED",
+      "place": "Route 119 (South)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tropius.gif",
+      "pokemon": "Tropius",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "31-35",
+      "ev": "2 BASE_HP",
+      "place": "Route 119 (South)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/trumbeak.gif",
+      "pokemon": "Trumbeak",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "31-35",
+      "ev": "2 ATK",
+      "place": "Route 119 (South)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/cutiefly.gif",
+      "pokemon": "Cutiefly",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "31-35",
+      "ev": "1 SPEED",
+      "place": "Route 119 (South)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/seaking.gif",
+      "pokemon": "Seaking",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "31-35",
+      "ev": "2 ATK",
+      "place": "Route 119 (South)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/remoraid.gif",
+      "pokemon": "Remoraid",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "31-35",
+      "ev": "1 SP_ATK",
+      "place": "Route 119 (South)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/magikarp.gif",
+      "pokemon": "Magikarp",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "31-35",
+      "ev": "1 SPEED",
+      "place": "Route 119 (South)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/carvanha.gif",
+      "pokemon": "Carvanha",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "31-35",
+      "ev": "1 ATK",
+      "place": "Route 119 (South)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/feebas.gif",
+      "pokemon": "Feebas",
+      "rarity": "UR",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "31-35",
+      "ev": "1 SPEED",
+      "place": "Route 119 (South)"
+    }
+  ],
+  "Route 119 (North)": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/electrode-hisui.gif",
+      "pokemon": "Electrode-Hisui",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "33-36",
+      "ev": "2 SPEED",
+      "place": "Route 119 (North)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tropius.gif",
+      "pokemon": "Tropius",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "33-36",
+      "ev": "2 BASE_HP",
+      "place": "Route 119 (North)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/trumbeak.gif",
+      "pokemon": "Trumbeak",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "33-36",
+      "ev": "2 ATK",
+      "place": "Route 119 (North)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/cutiefly.gif",
+      "pokemon": "Cutiefly",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "33-36",
+      "ev": "1 SPEED",
+      "place": "Route 119 (North)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/goldeen.gif",
+      "pokemon": "Goldeen",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "33-36",
+      "ev": "1 ATK",
+      "place": "Route 119 (North)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/remoraid.gif",
+      "pokemon": "Remoraid",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "33-36",
+      "ev": "1 SP_ATK",
+      "place": "Route 119 (North)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/seaking.gif",
+      "pokemon": "Seaking",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "33-36",
+      "ev": "2 ATK",
+      "place": "Route 119 (North)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/magikarp.gif",
+      "pokemon": "Magikarp",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "33-36",
+      "ev": "1 SPEED",
+      "place": "Route 119 (North)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/carvanha.gif",
+      "pokemon": "Carvanha",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "33-36",
+      "ev": "1 ATK",
+      "place": "Route 119 (North)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/feebas.gif",
+      "pokemon": "Feebas",
+      "rarity": "UR",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "33-36",
+      "ev": "1 SPEED",
+      "place": "Route 119 (North)"
+    }
+  ],
+  "Route 120": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/linoone.gif",
+      "pokemon": "Linoone",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "35-38",
+      "ev": "2 SPEED",
+      "place": "Route 120"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tropius.gif",
+      "pokemon": "Tropius",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "35-38",
+      "ev": "2 BASE_HP",
+      "place": "Route 120"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/nickit.gif",
+      "pokemon": "Nickit",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "35-38",
+      "ev": "1 SP_DEF",
+      "place": "Route 120"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/gloom.gif",
+      "pokemon": "Gloom",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "35-38",
+      "ev": "2 SP_ATK",
+      "place": "Route 120"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/goldeen.gif",
+      "pokemon": "Goldeen",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "36-39",
+      "ev": "1 ATK",
+      "place": "Route 120"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/seaking.gif",
+      "pokemon": "Seaking",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "36-39",
+      "ev": "2 ATK",
+      "place": "Route 120"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/marill.gif",
+      "pokemon": "Marill",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "36-39",
+      "ev": "2 BASE_HP",
+      "place": "Route 120"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/pidgeotto.gif",
+      "pokemon": "Pidgeotto",
+      "rarity": "C",
+      "time": "🌕",
+      "method": "🌊",
+      "level": "40-42",
+      "ev": "2 SPEED",
+      "place": "Route 120"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/golbat.gif",
+      "pokemon": "Golbat",
+      "rarity": "C",
+      "time": "🌑",
+      "method": "🌊",
+      "level": "40-42",
+      "ev": "2 SPEED",
+      "place": "Route 120"
+    }
+  ],
+  "Route 121": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/linoone.gif",
+      "pokemon": "Linoone",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "35-38",
+      "ev": "2 SPEED",
+      "place": "Route 121"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/drowzee.gif",
+      "pokemon": "Drowzee",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "35-38",
+      "ev": "1 SP_DEF",
+      "place": "Route 121"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/misdreavus.gif",
+      "pokemon": "Misdreavus",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "35-38",
+      "ev": "1 SP_DEF",
+      "place": "Route 121"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/haunter.gif",
+      "pokemon": "Haunter",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "35-38",
+      "ev": "2 SP_ATK",
+      "place": "Route 121"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/aipom.gif",
+      "pokemon": "Aipom",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "35-38",
+      "ev": "1 SPEED",
+      "place": "Route 121"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/elgyem.gif",
+      "pokemon": "Elgyem",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "35-38",
+      "ev": "1 SP_ATK",
+      "place": "Route 121"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/klefki.gif",
+      "pokemon": "Klefki",
+      "rarity": "UR",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "35-38",
+      "ev": "1 DEF",
+      "place": "Route 121"
+    }
+  ],
+  "Route 122": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/psyduck.gif",
+      "pokemon": "Psyduck",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "25-30",
+      "ev": "1 SP_ATK",
+      "place": "Route 122"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/golduck.gif",
+      "pokemon": "Golduck",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "25-30",
+      "ev": "2 SP_ATK",
+      "place": "Route 122"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/ducklett.gif",
+      "pokemon": "Ducklett",
+      "rarity": "C",
+      "time": "🌕",
+      "method": "🌊",
+      "level": "25-30",
+      "ev": "1 BASE_HP",
+      "place": "Route 122"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/zubat.gif",
+      "pokemon": "Zubat",
+      "rarity": "C",
+      "time": "🌑",
+      "method": "🌊",
+      "level": "25-30",
+      "ev": "1 SPEED",
+      "place": "Route 122"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/swanna.gif",
+      "pokemon": "Swanna",
+      "rarity": "C",
+      "time": "🌕",
+      "method": "🌊",
+      "level": "25-30",
+      "ev": "2 SPEED",
+      "place": "Route 122"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/golbat.gif",
+      "pokemon": "Golbat",
+      "rarity": "C",
+      "time": "🌑",
+      "method": "🌊",
+      "level": "25-30",
+      "ev": "2 SPEED",
+      "place": "Route 122"
+    }
+  ],
+  "Route 123": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/electrode-hisui.gif",
+      "pokemon": "Electrode-Hisui",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "37-40",
+      "ev": "2 SPEED",
+      "place": "Route 123"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/pansage.gif",
+      "pokemon": "Pansage",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "37-40",
+      "ev": "1 SPEED",
+      "place": "Route 123"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tropius.gif",
+      "pokemon": "Tropius",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "37-40",
+      "ev": "2 BASE_HP",
+      "place": "Route 123"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/spoink.gif",
+      "pokemon": "Spoink",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "37-40",
+      "ev": "1 SP_DEF",
+      "place": "Route 123"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/gulpin.gif",
+      "pokemon": "Gulpin",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "37-40",
+      "ev": "1 BASE_HP",
+      "place": "Route 123"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/gloom.gif",
+      "pokemon": "Gloom",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "37-40",
+      "ev": "2 SP_ATK",
+      "place": "Route 123"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/panpour.gif",
+      "pokemon": "Panpour",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "37-40",
+      "ev": "1 SPEED",
+      "place": "Route 123"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/poliwhirl.gif",
+      "pokemon": "Poliwhirl",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "37-40",
+      "ev": "2 SPEED",
+      "place": "Route 123"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/whiscash.gif",
+      "pokemon": "Whiscash",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "37-40",
+      "ev": "2 BASE_HP",
+      "place": "Route 123"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/wailmer.gif",
+      "pokemon": "Wailmer",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "37-40",
+      "ev": "1 BASE_HP",
+      "place": "Route 123"
+    }
+  ],
+  "Lilycove City": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tentacool.gif",
+      "pokemon": "Tentacool",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "37-40",
+      "ev": "1 SP_DEF",
+      "place": "Lilycove City"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tentacruel.gif",
+      "pokemon": "Tentacruel",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "37-40",
+      "ev": "2 SP_DEF",
+      "place": "Lilycove City"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/qwilfish.gif",
+      "pokemon": "Qwilfish",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "37-40",
+      "ev": "1 ATK",
+      "place": "Lilycove City"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/staryu.gif",
+      "pokemon": "Staryu",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "37-40",
+      "ev": "1 SPEED",
+      "place": "Lilycove City"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tentacruel.gif",
+      "pokemon": "Tentacruel",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "37-40",
+      "ev": "2 SP_DEF",
+      "place": "Lilycove City"
+    }
+  ],
+  "Route 124": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/swanna.gif",
+      "pokemon": "Swanna",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "40-44",
+      "ev": "2 SPEED",
+      "place": "Route 124"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tentacruel.gif",
+      "pokemon": "Tentacruel",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "40-44",
+      "ev": "2 SP_DEF",
+      "place": "Route 124"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/pelipper.gif",
+      "pokemon": "Pelipper",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "40-44",
+      "ev": "2 DEF",
+      "place": "Route 124"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tentacool.gif",
+      "pokemon": "Tentacool",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "40-44",
+      "ev": "1 SP_DEF",
+      "place": "Route 124"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tentacruel.gif",
+      "pokemon": "Tentacruel",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "40-44",
+      "ev": "2 SP_DEF",
+      "place": "Route 124"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/chinchou.gif",
+      "pokemon": "Chinchou",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "40-44",
+      "ev": "1 BASE_HP",
+      "place": "Route 124"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/alomomola.gif",
+      "pokemon": "Alomomola",
+      "rarity": "UR",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "40-44",
+      "ev": "2 BASE_HP",
+      "place": "Route 124"
+    }
+  ],
+  "Mossdeep City": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/swanna.gif",
+      "pokemon": "Swanna",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "40-44",
+      "ev": "2 SPEED",
+      "place": "Mossdeep City"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/pelipper.gif",
+      "pokemon": "Pelipper",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "40-44",
+      "ev": "2 DEF",
+      "place": "Mossdeep City"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/poliwrath.gif",
+      "pokemon": "Poliwrath",
+      "rarity": "C",
+      "time": "🌑",
+      "method": "🎣",
+      "level": "58-60",
+      "ev": "3 DEF",
+      "place": "Mossdeep City"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/politoed.gif",
+      "pokemon": "Politoed",
+      "rarity": "C",
+      "time": "🌕",
+      "method": "🎣",
+      "level": "58-60",
+      "ev": "3 SP_DEF",
+      "place": "Mossdeep City"
+    }
+  ],
+  "Route 125": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/ducklett.gif",
+      "pokemon": "Ducklett",
+      "rarity": "C",
+      "time": "🌕",
+      "method": "🌊",
+      "level": "40-44",
+      "ev": "1 BASE_HP",
+      "place": "Route 125"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/golbat.gif",
+      "pokemon": "Golbat",
+      "rarity": "C",
+      "time": "🌑",
+      "method": "🌊",
+      "level": "40-44",
+      "ev": "2 SPEED",
+      "place": "Route 125"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/swanna.gif",
+      "pokemon": "Swanna",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "40-44",
+      "ev": "2 SPEED",
+      "place": "Route 125"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tentacruel.gif",
+      "pokemon": "Tentacruel",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "40-44",
+      "ev": "2 SP_DEF",
+      "place": "Route 125"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/pelipper.gif",
+      "pokemon": "Pelipper",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "40-44",
+      "ev": "2 DEF",
+      "place": "Route 125"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tentacool.gif",
+      "pokemon": "Tentacool",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "40-44",
+      "ev": "1 SP_DEF",
+      "place": "Route 125"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tentacruel.gif",
+      "pokemon": "Tentacruel",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "40-44",
+      "ev": "2 SP_DEF",
+      "place": "Route 125"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/seel.gif",
+      "pokemon": "Seel",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "40-44",
+      "ev": "1 SP_DEF",
+      "place": "Route 125"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/dewgong.gif",
+      "pokemon": "Dewgong",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "40-44",
+      "ev": "2 SP_DEF",
+      "place": "Route 125"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/staryu.gif",
+      "pokemon": "Staryu",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "40-44",
+      "ev": "1 SPEED",
+      "place": "Route 125"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/alomomola.gif",
+      "pokemon": "Alomomola",
+      "rarity": "UR",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "40-44",
+      "ev": "2 BASE_HP",
+      "place": "Route 125"
+    }
+  ],
+  "Route 126": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/swanna.gif",
+      "pokemon": "Swanna",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "40-44",
+      "ev": "2 SPEED",
+      "place": "Route 126"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tentacruel.gif",
+      "pokemon": "Tentacruel",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "40-44",
+      "ev": "2 SP_DEF",
+      "place": "Route 126"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/pelipper.gif",
+      "pokemon": "Pelipper",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "40-44",
+      "ev": "2 DEF",
+      "place": "Route 126"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tentacool.gif",
+      "pokemon": "Tentacool",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "40-44",
+      "ev": "1 SP_DEF",
+      "place": "Route 126"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tentacruel.gif",
+      "pokemon": "Tentacruel",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "40-44",
+      "ev": "2 SP_DEF",
+      "place": "Route 126"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/frillish.gif",
+      "pokemon": "Frillish",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "40-44",
+      "ev": "1 SP_DEF",
+      "place": "Route 126"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/alomomola.gif",
+      "pokemon": "Alomomola",
+      "rarity": "UR",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "40-44",
+      "ev": "2 BASE_HP",
+      "place": "Route 126"
+    }
+  ],
+  "Route 127": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/swanna.gif",
+      "pokemon": "Swanna",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "44-48",
+      "ev": "2 SPEED",
+      "place": "Route 127"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tentacruel.gif",
+      "pokemon": "Tentacruel",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "44-48",
+      "ev": "2 SP_DEF",
+      "place": "Route 127"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/pelipper.gif",
+      "pokemon": "Pelipper",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "44-48",
+      "ev": "2 DEF",
+      "place": "Route 127"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tentacool.gif",
+      "pokemon": "Tentacool",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "44-48",
+      "ev": "1 SP_DEF",
+      "place": "Route 127"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tentacruel.gif",
+      "pokemon": "Tentacruel",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "44-48",
+      "ev": "2 SP_DEF",
+      "place": "Route 127"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/chinchou.gif",
+      "pokemon": "Chinchou",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "44-48",
+      "ev": "1 BASE_HP",
+      "place": "Route 127"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/frillish.gif",
+      "pokemon": "Frillish",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "44-48",
+      "ev": "1 SP_DEF",
+      "place": "Route 127"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/alomomola.gif",
+      "pokemon": "Alomomola",
+      "rarity": "UR",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "44-48",
+      "ev": "2 BASE_HP",
+      "place": "Route 127"
+    }
+  ],
+  "Route 128": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/swanna.gif",
+      "pokemon": "Swanna",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "44-48",
+      "ev": "2 SPEED",
+      "place": "Route 128"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tentacruel.gif",
+      "pokemon": "Tentacruel",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "44-48",
+      "ev": "2 SP_DEF",
+      "place": "Route 128"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/pelipper.gif",
+      "pokemon": "Pelipper",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "44-48",
+      "ev": "2 DEF",
+      "place": "Route 128"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tentacool.gif",
+      "pokemon": "Tentacool",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "44-48",
+      "ev": "1 SP_DEF",
+      "place": "Route 128"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tentacruel.gif",
+      "pokemon": "Tentacruel",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "44-48",
+      "ev": "2 SP_DEF",
+      "place": "Route 128"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/chinchou.gif",
+      "pokemon": "Chinchou",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "44-48",
+      "ev": "1 BASE_HP",
+      "place": "Route 128"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/clamperl.gif",
+      "pokemon": "Clamperl",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "44-48",
+      "ev": "1 DEF",
+      "place": "Route 128"
+    }
+  ],
+  "Route 129": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/swanna.gif",
+      "pokemon": "Swanna",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "44-48",
+      "ev": "2 SPEED",
+      "place": "Route 129"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tentacruel.gif",
+      "pokemon": "Tentacruel",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "44-48",
+      "ev": "2 SP_DEF",
+      "place": "Route 129"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/pelipper.gif",
+      "pokemon": "Pelipper",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "44-48",
+      "ev": "2 DEF",
+      "place": "Route 129"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tentacool.gif",
+      "pokemon": "Tentacool",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "44-48",
+      "ev": "1 SP_DEF",
+      "place": "Route 129"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tentacruel.gif",
+      "pokemon": "Tentacruel",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "44-48",
+      "ev": "2 SP_DEF",
+      "place": "Route 129"
+    }
+  ],
+  "Route 130": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/swanna.gif",
+      "pokemon": "Swanna",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "44-48",
+      "ev": "2 SPEED",
+      "place": "Route 130"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tentacruel.gif",
+      "pokemon": "Tentacruel",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "44-48",
+      "ev": "2 SP_DEF",
+      "place": "Route 130"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/pelipper.gif",
+      "pokemon": "Pelipper",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "44-48",
+      "ev": "2 DEF",
+      "place": "Route 130"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tentacool.gif",
+      "pokemon": "Tentacool",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "44-48",
+      "ev": "1 SP_DEF",
+      "place": "Route 130"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tentacruel.gif",
+      "pokemon": "Tentacruel",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "44-48",
+      "ev": "2 SP_DEF",
+      "place": "Route 130"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/clamperl.gif",
+      "pokemon": "Clamperl",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "44-48",
+      "ev": "1 DEF",
+      "place": "Route 130"
+    }
+  ],
+  "Route 131": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tentacruel.gif",
+      "pokemon": "Tentacruel",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "45-49",
+      "ev": "2 SP_DEF",
+      "place": "Route 131"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/pelipper.gif",
+      "pokemon": "Pelipper",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "45-49",
+      "ev": "2 DEF",
+      "place": "Route 131"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tentacool.gif",
+      "pokemon": "Tentacool",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "58-60",
+      "ev": "1 SP_DEF",
+      "place": "Route 131"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tentacruel.gif",
+      "pokemon": "Tentacruel",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "58-60",
+      "ev": "2 SP_DEF",
+      "place": "Route 131"
+    }
+  ],
+  "Route 132": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/swanna.gif",
+      "pokemon": "Swanna",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "60-66",
+      "ev": "2 SPEED",
+      "place": "Route 132"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tentacruel.gif",
+      "pokemon": "Tentacruel",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "60-66",
+      "ev": "2 SP_DEF",
+      "place": "Route 132"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/luvdisc.gif",
+      "pokemon": "Luvdisc",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "60-66",
+      "ev": "1 SPEED",
+      "place": "Route 132"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/cramorant.gif",
+      "pokemon": "Cramorant",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "60-66",
+      "ev": "2 SP_DEF",
+      "place": "Route 132"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/pelipper.gif",
+      "pokemon": "Pelipper",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "60-66",
+      "ev": "2 DEF",
+      "place": "Route 132"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/horsea.gif",
+      "pokemon": "Horsea",
+      "rarity": "UR",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "60-66",
+      "ev": "1 SP_ATK",
+      "place": "Route 132"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tentacool.gif",
+      "pokemon": "Tentacool",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "60-66",
+      "ev": "1 SP_DEF",
+      "place": "Route 132"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tentacruel.gif",
+      "pokemon": "Tentacruel",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "60-66",
+      "ev": "2 SP_DEF",
+      "place": "Route 132"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/luvdisc.gif",
+      "pokemon": "Luvdisc",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "60-66",
+      "ev": "1 SPEED",
+      "place": "Route 132"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/horsea.gif",
+      "pokemon": "Horsea",
+      "rarity": "UR",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "60-66",
+      "ev": "1 SP_ATK",
+      "place": "Route 132"
+    }
+  ],
+  "Route 133": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/swanna.gif",
+      "pokemon": "Swanna",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "60-66",
+      "ev": "2 SPEED",
+      "place": "Route 133"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tentacruel.gif",
+      "pokemon": "Tentacruel",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "60-66",
+      "ev": "2 SP_DEF",
+      "place": "Route 133"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/luvdisc.gif",
+      "pokemon": "Luvdisc",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "60-66",
+      "ev": "1 SPEED",
+      "place": "Route 133"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/cramorant.gif",
+      "pokemon": "Cramorant",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "60-66",
+      "ev": "2 SP_DEF",
+      "place": "Route 133"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/pelipper.gif",
+      "pokemon": "Pelipper",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "60-66",
+      "ev": "2 DEF",
+      "place": "Route 133"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/horsea.gif",
+      "pokemon": "Horsea",
+      "rarity": "UR",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "60-66",
+      "ev": "1 SP_ATK",
+      "place": "Route 133"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tentacool.gif",
+      "pokemon": "Tentacool",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "60-66",
+      "ev": "1 SP_DEF",
+      "place": "Route 133"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tentacruel.gif",
+      "pokemon": "Tentacruel",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "60-66",
+      "ev": "2 SP_DEF",
+      "place": "Route 133"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/luvdisc.gif",
+      "pokemon": "Luvdisc",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "60-66",
+      "ev": "1 SPEED",
+      "place": "Route 133"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/horsea.gif",
+      "pokemon": "Horsea",
+      "rarity": "UR",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "60-66",
+      "ev": "1 SP_ATK",
+      "place": "Route 133"
+    }
+  ],
+  "Route 134": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/swanna.gif",
+      "pokemon": "Swanna",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "60-66",
+      "ev": "2 SPEED",
+      "place": "Route 134"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tentacruel.gif",
+      "pokemon": "Tentacruel",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "60-66",
+      "ev": "2 SP_DEF",
+      "place": "Route 134"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/luvdisc.gif",
+      "pokemon": "Luvdisc",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "60-66",
+      "ev": "1 SPEED",
+      "place": "Route 134"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/cramorant.gif",
+      "pokemon": "Cramorant",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "60-66",
+      "ev": "2 SP_DEF",
+      "place": "Route 134"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/pelipper.gif",
+      "pokemon": "Pelipper",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "60-66",
+      "ev": "2 DEF",
+      "place": "Route 134"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/horsea.gif",
+      "pokemon": "Horsea",
+      "rarity": "UR",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "60-66",
+      "ev": "1 SP_ATK",
+      "place": "Route 134"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tentacool.gif",
+      "pokemon": "Tentacool",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "60-66",
+      "ev": "1 SP_DEF",
+      "place": "Route 134"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tentacruel.gif",
+      "pokemon": "Tentacruel",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "60-66",
+      "ev": "2 SP_DEF",
+      "place": "Route 134"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/luvdisc.gif",
+      "pokemon": "Luvdisc",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "60-66",
+      "ev": "1 SPEED",
+      "place": "Route 134"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/staryu.gif",
+      "pokemon": "Staryu",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "60-66",
+      "ev": "1 SPEED",
+      "place": "Route 134"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/horsea.gif",
+      "pokemon": "Horsea",
+      "rarity": "UR",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "60-66",
+      "ev": "1 SP_ATK",
+      "place": "Route 134"
+    }
+  ],
+  "Pacifidlog Town": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/golduck.gif",
+      "pokemon": "Golduck",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "45-49",
+      "ev": "2 SP_ATK",
+      "place": "Pacifidlog Town"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/golduck.gif",
+      "pokemon": "Golduck",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "58-60",
+      "ev": "2 SP_ATK",
+      "place": "Pacifidlog Town"
+    }
+  ],
+  "Sootopolis City": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/seaking.gif",
+      "pokemon": "Seaking",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "44-48",
+      "ev": "2 ATK",
+      "place": "Sootopolis City"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/seaking.gif",
+      "pokemon": "Seaking",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "44-48",
+      "ev": "2 ATK",
+      "place": "Sootopolis City"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/magikarp.gif",
+      "pokemon": "Magikarp",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "44-48",
+      "ev": "1 SPEED",
+      "place": "Sootopolis City"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/gyarados.gif",
+      "pokemon": "Gyarados",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "44-48",
+      "ev": "2 ATK",
+      "place": "Sootopolis City"
+    }
+  ],
+  "Ever Grande City": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tentacruel.gif",
+      "pokemon": "Tentacruel",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "52-55",
+      "ev": "2 SP_DEF",
+      "place": "Ever Grande City"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/swanna.gif",
+      "pokemon": "Swanna",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "52-55",
+      "ev": "2 SPEED",
+      "place": "Ever Grande City"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/luvdisc.gif",
+      "pokemon": "Luvdisc",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "52-55",
+      "ev": "1 SPEED",
+      "place": "Ever Grande City"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/pelipper.gif",
+      "pokemon": "Pelipper",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "52-55",
+      "ev": "2 DEF",
+      "place": "Ever Grande City"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tentacruel.gif",
+      "pokemon": "Tentacruel",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "52-55",
+      "ev": "2 SP_DEF",
+      "place": "Ever Grande City"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/luvdisc.gif",
+      "pokemon": "Luvdisc",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "52-55",
+      "ev": "1 SPEED",
+      "place": "Ever Grande City"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/staryu.gif",
+      "pokemon": "Staryu",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "52-55",
+      "ev": "1 SPEED",
+      "place": "Ever Grande City"
+    }
+  ],
+  "Hoenn Safari Zone": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/kecleon.gif",
+      "pokemon": "Kecleon",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "2-10",
+      "ev": "1 SP_DEF",
+      "place": "Hoenn Safari Zone"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/zigzagoon.gif",
+      "pokemon": "Zigzagoon",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "2-10",
+      "ev": "1 SPEED",
+      "place": "Hoenn Safari Zone"
+    },
+    {
+      "sprite": "https://forums.pokemonblazeonline.com/data/attachments/0/988-4efb0a3d59c3d2b03638b56c1d7e4123.jpg",
+      "pokemon": "Toedscool",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "2-10",
+      "ev": "1 SP_DEF",
+      "place": "Hoenn Safari Zone"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/girafarig.gif",
+      "pokemon": "Girafarig",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "2-10",
+      "ev": "2 SP_ATK",
+      "place": "Hoenn Safari Zone"
+    },
+    {
+      "sprite": "https://forums.pokemonblazeonline.com/data/attachments/0/989-d39531d02e420ecbf115c57f24502d05.jpg",
+      "pokemon": "Wattrel",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "2-10",
+      "ev": "1 SPEED",
+      "place": "Hoenn Safari Zone"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tauros.gif",
+      "pokemon": "Tauros",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "2-10",
+      "ev": "1 ATK, 1 SPEED",
+      "place": "Hoenn Safari Zone"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/wynaut.gif",
+      "pokemon": "Wynaut",
+      "rarity": "UR",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "2-10",
+      "ev": "1 BASE_HP",
+      "place": "Hoenn Safari Zone"
+    }
+  ],
+  "Hoenn Safari (Desert Biome)": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/whismur.gif",
+      "pokemon": "Whismur",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "2-10",
+      "ev": "1 BASE_HP",
+      "place": "Hoenn Safari (Desert Biome)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/doduo.gif",
+      "pokemon": "Doduo",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "2-10",
+      "ev": "1 ATK",
+      "place": "Hoenn Safari (Desert Biome)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/numel.gif",
+      "pokemon": "Numel",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "2-10",
+      "ev": "1 SP_ATK",
+      "place": "Hoenn Safari (Desert Biome)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/houndour.gif",
+      "pokemon": "Houndour",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "2-10",
+      "ev": "1 SP_ATK",
+      "place": "Hoenn Safari (Desert Biome)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/aron.gif",
+      "pokemon": "Aron",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "2-10",
+      "ev": "1 DEF",
+      "place": "Hoenn Safari (Desert Biome)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/fletchling.gif",
+      "pokemon": "Fletchling",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "2-10",
+      "ev": "1 SPEED",
+      "place": "Hoenn Safari (Desert Biome)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/torchic.gif",
+      "pokemon": "Torchic",
+      "rarity": "UR",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "2-10",
+      "ev": "1 SP_ATK",
+      "place": "Hoenn Safari (Desert Biome)"
+    }
+  ],
+  "Hoenn Safari (Grass Biome)": [
+    {
+      "sprite": "https://forums.pokemonblazeonline.com/data/attachments/0/988-4efb0a3d59c3d2b03638b56c1d7e4123.jpg",
+      "pokemon": "Toedscool",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "2-10",
+      "ev": "1 SP_DEF",
+      "place": "Hoenn Safari (Grass Biome)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/hoppip.gif",
+      "pokemon": "Hoppip",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "2-10",
+      "ev": "1 SP_DEF",
+      "place": "Hoenn Safari (Grass Biome)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/bellsprout.gif",
+      "pokemon": "Bellsprout",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "2-10",
+      "ev": "1 ATK",
+      "place": "Hoenn Safari (Grass Biome)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/taillow.gif",
+      "pokemon": "Taillow",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "2-10",
+      "ev": "1 SPEED",
+      "place": "Hoenn Safari (Grass Biome)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/shroomish.gif",
+      "pokemon": "Shroomish",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "2-10",
+      "ev": "1 BASE_HP",
+      "place": "Hoenn Safari (Grass Biome)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/heracross.gif",
+      "pokemon": "Heracross",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "2-10",
+      "ev": "2 ATK",
+      "place": "Hoenn Safari (Grass Biome)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/treecko.gif",
+      "pokemon": "Treecko",
+      "rarity": "UR",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "2-10",
+      "ev": "1 SPEED",
+      "place": "Hoenn Safari (Grass Biome)"
+    }
+  ],
+  "Hoenn Safari (Water Biome)": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/surskit.gif",
+      "pokemon": "Surskit",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "2-10",
+      "ev": "1 SPEED",
+      "place": "Hoenn Safari (Water Biome)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/masquerain.gif",
+      "pokemon": "Masquerain",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "2-10",
+      "ev": "1 SP_ATK, 1 SP_DEF",
+      "place": "Hoenn Safari (Water Biome)"
+    },
+    {
+      "sprite": "https://forums.pokemonblazeonline.com/data/attachments/0/988-4efb0a3d59c3d2b03638b56c1d7e4123.jpg",
+      "pokemon": "Toedscool",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "2-10",
+      "ev": "1 SP_DEF",
+      "place": "Hoenn Safari (Water Biome)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/trubbish.gif",
+      "pokemon": "Trubbish",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "2-10",
+      "ev": "1 SPEED",
+      "place": "Hoenn Safari (Water Biome)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/goldeen.gif",
+      "pokemon": "Goldeen",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "2-10",
+      "ev": "1 ATK",
+      "place": "Hoenn Safari (Water Biome)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/finneon.gif",
+      "pokemon": "Finneon",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "2-10",
+      "ev": "1 SPEED",
+      "place": "Hoenn Safari (Water Biome)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/seaking.gif",
+      "pokemon": "Seaking",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "2-10",
+      "ev": "2 ATK",
+      "place": "Hoenn Safari (Water Biome)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/corsola.gif",
+      "pokemon": "Corsola",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "2-10",
+      "ev": "1 DEF, 1 SP_DEF",
+      "place": "Hoenn Safari (Water Biome)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/marill.gif",
+      "pokemon": "Marill",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "2-10",
+      "ev": "2 BASE_HP",
+      "place": "Hoenn Safari (Water Biome)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/arrokuda.gif",
+      "pokemon": "Arrokuda",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "2-10",
+      "ev": "1 SPEED",
+      "place": "Hoenn Safari (Water Biome)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/mudkip.gif",
+      "pokemon": "Mudkip",
+      "rarity": "UR",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "2-10",
+      "ev": "1 ATK",
+      "place": "Hoenn Safari (Water Biome)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/ducklett.gif",
+      "pokemon": "Ducklett",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "2-10",
+      "ev": "1 BASE_HP",
+      "place": "Hoenn Safari (Water Biome)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/psyduck.gif",
+      "pokemon": "Psyduck",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "2-10",
+      "ev": "1 SP_ATK",
+      "place": "Hoenn Safari (Water Biome)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/swanna.gif",
+      "pokemon": "Swanna",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "2-10",
+      "ev": "2 SPEED",
+      "place": "Hoenn Safari (Water Biome)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/golduck.gif",
+      "pokemon": "Golduck",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "2-10",
+      "ev": "2 SP_ATK",
+      "place": "Hoenn Safari (Water Biome)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/marill.gif",
+      "pokemon": "Marill",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "2-10",
+      "ev": "2 BASE_HP",
+      "place": "Hoenn Safari (Water Biome)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/lapras.gif",
+      "pokemon": "Lapras",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "2-10",
+      "ev": "2 BASE_HP",
+      "place": "Hoenn Safari (Water Biome)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/mudkip.gif",
+      "pokemon": "Mudkip",
+      "rarity": "UR",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "2-10",
+      "ev": "1 ATK",
+      "place": "Hoenn Safari (Water Biome)"
+    }
+  ],
+  "Rusturf Tunnel": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/whismur.gif",
+      "pokemon": "Whismur",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "6-8",
+      "ev": "1 BASE_HP",
+      "place": "Rusturf Tunnel"
+    }
+  ],
+  "Route 106": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tentacool.gif",
+      "pokemon": "Tentacool",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "9-11",
+      "ev": "1 SP_DEF",
+      "place": "Route 106"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/goldeen.gif",
+      "pokemon": "Goldeen",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "9-11",
+      "ev": "1 ATK",
+      "place": "Route 106"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/wailmer.gif",
+      "pokemon": "Wailmer",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "9-11",
+      "ev": "1 BASE_HP",
+      "place": "Route 106"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/skrelp.gif",
+      "pokemon": "Skrelp",
+      "rarity": "UR",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "9-11",
+      "ev": "1 SP_DEF",
+      "place": "Route 106"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/ducklett.gif",
+      "pokemon": "Ducklett",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "27-29",
+      "ev": "1 BASE_HP",
+      "place": "Route 106"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/swanna.gif",
+      "pokemon": "Swanna",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "27-29",
+      "ev": "2 SPEED",
+      "place": "Route 106"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/shellos.gif",
+      "pokemon": "Shellos",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "27-29",
+      "ev": "1 BASE_HP",
+      "place": "Route 106"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/wailmer.gif",
+      "pokemon": "Wailmer",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "27-29",
+      "ev": "1 BASE_HP",
+      "place": "Route 106"
+    }
+  ],
+  "Route 105": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tentacool.gif",
+      "pokemon": "Tentacool",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "20-25",
+      "ev": "1 SP_DEF",
+      "place": "Route 105"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/goldeen.gif",
+      "pokemon": "Goldeen",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "20-25",
+      "ev": "1 ATK",
+      "place": "Route 105"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/qwilfish.gif",
+      "pokemon": "Qwilfish",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "20-25",
+      "ev": "1 ATK",
+      "place": "Route 105"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/ducklett.gif",
+      "pokemon": "Ducklett",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "27-29",
+      "ev": "1 BASE_HP",
+      "place": "Route 105"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/pelipper.gif",
+      "pokemon": "Pelipper",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "27-29",
+      "ev": "2 DEF",
+      "place": "Route 105"
+    }
+  ],
+  "Dewford Town": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tentacool.gif",
+      "pokemon": "Tentacool",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "9-11",
+      "ev": "1 SP_DEF",
+      "place": "Dewford Town"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/goldeen.gif",
+      "pokemon": "Goldeen",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "9-11",
+      "ev": "1 ATK",
+      "place": "Dewford Town"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/kingler.gif",
+      "pokemon": "Kingler",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "9-11",
+      "ev": "2 ATK",
+      "place": "Dewford Town"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/wailmer.gif",
+      "pokemon": "Wailmer",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "9-11",
+      "ev": "1 BASE_HP",
+      "place": "Dewford Town"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/ducklett.gif",
+      "pokemon": "Ducklett",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "27-29",
+      "ev": "1 BASE_HP",
+      "place": "Dewford Town"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/swanna.gif",
+      "pokemon": "Swanna",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "27-29",
+      "ev": "2 SPEED",
+      "place": "Dewford Town"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/shellos.gif",
+      "pokemon": "Shellos",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "27-29",
+      "ev": "1 BASE_HP",
+      "place": "Dewford Town"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/wailmer.gif",
+      "pokemon": "Wailmer",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "27-29",
+      "ev": "1 BASE_HP",
+      "place": "Dewford Town"
+    }
+  ],
+  "Granite Cave 1F": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/zubat.gif",
+      "pokemon": "Zubat",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "10-12",
+      "ev": "1 SPEED",
+      "place": "Granite Cave 1F"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/makuhita.gif",
+      "pokemon": "Makuhita",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "10-12",
+      "ev": "1 BASE_HP",
+      "place": "Granite Cave 1F"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/cubone.gif",
+      "pokemon": "Cubone",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "10-12",
+      "ev": "1 DEF",
+      "place": "Granite Cave 1F"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/onix.gif",
+      "pokemon": "Onix",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "10-12",
+      "ev": "1 DEF",
+      "place": "Granite Cave 1F"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/abra.gif",
+      "pokemon": "Abra",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "10-12",
+      "ev": "1 SP_ATK",
+      "place": "Granite Cave 1F"
+    }
+  ],
+  "Granite Cave B1F": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/zubat.gif",
+      "pokemon": "Zubat",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "10-12",
+      "ev": "1 SPEED",
+      "place": "Granite Cave B1F"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/makuhita.gif",
+      "pokemon": "Makuhita",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "10-12",
+      "ev": "1 BASE_HP",
+      "place": "Granite Cave B1F"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/cubone.gif",
+      "pokemon": "Cubone",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "10-12",
+      "ev": "1 DEF",
+      "place": "Granite Cave B1F"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/onix.gif",
+      "pokemon": "Onix",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "10-12",
+      "ev": "1 DEF",
+      "place": "Granite Cave B1F"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/mawile.gif",
+      "pokemon": "Mawile",
+      "rarity": "VR",
+      "time": "🌕",
+      "method": "🍀",
+      "level": "10-12",
+      "ev": "1 DEF, 1 ATK",
+      "place": "Granite Cave B1F"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/sableye.gif",
+      "pokemon": "Sableye",
+      "rarity": "VR",
+      "time": "🌑",
+      "method": "🍀",
+      "level": "10-12",
+      "ev": "1 DEF, 1 ATK",
+      "place": "Granite Cave B1F"
+    }
+  ],
+  "Granite Cave B2F": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/zubat.gif",
+      "pokemon": "Zubat",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "10-12",
+      "ev": "1 SPEED",
+      "place": "Granite Cave B2F"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/makuhita.gif",
+      "pokemon": "Makuhita",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "10-12",
+      "ev": "1 BASE_HP",
+      "place": "Granite Cave B2F"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/cubone.gif",
+      "pokemon": "Cubone",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "10-12",
+      "ev": "1 DEF",
+      "place": "Granite Cave B2F"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/onix.gif",
+      "pokemon": "Onix",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "10-12",
+      "ev": "1 DEF",
+      "place": "Granite Cave B2F"
+    },
+    {
+      "sprite": "https://forums.pokemonblazeonline.com/data/attachments/0/990-4332112348782b93517be23ae152ea20.jpg",
+      "pokemon": "Tinkatink",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "10-12",
+      "ev": "1 SP_DEF",
+      "place": "Granite Cave B2F"
+    }
+  ],
+  "Route 107 (Underwater)": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/relicanth.gif",
+      "pokemon": "Relicanth",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "50-52",
+      "ev": "1 DEF, 1 BASE_HP",
+      "place": "Route 107 (Underwater)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/wiglett.gif",
+      "pokemon": "Wiglett",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "50-52",
+      "ev": "1 SPEED",
+      "place": "Route 107 (Underwater)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/clamperl.gif",
+      "pokemon": "Clamperl",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "50-52",
+      "ev": "1 DEF",
+      "place": "Route 107 (Underwater)"
+    }
+  ],
+  "New Mauville": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/voltorb.gif",
+      "pokemon": "Voltorb",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "22-25",
+      "ev": "1 SPEED",
+      "place": "New Mauville"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/voltorb-hisui.gif",
+      "pokemon": "Voltorb-Hisui",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "22-25",
+      "ev": "1 SPEED",
+      "place": "New Mauville"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/magnemite.gif",
+      "pokemon": "Magnemite",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "22-25",
+      "ev": "1 SP_ATK",
+      "place": "New Mauville"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/pikachu-hoenn.gif",
+      "pokemon": "Pikachu-Hoenn",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "22-25",
+      "ev": "",
+      "place": "New Mauville"
+    },
+    {
+      "sprite": "https://forums.pokemonblazeonline.com/data/attachments/0/991-050039583df57037ca69796c183a9d25.jpg",
+      "pokemon": "Pawmi",
+      "rarity": "UR",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "22-25",
+      "ev": "1 SPEED",
+      "place": "New Mauville"
+    }
+  ],
+  "Mt. Pyre 1F": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/shuppet.gif",
+      "pokemon": "Shuppet",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "37-40",
+      "ev": "1 ATK",
+      "place": "Mt. Pyre 1F"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/banette.gif",
+      "pokemon": "Banette",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "37-40",
+      "ev": "2 ATK",
+      "place": "Mt. Pyre 1F"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/haunter.gif",
+      "pokemon": "Haunter",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "37-40",
+      "ev": "2 SP_ATK",
+      "place": "Mt. Pyre 1F"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/duskull.gif",
+      "pokemon": "Duskull",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "37-40",
+      "ev": "1 SP_DEF",
+      "place": "Mt. Pyre 1F"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/greavard.gif",
+      "pokemon": "Greavard",
+      "rarity": "UR",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "37-40",
+      "ev": "1 ATK",
+      "place": "Mt. Pyre 1F"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/banette.gif",
+      "pokemon": "Banette",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "37-40",
+      "ev": "2 ATK",
+      "place": "Mt. Pyre 1F"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/banette.gif",
+      "pokemon": "Banette",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "37-40",
+      "ev": "2 ATK",
+      "place": "Mt. Pyre 1F"
+    }
+  ],
+  "Mt. Pyre 2F": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/shuppet.gif",
+      "pokemon": "Shuppet",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "37-40",
+      "ev": "1 ATK",
+      "place": "Mt. Pyre 2F"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/banette.gif",
+      "pokemon": "Banette",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "37-40",
+      "ev": "2 ATK",
+      "place": "Mt. Pyre 2F"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/gastly.gif",
+      "pokemon": "Gastly",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "37-40",
+      "ev": "1 SP_ATK",
+      "place": "Mt. Pyre 2F"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/duskull.gif",
+      "pokemon": "Duskull",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "37-40",
+      "ev": "1 SP_DEF",
+      "place": "Mt. Pyre 2F"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/greavard.gif",
+      "pokemon": "Greavard",
+      "rarity": "UR",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "37-40",
+      "ev": "1 ATK",
+      "place": "Mt. Pyre 2F"
+    }
+  ],
+  "Mt. Pyre 3F": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/shuppet.gif",
+      "pokemon": "Shuppet",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "37-40",
+      "ev": "1 ATK",
+      "place": "Mt. Pyre 3F"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/gastly.gif",
+      "pokemon": "Gastly",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "37-40",
+      "ev": "1 SP_ATK",
+      "place": "Mt. Pyre 3F"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/duskull.gif",
+      "pokemon": "Duskull",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "37-40",
+      "ev": "1 SP_DEF",
+      "place": "Mt. Pyre 3F"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/greavard.gif",
+      "pokemon": "Greavard",
+      "rarity": "UR",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "37-40",
+      "ev": "1 ATK",
+      "place": "Mt. Pyre 3F"
+    }
+  ],
+  "Mt. Pyre 4F": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/shuppet.gif",
+      "pokemon": "Shuppet",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "37-40",
+      "ev": "1 ATK",
+      "place": "Mt. Pyre 4F"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/gastly.gif",
+      "pokemon": "Gastly",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "37-40",
+      "ev": "1 SP_ATK",
+      "place": "Mt. Pyre 4F"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/duskull.gif",
+      "pokemon": "Duskull",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "37-40",
+      "ev": "1 SP_DEF",
+      "place": "Mt. Pyre 4F"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/greavard.gif",
+      "pokemon": "Greavard",
+      "rarity": "UR",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "37-40",
+      "ev": "1 ATK",
+      "place": "Mt. Pyre 4F"
+    }
+  ],
+  "Mt. Pyre (Exterior)": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/spinarak.gif",
+      "pokemon": "Spinarak",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "37-40",
+      "ev": "1 ATK",
+      "place": "Mt. Pyre (Exterior)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/shuppet.gif",
+      "pokemon": "Shuppet",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "37-40",
+      "ev": "1 ATK",
+      "place": "Mt. Pyre (Exterior)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/banette.gif",
+      "pokemon": "Banette",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "37-40",
+      "ev": "2 ATK",
+      "place": "Mt. Pyre (Exterior)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/haunter.gif",
+      "pokemon": "Haunter",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "37-40",
+      "ev": "2 SP_ATK",
+      "place": "Mt. Pyre (Exterior)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/vulpix.gif",
+      "pokemon": "Vulpix",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "37-40",
+      "ev": "1 SPEED",
+      "place": "Mt. Pyre (Exterior)"
+    }
+  ],
+  "Mt. Pyre (Summit)": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/spinarak.gif",
+      "pokemon": "Spinarak",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "37-40",
+      "ev": "1 ATK",
+      "place": "Mt. Pyre (Summit)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/shuppet.gif",
+      "pokemon": "Shuppet",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "37-40",
+      "ev": "1 ATK",
+      "place": "Mt. Pyre (Summit)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/banette.gif",
+      "pokemon": "Banette",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "37-40",
+      "ev": "2 ATK",
+      "place": "Mt. Pyre (Summit)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/haunter.gif",
+      "pokemon": "Haunter",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "37-40",
+      "ev": "2 SP_ATK",
+      "place": "Mt. Pyre (Summit)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/vulpix.gif",
+      "pokemon": "Vulpix",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "37-40",
+      "ev": "1 SPEED",
+      "place": "Mt. Pyre (Summit)"
+    },
+    {
+      "sprite": "https://forums.pokemonblazeonline.com/data/attachments/0/995-150eb4e344b5b9f720c160e538dcad24.jpg",
+      "pokemon": "Charcadet",
+      "rarity": "UR",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "37-40",
+      "ev": "1 SP_ATK",
+      "place": "Mt. Pyre (Summit)"
+    }
+  ],
+  "Route 124 (Underwater)": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/relicanth.gif",
+      "pokemon": "Relicanth",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "40-44",
+      "ev": "1 DEF, 1 BASE_HP",
+      "place": "Route 124 (Underwater)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/wiglett.gif",
+      "pokemon": "Wiglett",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "40-44",
+      "ev": "1 SPEED",
+      "place": "Route 124 (Underwater)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/clamperl.gif",
+      "pokemon": "Clamperl",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "40-44",
+      "ev": "1 DEF",
+      "place": "Route 124 (Underwater)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/dondozo.gif",
+      "pokemon": "Dondozo",
+      "rarity": "UR",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "40-44",
+      "ev": "3 BASE_HP",
+      "place": "Route 124 (Underwater)"
+    }
+  ],
+  "Route 126 (Underwater)": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/relicanth.gif",
+      "pokemon": "Relicanth",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "43-46",
+      "ev": "1 DEF, 1 BASE_HP",
+      "place": "Route 126 (Underwater)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/wiglett.gif",
+      "pokemon": "Wiglett",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "43-46",
+      "ev": "1 SPEED",
+      "place": "Route 126 (Underwater)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/clamperl.gif",
+      "pokemon": "Clamperl",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "43-46",
+      "ev": "1 DEF",
+      "place": "Route 126 (Underwater)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/dondozo.gif",
+      "pokemon": "Dondozo",
+      "rarity": "UR",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "43-46",
+      "ev": "3 BASE_HP",
+      "place": "Route 126 (Underwater)"
+    }
+  ],
+  "Route 128 (Underwater)": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/relicanth.gif",
+      "pokemon": "Relicanth",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "46-50",
+      "ev": "1 DEF, 1 BASE_HP",
+      "place": "Route 128 (Underwater)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/wiglett.gif",
+      "pokemon": "Wiglett",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "46-50",
+      "ev": "1 SPEED",
+      "place": "Route 128 (Underwater)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/clamperl.gif",
+      "pokemon": "Clamperl",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "46-50",
+      "ev": "1 DEF",
+      "place": "Route 128 (Underwater)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/dondozo.gif",
+      "pokemon": "Dondozo",
+      "rarity": "UR",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "46-50",
+      "ev": "3 BASE_HP",
+      "place": "Route 128 (Underwater)"
+    }
+  ],
+  "Seafloor Cavern (Entrance)": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/golbat.gif",
+      "pokemon": "Golbat",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "40-42",
+      "ev": "2 SPEED",
+      "place": "Seafloor Cavern (Entrance)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tentacruel.gif",
+      "pokemon": "Tentacruel",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "40-42",
+      "ev": "2 SP_DEF",
+      "place": "Seafloor Cavern (Entrance)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tentacool.gif",
+      "pokemon": "Tentacool",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "40-42",
+      "ev": "1 SP_DEF",
+      "place": "Seafloor Cavern (Entrance)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tentacruel.gif",
+      "pokemon": "Tentacruel",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "40-42",
+      "ev": "2 SP_DEF",
+      "place": "Seafloor Cavern (Entrance)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/barboach.gif",
+      "pokemon": "Barboach",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "40-42",
+      "ev": "1 BASE_HP",
+      "place": "Seafloor Cavern (Entrance)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/whiscash.gif",
+      "pokemon": "Whiscash",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "40-42",
+      "ev": "2 BASE_HP",
+      "place": "Seafloor Cavern (Entrance)"
+    }
+  ],
+  "Seafloor Cavern (Room 1)": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/golbat.gif",
+      "pokemon": "Golbat",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "40-42",
+      "ev": "2 SPEED",
+      "place": "Seafloor Cavern (Room 1)"
+    }
+  ],
+  "Seafloor Cavern (Room 2)": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/golbat.gif",
+      "pokemon": "Golbat",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "40-42",
+      "ev": "2 SPEED",
+      "place": "Seafloor Cavern (Room 2)"
+    }
+  ],
+  "Seafloor Cavern (Room 3)": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/golbat.gif",
+      "pokemon": "Golbat",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "40-42",
+      "ev": "2 SPEED",
+      "place": "Seafloor Cavern (Room 3)"
+    }
+  ],
+  "Seafloor Cavern (Room 4)": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/golbat.gif",
+      "pokemon": "Golbat",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "40-42",
+      "ev": "2 SPEED",
+      "place": "Seafloor Cavern (Room 4)"
+    }
+  ],
+  "Seafloor Cavern (Room 5)": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/golbat.gif",
+      "pokemon": "Golbat",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "40-42",
+      "ev": "2 SPEED",
+      "place": "Seafloor Cavern (Room 5)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/golbat.gif",
+      "pokemon": "Golbat",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "40-42",
+      "ev": "2 SPEED",
+      "place": "Seafloor Cavern (Room 5)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tentacruel.gif",
+      "pokemon": "Tentacruel",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "40-42",
+      "ev": "2 SP_DEF",
+      "place": "Seafloor Cavern (Room 5)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tentacool.gif",
+      "pokemon": "Tentacool",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "40-42",
+      "ev": "1 SP_DEF",
+      "place": "Seafloor Cavern (Room 5)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tentacruel.gif",
+      "pokemon": "Tentacruel",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "40-42",
+      "ev": "2 SP_DEF",
+      "place": "Seafloor Cavern (Room 5)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/barboach.gif",
+      "pokemon": "Barboach",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "40-42",
+      "ev": "1 BASE_HP",
+      "place": "Seafloor Cavern (Room 5)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/whiscash.gif",
+      "pokemon": "Whiscash",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "40-42",
+      "ev": "2 BASE_HP",
+      "place": "Seafloor Cavern (Room 5)"
+    }
+  ],
+  "Seafloor Cavern (Room 6)": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/golbat.gif",
+      "pokemon": "Golbat",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "40-42",
+      "ev": "2 SPEED",
+      "place": "Seafloor Cavern (Room 6)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/golbat.gif",
+      "pokemon": "Golbat",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "40-42",
+      "ev": "2 SPEED",
+      "place": "Seafloor Cavern (Room 6)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tentacruel.gif",
+      "pokemon": "Tentacruel",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "40-42",
+      "ev": "2 SP_DEF",
+      "place": "Seafloor Cavern (Room 6)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tentacool.gif",
+      "pokemon": "Tentacool",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "40-42",
+      "ev": "1 SP_DEF",
+      "place": "Seafloor Cavern (Room 6)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tentacruel.gif",
+      "pokemon": "Tentacruel",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "40-42",
+      "ev": "2 SP_DEF",
+      "place": "Seafloor Cavern (Room 6)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/barboach.gif",
+      "pokemon": "Barboach",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "40-42",
+      "ev": "1 BASE_HP",
+      "place": "Seafloor Cavern (Room 6)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/whiscash.gif",
+      "pokemon": "Whiscash",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "40-42",
+      "ev": "2 BASE_HP",
+      "place": "Seafloor Cavern (Room 6)"
+    }
+  ],
+  "Seafloor Cavern (Room 8)": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/golbat.gif",
+      "pokemon": "Golbat",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "40-42",
+      "ev": "2 SPEED",
+      "place": "Seafloor Cavern (Room 8)"
+    }
+  ],
+  "Seafloor Cavern (Room 7)": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/golbat.gif",
+      "pokemon": "Golbat",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "40-42",
+      "ev": "2 SPEED",
+      "place": "Seafloor Cavern (Room 7)"
+    }
+  ],
+  "Route 129 (Underwater)": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/relicanth.gif",
+      "pokemon": "Relicanth",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "46-50",
+      "ev": "1 DEF, 1 BASE_HP",
+      "place": "Route 129 (Underwater)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/wiglett.gif",
+      "pokemon": "Wiglett",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "46-50",
+      "ev": "1 SPEED",
+      "place": "Route 129 (Underwater)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/clamperl.gif",
+      "pokemon": "Clamperl",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "46-50",
+      "ev": "1 DEF",
+      "place": "Route 129 (Underwater)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/dondozo.gif",
+      "pokemon": "Dondozo",
+      "rarity": "UR",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "46-50",
+      "ev": "3 BASE_HP",
+      "place": "Route 129 (Underwater)"
+    }
+  ],
+  "Route 130 (Underwater)": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/relicanth.gif",
+      "pokemon": "Relicanth",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "46-50",
+      "ev": "1 DEF, 1 BASE_HP",
+      "place": "Route 130 (Underwater)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/wiglett.gif",
+      "pokemon": "Wiglett",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "46-50",
+      "ev": "1 SPEED",
+      "place": "Route 130 (Underwater)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/clamperl.gif",
+      "pokemon": "Clamperl",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "46-50",
+      "ev": "1 DEF",
+      "place": "Route 130 (Underwater)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/dondozo.gif",
+      "pokemon": "Dondozo",
+      "rarity": "UR",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "46-50",
+      "ev": "3 BASE_HP",
+      "place": "Route 130 (Underwater)"
+    }
+  ],
+  "Route 134 (Underwater)": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/relicanth.gif",
+      "pokemon": "Relicanth",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "60-66",
+      "ev": "1 DEF, 1 BASE_HP",
+      "place": "Route 134 (Underwater)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/wiglett.gif",
+      "pokemon": "Wiglett",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "60-66",
+      "ev": "1 SPEED",
+      "place": "Route 134 (Underwater)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/clamperl.gif",
+      "pokemon": "Clamperl",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "60-66",
+      "ev": "1 DEF",
+      "place": "Route 134 (Underwater)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/dondozo.gif",
+      "pokemon": "Dondozo",
+      "rarity": "UR",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "60-66",
+      "ev": "3 BASE_HP",
+      "place": "Route 134 (Underwater)"
+    }
+  ],
+  "Route 134 (Underwater Tunnel)": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/relicanth.gif",
+      "pokemon": "Relicanth",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "70-76",
+      "ev": "1 DEF, 1 BASE_HP",
+      "place": "Route 134 (Underwater Tunnel)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/luvdisc.gif",
+      "pokemon": "Luvdisc",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "70-76",
+      "ev": "1 SPEED",
+      "place": "Route 134 (Underwater Tunnel)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/wiglett.gif",
+      "pokemon": "Wiglett",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "70-76",
+      "ev": "1 SPEED",
+      "place": "Route 134 (Underwater Tunnel)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/basculin-bluestriped.gif",
+      "pokemon": "Basculin-Blue",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "70-76",
+      "ev": "2 SPEED",
+      "place": "Route 134 (Underwater Tunnel)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/dondozo.gif",
+      "pokemon": "Dondozo",
+      "rarity": "UR",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "70-76",
+      "ev": "3 BASE_HP",
+      "place": "Route 134 (Underwater Tunnel)"
+    }
+  ],
+  "Cave of Origin (Entrance)": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/crobat.gif",
+      "pokemon": "Crobat",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "42-46",
+      "ev": "3 SPEED",
+      "place": "Cave of Origin (Entrance)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/golbat.gif",
+      "pokemon": "Golbat",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "42-46",
+      "ev": "2 SPEED",
+      "place": "Cave of Origin (Entrance)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/mightyena.gif",
+      "pokemon": "Mightyena",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "42-46",
+      "ev": "2 ATK",
+      "place": "Cave of Origin (Entrance)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/vigoroth.gif",
+      "pokemon": "Vigoroth",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "42-46",
+      "ev": "2 SPEED",
+      "place": "Cave of Origin (Entrance)"
+    },
+    {
+      "sprite": "https://forums.pokemonblazeonline.com/data/attachments/0/990-4332112348782b93517be23ae152ea20.jpg",
+      "pokemon": "Tinkatink",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "42-46",
+      "ev": "1 SP_DEF",
+      "place": "Cave of Origin (Entrance)"
+    }
+  ],
+  "Cave of Origin (1F)": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/crobat.gif",
+      "pokemon": "Crobat",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "42-46",
+      "ev": "3 SPEED",
+      "place": "Cave of Origin (1F)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/golbat.gif",
+      "pokemon": "Golbat",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "42-46",
+      "ev": "2 SPEED",
+      "place": "Cave of Origin (1F)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/mightyena.gif",
+      "pokemon": "Mightyena",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "42-46",
+      "ev": "2 ATK",
+      "place": "Cave of Origin (1F)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/vigoroth.gif",
+      "pokemon": "Vigoroth",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "42-46",
+      "ev": "2 SPEED",
+      "place": "Cave of Origin (1F)"
+    },
+    {
+      "sprite": "https://forums.pokemonblazeonline.com/data/attachments/0/990-4332112348782b93517be23ae152ea20.jpg",
+      "pokemon": "Tinkatink",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "42-46",
+      "ev": "1 SP_DEF",
+      "place": "Cave of Origin (1F)"
+    }
+  ],
+  "Cave of Origin (B1F)": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/crobat.gif",
+      "pokemon": "Crobat",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "42-46",
+      "ev": "3 SPEED",
+      "place": "Cave of Origin (B1F)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/golbat.gif",
+      "pokemon": "Golbat",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "42-46",
+      "ev": "2 SPEED",
+      "place": "Cave of Origin (B1F)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/mightyena.gif",
+      "pokemon": "Mightyena",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "42-46",
+      "ev": "2 ATK",
+      "place": "Cave of Origin (B1F)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/vigoroth.gif",
+      "pokemon": "Vigoroth",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "42-46",
+      "ev": "2 SPEED",
+      "place": "Cave of Origin (B1F)"
+    },
+    {
+      "sprite": "https://forums.pokemonblazeonline.com/data/attachments/0/990-4332112348782b93517be23ae152ea20.jpg",
+      "pokemon": "Tinkatink",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "42-46",
+      "ev": "1 SP_DEF",
+      "place": "Cave of Origin (B1F)"
+    }
+  ],
+  "Cave of Origin (B2F)": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/crobat.gif",
+      "pokemon": "Crobat",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "42-46",
+      "ev": "3 SPEED",
+      "place": "Cave of Origin (B2F)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/golbat.gif",
+      "pokemon": "Golbat",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "42-46",
+      "ev": "2 SPEED",
+      "place": "Cave of Origin (B2F)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/mightyena.gif",
+      "pokemon": "Mightyena",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "42-46",
+      "ev": "2 ATK",
+      "place": "Cave of Origin (B2F)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/vigoroth.gif",
+      "pokemon": "Vigoroth",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "42-46",
+      "ev": "2 SPEED",
+      "place": "Cave of Origin (B2F)"
+    },
+    {
+      "sprite": "https://forums.pokemonblazeonline.com/data/attachments/0/990-4332112348782b93517be23ae152ea20.jpg",
+      "pokemon": "Tinkatink",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "42-46",
+      "ev": "1 SP_DEF",
+      "place": "Cave of Origin (B2F)"
+    }
+  ],
+  "Cave of Origin (B3F)": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/crobat.gif",
+      "pokemon": "Crobat",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "42-46",
+      "ev": "3 SPEED",
+      "place": "Cave of Origin (B3F)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/golbat.gif",
+      "pokemon": "Golbat",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "42-46",
+      "ev": "2 SPEED",
+      "place": "Cave of Origin (B3F)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/mightyena.gif",
+      "pokemon": "Mightyena",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "42-46",
+      "ev": "2 ATK",
+      "place": "Cave of Origin (B3F)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/vigoroth.gif",
+      "pokemon": "Vigoroth",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "42-46",
+      "ev": "2 SPEED",
+      "place": "Cave of Origin (B3F)"
+    },
+    {
+      "sprite": "https://forums.pokemonblazeonline.com/data/attachments/0/990-4332112348782b93517be23ae152ea20.jpg",
+      "pokemon": "Tinkatink",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "42-46",
+      "ev": "1 SP_DEF",
+      "place": "Cave of Origin (B3F)"
+    }
+  ],
+  "Cave of Origin (B4F)": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/crobat.gif",
+      "pokemon": "Crobat",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "42-46",
+      "ev": "3 SPEED",
+      "place": "Cave of Origin (B4F)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/golbat.gif",
+      "pokemon": "Golbat",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "42-46",
+      "ev": "2 SPEED",
+      "place": "Cave of Origin (B4F)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/mightyena.gif",
+      "pokemon": "Mightyena",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "42-46",
+      "ev": "2 ATK",
+      "place": "Cave of Origin (B4F)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/vigoroth.gif",
+      "pokemon": "Vigoroth",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "42-46",
+      "ev": "2 SPEED",
+      "place": "Cave of Origin (B4F)"
+    },
+    {
+      "sprite": "https://forums.pokemonblazeonline.com/data/attachments/0/990-4332112348782b93517be23ae152ea20.jpg",
+      "pokemon": "Tinkatink",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "42-46",
+      "ev": "1 SP_DEF",
+      "place": "Cave of Origin (B4F)"
+    }
+  ],
+  "Cave of Origin (Hidden Passage)": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/crobat.gif",
+      "pokemon": "Crobat",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "42-46",
+      "ev": "3 SPEED",
+      "place": "Cave of Origin (Hidden Passage)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/golbat.gif",
+      "pokemon": "Golbat",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "42-46",
+      "ev": "2 SPEED",
+      "place": "Cave of Origin (Hidden Passage)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/mightyena.gif",
+      "pokemon": "Mightyena",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "42-46",
+      "ev": "2 ATK",
+      "place": "Cave of Origin (Hidden Passage)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/vigoroth.gif",
+      "pokemon": "Vigoroth",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "42-46",
+      "ev": "2 SPEED",
+      "place": "Cave of Origin (Hidden Passage)"
+    },
+    {
+      "sprite": "https://forums.pokemonblazeonline.com/data/attachments/0/990-4332112348782b93517be23ae152ea20.jpg",
+      "pokemon": "Tinkatink",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "42-46",
+      "ev": "1 SP_DEF",
+      "place": "Cave of Origin (Hidden Passage)"
+    }
+  ],
+  "Hoenn Victory Road (Entrance)": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/crobat.gif",
+      "pokemon": "Crobat",
+      "rarity": "C",
+      "time": "🌕",
+      "method": "🍀",
+      "level": "56-58",
+      "ev": "3 SPEED",
+      "place": "Hoenn Victory Road (Entrance)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/swanna.gif",
+      "pokemon": "Swanna",
+      "rarity": "C",
+      "time": "🌑",
+      "method": "🍀",
+      "level": "56-58",
+      "ev": "2 SPEED",
+      "place": "Hoenn Victory Road (Entrance)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/crobat.gif",
+      "pokemon": "Crobat",
+      "rarity": "C",
+      "time": "🌕",
+      "method": "🌊",
+      "level": "56-58",
+      "ev": "3 SPEED",
+      "place": "Hoenn Victory Road (Entrance)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/swanna.gif",
+      "pokemon": "Swanna",
+      "rarity": "C",
+      "time": "🌑",
+      "method": "🌊",
+      "level": "56-58",
+      "ev": "2 SPEED",
+      "place": "Hoenn Victory Road (Entrance)"
+    }
+  ],
+  "Hoenn Victory Road (B1F)": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/swanna.gif",
+      "pokemon": "Swanna",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "58-60",
+      "ev": "2 SPEED",
+      "place": "Hoenn Victory Road (B1F)"
+    },
+    {
+      "sprite": "https://forums.pokemonblazeonline.com/data/attachments/0/993-c418f25b24c1d837acc5e313ca182ae6.jpg",
+      "pokemon": "Toedscruel",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "58-60",
+      "ev": "2 SP_DEF",
+      "place": "Hoenn Victory Road (B1F)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/gloom.gif",
+      "pokemon": "Gloom",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "58-60",
+      "ev": "2 SP_ATK",
+      "place": "Hoenn Victory Road (B1F)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/elgyem.gif",
+      "pokemon": "Elgyem",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "58-60",
+      "ev": "1 SP_ATK",
+      "place": "Hoenn Victory Road (B1F)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/beldum.gif",
+      "pokemon": "Beldum",
+      "rarity": "UR",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "58-60",
+      "ev": "1 DEF",
+      "place": "Hoenn Victory Road (B1F)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/swanna.gif",
+      "pokemon": "Swanna",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "58-60",
+      "ev": "2 SPEED",
+      "place": "Hoenn Victory Road (B1F)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tentacruel.gif",
+      "pokemon": "Tentacruel",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "58-60",
+      "ev": "2 SP_DEF",
+      "place": "Hoenn Victory Road (B1F)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/dewgong.gif",
+      "pokemon": "Dewgong",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "58-60",
+      "ev": "2 SP_DEF",
+      "place": "Hoenn Victory Road (B1F)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/pelipper.gif",
+      "pokemon": "Pelipper",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "58-60",
+      "ev": "2 DEF",
+      "place": "Hoenn Victory Road (B1F)"
+    }
+  ],
+  "Hoenn Victory Road (1F)": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/swanna.gif",
+      "pokemon": "Swanna",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "56-58",
+      "ev": "2 SPEED",
+      "place": "Hoenn Victory Road (1F)"
+    },
+    {
+      "sprite": "https://forums.pokemonblazeonline.com/data/attachments/0/993-c418f25b24c1d837acc5e313ca182ae6.jpg",
+      "pokemon": "Toedscruel",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "56-58",
+      "ev": "2 SP_DEF",
+      "place": "Hoenn Victory Road (1F)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/gloom.gif",
+      "pokemon": "Gloom",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "56-58",
+      "ev": "2 SP_ATK",
+      "place": "Hoenn Victory Road (1F)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/elgyem.gif",
+      "pokemon": "Elgyem",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "56-58",
+      "ev": "1 SP_ATK",
+      "place": "Hoenn Victory Road (1F)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/swanna.gif",
+      "pokemon": "Swanna",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "56-58",
+      "ev": "2 SPEED",
+      "place": "Hoenn Victory Road (1F)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tentacruel.gif",
+      "pokemon": "Tentacruel",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "56-58",
+      "ev": "2 SP_DEF",
+      "place": "Hoenn Victory Road (1F)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/dewgong.gif",
+      "pokemon": "Dewgong",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "56-58",
+      "ev": "2 SP_DEF",
+      "place": "Hoenn Victory Road (1F)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/pelipper.gif",
+      "pokemon": "Pelipper",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "56-58",
+      "ev": "2 DEF",
+      "place": "Hoenn Victory Road (1F)"
+    }
+  ],
+  "Hoenn Victory Road (2F)": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tentacruel.gif",
+      "pokemon": "Tentacruel",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "65-67",
+      "ev": "2 SP_DEF",
+      "place": "Hoenn Victory Road (2F)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/qwilfish.gif",
+      "pokemon": "Qwilfish",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "65-67",
+      "ev": "1 ATK",
+      "place": "Hoenn Victory Road (2F)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/slowpoke-galar.gif",
+      "pokemon": "Slowpoke-Galar",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "65-67",
+      "ev": "1 BASE_HP",
+      "place": "Hoenn Victory Road (2F)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/skrelp.gif",
+      "pokemon": "Skrelp",
+      "rarity": "UR",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "65-67",
+      "ev": "1 SP_DEF",
+      "place": "Hoenn Victory Road (2F)"
+    }
+  ],
+  "Abandoned Ship": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/relicanth.gif",
+      "pokemon": "Relicanth",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "30-40",
+      "ev": "1 DEF, 1 BASE_HP",
+      "place": "Abandoned Ship"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/magikarp.gif",
+      "pokemon": "Magikarp",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "30-40",
+      "ev": "1 SPEED",
+      "place": "Abandoned Ship"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/arrokuda.gif",
+      "pokemon": "Arrokuda",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "30-40",
+      "ev": "1 SPEED",
+      "place": "Abandoned Ship"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/carvanha.gif",
+      "pokemon": "Carvanha",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "30-40",
+      "ev": "1 ATK",
+      "place": "Abandoned Ship"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tentacruel.gif",
+      "pokemon": "Tentacruel",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "60-60",
+      "ev": "2 SP_DEF",
+      "place": "Abandoned Ship"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/sharpedo.gif",
+      "pokemon": "Sharpedo",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "60-60",
+      "ev": "2 ATK",
+      "place": "Abandoned Ship"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/gyarados.gif",
+      "pokemon": "Gyarados",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "60-60",
+      "ev": "2 ATK",
+      "place": "Abandoned Ship"
+    }
   ]
 }
 
@@ -16399,6 +22803,46 @@ export const NORMAL_SPAWNS_BY_POKEMON: {[key: string]: NormalSpawn[]} = {
       "level": "64-67",
       "ev": "1 SP_ATK",
       "place": "Cavity Cavern 3-A"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/psyduck.gif",
+      "pokemon": "Psyduck",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "5-7",
+      "ev": "1 SP_ATK",
+      "place": "Route 104 (North)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/psyduck.gif",
+      "pokemon": "Psyduck",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "2-3",
+      "ev": "1 SP_ATK",
+      "place": "Route 103"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/psyduck.gif",
+      "pokemon": "Psyduck",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "25-30",
+      "ev": "1 SP_ATK",
+      "place": "Route 122"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/psyduck.gif",
+      "pokemon": "Psyduck",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "2-10",
+      "ev": "1 SP_ATK",
+      "place": "Hoenn Safari (Water Biome)"
     }
   ],
   "Golduck": [
@@ -16871,6 +23315,76 @@ export const NORMAL_SPAWNS_BY_POKEMON: {[key: string]: NormalSpawn[]} = {
       "level": "64-67",
       "ev": "2 SP_ATK",
       "place": "Cavity Cavern 3-A"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/golduck.gif",
+      "pokemon": "Golduck",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "27-29",
+      "ev": "2 SP_ATK",
+      "place": "Route 115"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/golduck.gif",
+      "pokemon": "Golduck",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "27-29",
+      "ev": "2 SP_ATK",
+      "place": "Route 117"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/golduck.gif",
+      "pokemon": "Golduck",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "27-29",
+      "ev": "2 SP_ATK",
+      "place": "Route 114"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/golduck.gif",
+      "pokemon": "Golduck",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "25-30",
+      "ev": "2 SP_ATK",
+      "place": "Route 122"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/golduck.gif",
+      "pokemon": "Golduck",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "45-49",
+      "ev": "2 SP_ATK",
+      "place": "Pacifidlog Town"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/golduck.gif",
+      "pokemon": "Golduck",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "58-60",
+      "ev": "2 SP_ATK",
+      "place": "Pacifidlog Town"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/golduck.gif",
+      "pokemon": "Golduck",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "2-10",
+      "ev": "2 SP_ATK",
+      "place": "Hoenn Safari (Water Biome)"
     }
   ],
   "Goldeen": [
@@ -17243,6 +23757,196 @@ export const NORMAL_SPAWNS_BY_POKEMON: {[key: string]: NormalSpawn[]} = {
       "level": "34-36",
       "ev": "1 ATK",
       "place": "Route 219 (South-West)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/goldeen.gif",
+      "pokemon": "Goldeen",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "2-3",
+      "ev": "1 ATK",
+      "place": "Route 102"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/goldeen.gif",
+      "pokemon": "Goldeen",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "2-3",
+      "ev": "1 ATK",
+      "place": "Petalburg City"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/goldeen.gif",
+      "pokemon": "Goldeen",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "5-7",
+      "ev": "1 ATK",
+      "place": "Route 104 (North)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/goldeen.gif",
+      "pokemon": "Goldeen",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "27-29",
+      "ev": "1 ATK",
+      "place": "Route 107"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/goldeen.gif",
+      "pokemon": "Goldeen",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "11-13",
+      "ev": "1 ATK",
+      "place": "Route 109"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/goldeen.gif",
+      "pokemon": "Goldeen",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "12-14",
+      "ev": "1 ATK",
+      "place": "Route 110"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/goldeen.gif",
+      "pokemon": "Goldeen",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "13-15",
+      "ev": "1 ATK",
+      "place": "Route 117"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/goldeen.gif",
+      "pokemon": "Goldeen",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "16-19",
+      "ev": "1 ATK",
+      "place": "Meteor Falls 1F 1R"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/goldeen.gif",
+      "pokemon": "Goldeen",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "52-55",
+      "ev": "1 ATK",
+      "place": "Meteor Falls 1F 2R"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/goldeen.gif",
+      "pokemon": "Goldeen",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "52-55",
+      "ev": "1 ATK",
+      "place": "Meteor Falls B1F 1R"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/goldeen.gif",
+      "pokemon": "Goldeen",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "52-55",
+      "ev": "1 ATK",
+      "place": "Meteor Falls B1F 2R"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/goldeen.gif",
+      "pokemon": "Goldeen",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "17-20",
+      "ev": "1 ATK",
+      "place": "Route 114"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/goldeen.gif",
+      "pokemon": "Goldeen",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "13-15",
+      "ev": "1 ATK",
+      "place": "Route 111 (South)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/goldeen.gif",
+      "pokemon": "Goldeen",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "33-36",
+      "ev": "1 ATK",
+      "place": "Route 119 (North)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/goldeen.gif",
+      "pokemon": "Goldeen",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "36-39",
+      "ev": "1 ATK",
+      "place": "Route 120"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/goldeen.gif",
+      "pokemon": "Goldeen",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "2-10",
+      "ev": "1 ATK",
+      "place": "Hoenn Safari (Water Biome)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/goldeen.gif",
+      "pokemon": "Goldeen",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "9-11",
+      "ev": "1 ATK",
+      "place": "Route 106"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/goldeen.gif",
+      "pokemon": "Goldeen",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "20-25",
+      "ev": "1 ATK",
+      "place": "Route 105"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/goldeen.gif",
+      "pokemon": "Goldeen",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "9-11",
+      "ev": "1 ATK",
+      "place": "Dewford Town"
     }
   ],
   "Kricketot": [
@@ -17687,6 +24391,16 @@ export const NORMAL_SPAWNS_BY_POKEMON: {[key: string]: NormalSpawn[]} = {
       "level": "72-75",
       "ev": "1 SPEED",
       "place": "Jannat Village"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/finneon.gif",
+      "pokemon": "Finneon",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "2-10",
+      "ev": "1 SPEED",
+      "place": "Hoenn Safari (Water Biome)"
     }
   ],
   "Clamperl": [
@@ -17709,6 +24423,96 @@ export const NORMAL_SPAWNS_BY_POKEMON: {[key: string]: NormalSpawn[]} = {
       "level": "59-61",
       "ev": "1 DEF",
       "place": "Route 12-B"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/clamperl.gif",
+      "pokemon": "Clamperl",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "44-48",
+      "ev": "1 DEF",
+      "place": "Route 128"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/clamperl.gif",
+      "pokemon": "Clamperl",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "44-48",
+      "ev": "1 DEF",
+      "place": "Route 130"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/clamperl.gif",
+      "pokemon": "Clamperl",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "50-52",
+      "ev": "1 DEF",
+      "place": "Route 107 (Underwater)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/clamperl.gif",
+      "pokemon": "Clamperl",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "40-44",
+      "ev": "1 DEF",
+      "place": "Route 124 (Underwater)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/clamperl.gif",
+      "pokemon": "Clamperl",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "43-46",
+      "ev": "1 DEF",
+      "place": "Route 126 (Underwater)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/clamperl.gif",
+      "pokemon": "Clamperl",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "46-50",
+      "ev": "1 DEF",
+      "place": "Route 128 (Underwater)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/clamperl.gif",
+      "pokemon": "Clamperl",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "46-50",
+      "ev": "1 DEF",
+      "place": "Route 129 (Underwater)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/clamperl.gif",
+      "pokemon": "Clamperl",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "46-50",
+      "ev": "1 DEF",
+      "place": "Route 130 (Underwater)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/clamperl.gif",
+      "pokemon": "Clamperl",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "60-66",
+      "ev": "1 DEF",
+      "place": "Route 134 (Underwater)"
     }
   ],
   "Tentacool": [
@@ -18031,6 +24835,266 @@ export const NORMAL_SPAWNS_BY_POKEMON: {[key: string]: NormalSpawn[]} = {
       "level": "64-67",
       "ev": "1 SP_DEF",
       "place": "Cavity Cavern 3-A"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tentacool.gif",
+      "pokemon": "Tentacool",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "3-5",
+      "ev": "1 SP_DEF",
+      "place": "Route 104"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tentacool.gif",
+      "pokemon": "Tentacool",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "6-8",
+      "ev": "1 SP_DEF",
+      "place": "Route 115"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tentacool.gif",
+      "pokemon": "Tentacool",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "27-29",
+      "ev": "1 SP_DEF",
+      "place": "Route 107"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tentacool.gif",
+      "pokemon": "Tentacool",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "11-13",
+      "ev": "1 SP_DEF",
+      "place": "Route 109"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tentacool.gif",
+      "pokemon": "Tentacool",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "12-14",
+      "ev": "1 SP_DEF",
+      "place": "Slateport City"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tentacool.gif",
+      "pokemon": "Tentacool",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "12-14",
+      "ev": "1 SP_DEF",
+      "place": "Route 110"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tentacool.gif",
+      "pokemon": "Tentacool",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "27-29",
+      "ev": "1 SP_DEF",
+      "place": "Route 110"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tentacool.gif",
+      "pokemon": "Tentacool",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "30-34",
+      "ev": "1 SP_DEF",
+      "place": "Route 118"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tentacool.gif",
+      "pokemon": "Tentacool",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "37-40",
+      "ev": "1 SP_DEF",
+      "place": "Lilycove City"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tentacool.gif",
+      "pokemon": "Tentacool",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "40-44",
+      "ev": "1 SP_DEF",
+      "place": "Route 124"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tentacool.gif",
+      "pokemon": "Tentacool",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "40-44",
+      "ev": "1 SP_DEF",
+      "place": "Route 125"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tentacool.gif",
+      "pokemon": "Tentacool",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "40-44",
+      "ev": "1 SP_DEF",
+      "place": "Route 126"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tentacool.gif",
+      "pokemon": "Tentacool",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "44-48",
+      "ev": "1 SP_DEF",
+      "place": "Route 127"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tentacool.gif",
+      "pokemon": "Tentacool",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "44-48",
+      "ev": "1 SP_DEF",
+      "place": "Route 128"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tentacool.gif",
+      "pokemon": "Tentacool",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "44-48",
+      "ev": "1 SP_DEF",
+      "place": "Route 129"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tentacool.gif",
+      "pokemon": "Tentacool",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "44-48",
+      "ev": "1 SP_DEF",
+      "place": "Route 130"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tentacool.gif",
+      "pokemon": "Tentacool",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "58-60",
+      "ev": "1 SP_DEF",
+      "place": "Route 131"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tentacool.gif",
+      "pokemon": "Tentacool",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "60-66",
+      "ev": "1 SP_DEF",
+      "place": "Route 132"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tentacool.gif",
+      "pokemon": "Tentacool",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "60-66",
+      "ev": "1 SP_DEF",
+      "place": "Route 133"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tentacool.gif",
+      "pokemon": "Tentacool",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "60-66",
+      "ev": "1 SP_DEF",
+      "place": "Route 134"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tentacool.gif",
+      "pokemon": "Tentacool",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "9-11",
+      "ev": "1 SP_DEF",
+      "place": "Route 106"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tentacool.gif",
+      "pokemon": "Tentacool",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "20-25",
+      "ev": "1 SP_DEF",
+      "place": "Route 105"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tentacool.gif",
+      "pokemon": "Tentacool",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "9-11",
+      "ev": "1 SP_DEF",
+      "place": "Dewford Town"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tentacool.gif",
+      "pokemon": "Tentacool",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "40-42",
+      "ev": "1 SP_DEF",
+      "place": "Seafloor Cavern (Entrance)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tentacool.gif",
+      "pokemon": "Tentacool",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "40-42",
+      "ev": "1 SP_DEF",
+      "place": "Seafloor Cavern (Room 5)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tentacool.gif",
+      "pokemon": "Tentacool",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "40-42",
+      "ev": "1 SP_DEF",
+      "place": "Seafloor Cavern (Room 6)"
     }
   ],
   "Tentacruel": [
@@ -18203,6 +25267,416 @@ export const NORMAL_SPAWNS_BY_POKEMON: {[key: string]: NormalSpawn[]} = {
       "level": "34-36",
       "ev": "2 SP_DEF",
       "place": "Route 219 (South-West)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tentacruel.gif",
+      "pokemon": "Tentacruel",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "27-29",
+      "ev": "2 SP_DEF",
+      "place": "Route 104"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tentacruel.gif",
+      "pokemon": "Tentacruel",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "27-29",
+      "ev": "2 SP_DEF",
+      "place": "Route 107"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tentacruel.gif",
+      "pokemon": "Tentacruel",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "12-14",
+      "ev": "2 SP_DEF",
+      "place": "Slateport City"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tentacruel.gif",
+      "pokemon": "Tentacruel",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "12-14",
+      "ev": "2 SP_DEF",
+      "place": "Route 118"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tentacruel.gif",
+      "pokemon": "Tentacruel",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "30-34",
+      "ev": "2 SP_DEF",
+      "place": "Route 118"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tentacruel.gif",
+      "pokemon": "Tentacruel",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "37-40",
+      "ev": "2 SP_DEF",
+      "place": "Lilycove City"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tentacruel.gif",
+      "pokemon": "Tentacruel",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "37-40",
+      "ev": "2 SP_DEF",
+      "place": "Lilycove City"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tentacruel.gif",
+      "pokemon": "Tentacruel",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "40-44",
+      "ev": "2 SP_DEF",
+      "place": "Route 124"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tentacruel.gif",
+      "pokemon": "Tentacruel",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "40-44",
+      "ev": "2 SP_DEF",
+      "place": "Route 124"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tentacruel.gif",
+      "pokemon": "Tentacruel",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "40-44",
+      "ev": "2 SP_DEF",
+      "place": "Route 125"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tentacruel.gif",
+      "pokemon": "Tentacruel",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "40-44",
+      "ev": "2 SP_DEF",
+      "place": "Route 125"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tentacruel.gif",
+      "pokemon": "Tentacruel",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "40-44",
+      "ev": "2 SP_DEF",
+      "place": "Route 126"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tentacruel.gif",
+      "pokemon": "Tentacruel",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "40-44",
+      "ev": "2 SP_DEF",
+      "place": "Route 126"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tentacruel.gif",
+      "pokemon": "Tentacruel",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "44-48",
+      "ev": "2 SP_DEF",
+      "place": "Route 127"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tentacruel.gif",
+      "pokemon": "Tentacruel",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "44-48",
+      "ev": "2 SP_DEF",
+      "place": "Route 127"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tentacruel.gif",
+      "pokemon": "Tentacruel",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "44-48",
+      "ev": "2 SP_DEF",
+      "place": "Route 128"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tentacruel.gif",
+      "pokemon": "Tentacruel",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "44-48",
+      "ev": "2 SP_DEF",
+      "place": "Route 128"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tentacruel.gif",
+      "pokemon": "Tentacruel",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "44-48",
+      "ev": "2 SP_DEF",
+      "place": "Route 129"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tentacruel.gif",
+      "pokemon": "Tentacruel",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "44-48",
+      "ev": "2 SP_DEF",
+      "place": "Route 129"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tentacruel.gif",
+      "pokemon": "Tentacruel",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "44-48",
+      "ev": "2 SP_DEF",
+      "place": "Route 130"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tentacruel.gif",
+      "pokemon": "Tentacruel",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "44-48",
+      "ev": "2 SP_DEF",
+      "place": "Route 130"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tentacruel.gif",
+      "pokemon": "Tentacruel",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "45-49",
+      "ev": "2 SP_DEF",
+      "place": "Route 131"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tentacruel.gif",
+      "pokemon": "Tentacruel",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "58-60",
+      "ev": "2 SP_DEF",
+      "place": "Route 131"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tentacruel.gif",
+      "pokemon": "Tentacruel",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "60-66",
+      "ev": "2 SP_DEF",
+      "place": "Route 132"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tentacruel.gif",
+      "pokemon": "Tentacruel",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "60-66",
+      "ev": "2 SP_DEF",
+      "place": "Route 132"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tentacruel.gif",
+      "pokemon": "Tentacruel",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "60-66",
+      "ev": "2 SP_DEF",
+      "place": "Route 133"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tentacruel.gif",
+      "pokemon": "Tentacruel",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "60-66",
+      "ev": "2 SP_DEF",
+      "place": "Route 133"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tentacruel.gif",
+      "pokemon": "Tentacruel",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "60-66",
+      "ev": "2 SP_DEF",
+      "place": "Route 134"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tentacruel.gif",
+      "pokemon": "Tentacruel",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "60-66",
+      "ev": "2 SP_DEF",
+      "place": "Route 134"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tentacruel.gif",
+      "pokemon": "Tentacruel",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "52-55",
+      "ev": "2 SP_DEF",
+      "place": "Ever Grande City"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tentacruel.gif",
+      "pokemon": "Tentacruel",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "52-55",
+      "ev": "2 SP_DEF",
+      "place": "Ever Grande City"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tentacruel.gif",
+      "pokemon": "Tentacruel",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "40-42",
+      "ev": "2 SP_DEF",
+      "place": "Seafloor Cavern (Entrance)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tentacruel.gif",
+      "pokemon": "Tentacruel",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "40-42",
+      "ev": "2 SP_DEF",
+      "place": "Seafloor Cavern (Entrance)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tentacruel.gif",
+      "pokemon": "Tentacruel",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "40-42",
+      "ev": "2 SP_DEF",
+      "place": "Seafloor Cavern (Room 5)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tentacruel.gif",
+      "pokemon": "Tentacruel",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "40-42",
+      "ev": "2 SP_DEF",
+      "place": "Seafloor Cavern (Room 5)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tentacruel.gif",
+      "pokemon": "Tentacruel",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "40-42",
+      "ev": "2 SP_DEF",
+      "place": "Seafloor Cavern (Room 6)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tentacruel.gif",
+      "pokemon": "Tentacruel",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "40-42",
+      "ev": "2 SP_DEF",
+      "place": "Seafloor Cavern (Room 6)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tentacruel.gif",
+      "pokemon": "Tentacruel",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "58-60",
+      "ev": "2 SP_DEF",
+      "place": "Hoenn Victory Road (B1F)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tentacruel.gif",
+      "pokemon": "Tentacruel",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "56-58",
+      "ev": "2 SP_DEF",
+      "place": "Hoenn Victory Road (1F)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tentacruel.gif",
+      "pokemon": "Tentacruel",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "65-67",
+      "ev": "2 SP_DEF",
+      "place": "Hoenn Victory Road (2F)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tentacruel.gif",
+      "pokemon": "Tentacruel",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "60-60",
+      "ev": "2 SP_DEF",
+      "place": "Abandoned Ship"
     }
   ],
   "Kakuna": [
@@ -18629,6 +26103,46 @@ export const NORMAL_SPAWNS_BY_POKEMON: {[key: string]: NormalSpawn[]} = {
       "level": "32-35",
       "ev": "1 SPEED",
       "place": "Old Power Plant - Room 3"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/zubat.gif",
+      "pokemon": "Zubat",
+      "rarity": "C",
+      "time": "🌑",
+      "method": "🌊",
+      "level": "25-30",
+      "ev": "1 SPEED",
+      "place": "Route 122"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/zubat.gif",
+      "pokemon": "Zubat",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "10-12",
+      "ev": "1 SPEED",
+      "place": "Granite Cave 1F"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/zubat.gif",
+      "pokemon": "Zubat",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "10-12",
+      "ev": "1 SPEED",
+      "place": "Granite Cave B1F"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/zubat.gif",
+      "pokemon": "Zubat",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "10-12",
+      "ev": "1 SPEED",
+      "place": "Granite Cave B2F"
     }
   ],
   "Surskit": [
@@ -18661,6 +26175,36 @@ export const NORMAL_SPAWNS_BY_POKEMON: {[key: string]: NormalSpawn[]} = {
       "level": "16-20",
       "ev": "1 SPEED",
       "place": "Route 4 Shores"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/surskit.gif",
+      "pokemon": "Surskit",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "20-25",
+      "ev": "1 SPEED",
+      "place": "Route 102"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/surskit.gif",
+      "pokemon": "Surskit",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "27-29",
+      "ev": "1 SPEED",
+      "place": "Route 114"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/surskit.gif",
+      "pokemon": "Surskit",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "2-10",
+      "ev": "1 SPEED",
+      "place": "Hoenn Safari (Water Biome)"
     }
   ],
   "Pineco": [
@@ -18775,6 +26319,16 @@ export const NORMAL_SPAWNS_BY_POKEMON: {[key: string]: NormalSpawn[]} = {
       "level": "36-40",
       "ev": "1 BASE_HP",
       "place": "Oozy Forest (Faunas)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/wurmple.gif",
+      "pokemon": "Wurmple",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "4-6",
+      "ev": "1 BASE_HP",
+      "place": "Petalburg Woods"
     }
   ],
   "Glameow": [
@@ -18909,6 +26463,16 @@ export const NORMAL_SPAWNS_BY_POKEMON: {[key: string]: NormalSpawn[]} = {
       "level": "34-36",
       "ev": "1 SP_DEF",
       "place": "Route 219 (South-West)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/hoppip.gif",
+      "pokemon": "Hoppip",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "2-10",
+      "ev": "1 SP_DEF",
+      "place": "Hoenn Safari (Grass Biome)"
     }
   ],
   "Seedot": [
@@ -18921,6 +26485,16 @@ export const NORMAL_SPAWNS_BY_POKEMON: {[key: string]: NormalSpawn[]} = {
       "level": "8-10",
       "ev": "1 DEF",
       "place": "Route 204"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/seedot.gif",
+      "pokemon": "Seedot",
+      "rarity": "R",
+      "time": "🌑",
+      "method": "🍀",
+      "level": "5-7",
+      "ev": "1 DEF",
+      "place": "Route 104 (North)"
     }
   ],
   "Budew": [
@@ -19337,6 +26911,36 @@ export const NORMAL_SPAWNS_BY_POKEMON: {[key: string]: NormalSpawn[]} = {
       "level": "72-75",
       "ev": "1 DEF",
       "place": "Dragon Tower Floor 3"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/cubone.gif",
+      "pokemon": "Cubone",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "10-12",
+      "ev": "1 DEF",
+      "place": "Granite Cave 1F"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/cubone.gif",
+      "pokemon": "Cubone",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "10-12",
+      "ev": "1 DEF",
+      "place": "Granite Cave B1F"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/cubone.gif",
+      "pokemon": "Cubone",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "10-12",
+      "ev": "1 DEF",
+      "place": "Granite Cave B2F"
     }
   ],
   "Golbat": [
@@ -19799,6 +27403,306 @@ export const NORMAL_SPAWNS_BY_POKEMON: {[key: string]: NormalSpawn[]} = {
       "level": "72-75",
       "ev": "2 SPEED",
       "place": "Dragon Tower Floor 7"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/golbat.gif",
+      "pokemon": "Golbat",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "27-29",
+      "ev": "2 SPEED",
+      "place": "Meteor Falls 1F 1R"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/golbat.gif",
+      "pokemon": "Golbat",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "52-55",
+      "ev": "2 SPEED",
+      "place": "Meteor Falls 1F 2R"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/golbat.gif",
+      "pokemon": "Golbat",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "52-55",
+      "ev": "2 SPEED",
+      "place": "Meteor Falls 1F 2R"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/golbat.gif",
+      "pokemon": "Golbat",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "52-55",
+      "ev": "2 SPEED",
+      "place": "Meteor Falls B1F 1R"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/golbat.gif",
+      "pokemon": "Golbat",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "52-55",
+      "ev": "2 SPEED",
+      "place": "Meteor Falls B1F 1R"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/golbat.gif",
+      "pokemon": "Golbat",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "52-55",
+      "ev": "2 SPEED",
+      "place": "Meteor Falls B1F 2R"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/golbat.gif",
+      "pokemon": "Golbat",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "52-55",
+      "ev": "2 SPEED",
+      "place": "Meteor Falls B1F 2R"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/golbat.gif",
+      "pokemon": "Golbat",
+      "rarity": "C",
+      "time": "🌑",
+      "method": "🌊",
+      "level": "27-29",
+      "ev": "2 SPEED",
+      "place": "Route 114"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/golbat.gif",
+      "pokemon": "Golbat",
+      "rarity": "C",
+      "time": "🌑",
+      "method": "🌊",
+      "level": "27-29",
+      "ev": "2 SPEED",
+      "place": "Route 111 (South)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/golbat.gif",
+      "pokemon": "Golbat",
+      "rarity": "C",
+      "time": "🌑",
+      "method": "🌊",
+      "level": "40-42",
+      "ev": "2 SPEED",
+      "place": "Route 120"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/golbat.gif",
+      "pokemon": "Golbat",
+      "rarity": "C",
+      "time": "🌑",
+      "method": "🌊",
+      "level": "25-30",
+      "ev": "2 SPEED",
+      "place": "Route 122"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/golbat.gif",
+      "pokemon": "Golbat",
+      "rarity": "C",
+      "time": "🌑",
+      "method": "🌊",
+      "level": "40-44",
+      "ev": "2 SPEED",
+      "place": "Route 125"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/golbat.gif",
+      "pokemon": "Golbat",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "40-42",
+      "ev": "2 SPEED",
+      "place": "Seafloor Cavern (Entrance)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/golbat.gif",
+      "pokemon": "Golbat",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "40-42",
+      "ev": "2 SPEED",
+      "place": "Seafloor Cavern (Room 1)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/golbat.gif",
+      "pokemon": "Golbat",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "40-42",
+      "ev": "2 SPEED",
+      "place": "Seafloor Cavern (Room 2)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/golbat.gif",
+      "pokemon": "Golbat",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "40-42",
+      "ev": "2 SPEED",
+      "place": "Seafloor Cavern (Room 3)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/golbat.gif",
+      "pokemon": "Golbat",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "40-42",
+      "ev": "2 SPEED",
+      "place": "Seafloor Cavern (Room 4)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/golbat.gif",
+      "pokemon": "Golbat",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "40-42",
+      "ev": "2 SPEED",
+      "place": "Seafloor Cavern (Room 5)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/golbat.gif",
+      "pokemon": "Golbat",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "40-42",
+      "ev": "2 SPEED",
+      "place": "Seafloor Cavern (Room 5)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/golbat.gif",
+      "pokemon": "Golbat",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "40-42",
+      "ev": "2 SPEED",
+      "place": "Seafloor Cavern (Room 6)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/golbat.gif",
+      "pokemon": "Golbat",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "40-42",
+      "ev": "2 SPEED",
+      "place": "Seafloor Cavern (Room 6)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/golbat.gif",
+      "pokemon": "Golbat",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "40-42",
+      "ev": "2 SPEED",
+      "place": "Seafloor Cavern (Room 8)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/golbat.gif",
+      "pokemon": "Golbat",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "40-42",
+      "ev": "2 SPEED",
+      "place": "Seafloor Cavern (Room 7)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/golbat.gif",
+      "pokemon": "Golbat",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "42-46",
+      "ev": "2 SPEED",
+      "place": "Cave of Origin (Entrance)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/golbat.gif",
+      "pokemon": "Golbat",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "42-46",
+      "ev": "2 SPEED",
+      "place": "Cave of Origin (1F)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/golbat.gif",
+      "pokemon": "Golbat",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "42-46",
+      "ev": "2 SPEED",
+      "place": "Cave of Origin (B1F)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/golbat.gif",
+      "pokemon": "Golbat",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "42-46",
+      "ev": "2 SPEED",
+      "place": "Cave of Origin (B2F)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/golbat.gif",
+      "pokemon": "Golbat",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "42-46",
+      "ev": "2 SPEED",
+      "place": "Cave of Origin (B3F)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/golbat.gif",
+      "pokemon": "Golbat",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "42-46",
+      "ev": "2 SPEED",
+      "place": "Cave of Origin (B4F)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/golbat.gif",
+      "pokemon": "Golbat",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "42-46",
+      "ev": "2 SPEED",
+      "place": "Cave of Origin (Hidden Passage)"
     }
   ],
   "Barboach": [
@@ -19911,6 +27815,46 @@ export const NORMAL_SPAWNS_BY_POKEMON: {[key: string]: NormalSpawn[]} = {
       "level": "42-44",
       "ev": "1 BASE_HP",
       "place": "Amberwick Town"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/barboach.gif",
+      "pokemon": "Barboach",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "12-14",
+      "ev": "1 BASE_HP",
+      "place": "Route 110"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/barboach.gif",
+      "pokemon": "Barboach",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "40-42",
+      "ev": "1 BASE_HP",
+      "place": "Seafloor Cavern (Entrance)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/barboach.gif",
+      "pokemon": "Barboach",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "40-42",
+      "ev": "1 BASE_HP",
+      "place": "Seafloor Cavern (Room 5)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/barboach.gif",
+      "pokemon": "Barboach",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "40-42",
+      "ev": "1 BASE_HP",
+      "place": "Seafloor Cavern (Room 6)"
     }
   ],
   "Buizel": [
@@ -20183,6 +28127,116 @@ export const NORMAL_SPAWNS_BY_POKEMON: {[key: string]: NormalSpawn[]} = {
       "level": "58-61",
       "ev": "2 ATK",
       "place": "Route 12-B"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/seaking.gif",
+      "pokemon": "Seaking",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "16-19",
+      "ev": "2 ATK",
+      "place": "Meteor Falls 1F 1R"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/seaking.gif",
+      "pokemon": "Seaking",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "52-55",
+      "ev": "2 ATK",
+      "place": "Meteor Falls 1F 2R"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/seaking.gif",
+      "pokemon": "Seaking",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "52-55",
+      "ev": "2 ATK",
+      "place": "Meteor Falls B1F 1R"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/seaking.gif",
+      "pokemon": "Seaking",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "52-55",
+      "ev": "2 ATK",
+      "place": "Meteor Falls B1F 2R"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/seaking.gif",
+      "pokemon": "Seaking",
+      "rarity": "C",
+      "time": "🌕",
+      "method": "🌊",
+      "level": "27-29",
+      "ev": "2 ATK",
+      "place": "Route 111 (South)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/seaking.gif",
+      "pokemon": "Seaking",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "31-35",
+      "ev": "2 ATK",
+      "place": "Route 119 (South)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/seaking.gif",
+      "pokemon": "Seaking",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "33-36",
+      "ev": "2 ATK",
+      "place": "Route 119 (North)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/seaking.gif",
+      "pokemon": "Seaking",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "36-39",
+      "ev": "2 ATK",
+      "place": "Route 120"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/seaking.gif",
+      "pokemon": "Seaking",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "44-48",
+      "ev": "2 ATK",
+      "place": "Sootopolis City"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/seaking.gif",
+      "pokemon": "Seaking",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "44-48",
+      "ev": "2 ATK",
+      "place": "Sootopolis City"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/seaking.gif",
+      "pokemon": "Seaking",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "2-10",
+      "ev": "2 ATK",
+      "place": "Hoenn Safari (Water Biome)"
     }
   ],
   "Kricketune": [
@@ -20267,6 +28321,16 @@ export const NORMAL_SPAWNS_BY_POKEMON: {[key: string]: NormalSpawn[]} = {
       "level": "36-40",
       "ev": "2 DEF",
       "place": "Oozy Forest (Faunas)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/silcoon.gif",
+      "pokemon": "Silcoon",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "4-6",
+      "ev": "2 DEF",
+      "place": "Petalburg Woods"
     }
   ],
   "Cascoon": [
@@ -20319,6 +28383,16 @@ export const NORMAL_SPAWNS_BY_POKEMON: {[key: string]: NormalSpawn[]} = {
       "level": "36-40",
       "ev": "2 DEF",
       "place": "Oozy Forest (Faunas)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/cascoon.gif",
+      "pokemon": "Cascoon",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "4-6",
+      "ev": "2 DEF",
+      "place": "Petalburg Woods"
     }
   ],
   "Beautifly": [
@@ -20491,6 +28565,16 @@ export const NORMAL_SPAWNS_BY_POKEMON: {[key: string]: NormalSpawn[]} = {
       "level": "1-10",
       "ev": "2 ATK",
       "place": "Spring Valley"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/heracross.gif",
+      "pokemon": "Heracross",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "2-10",
+      "ev": "2 ATK",
+      "place": "Hoenn Safari (Grass Biome)"
     }
   ],
   "Pinsir": [
@@ -20535,6 +28619,16 @@ export const NORMAL_SPAWNS_BY_POKEMON: {[key: string]: NormalSpawn[]} = {
       "level": "52-54",
       "ev": "1 ATK, 1 SP_ATK",
       "place": "Route 8-B"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/seviper.gif",
+      "pokemon": "Seviper",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "17-20",
+      "ev": "1 SP_ATK, 1 ATK",
+      "place": "Route 114"
     }
   ],
   "Ponyta": [
@@ -20681,6 +28775,16 @@ export const NORMAL_SPAWNS_BY_POKEMON: {[key: string]: NormalSpawn[]} = {
       "level": "72-75",
       "ev": "1 ATK",
       "place": "Champions Road #7"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/machop.gif",
+      "pokemon": "Machop",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "15-17",
+      "ev": "1 ATK",
+      "place": "Route 112 (North)"
     }
   ],
   "Bronzor": [
@@ -21499,6 +29603,16 @@ export const NORMAL_SPAWNS_BY_POKEMON: {[key: string]: NormalSpawn[]} = {
       "level": "68-70",
       "ev": "1 SP_DEF",
       "place": "Goldburn City Shores"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/spoink.gif",
+      "pokemon": "Spoink",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "37-40",
+      "ev": "1 SP_DEF",
+      "place": "Route 123"
     }
   ],
   "Wooper": [
@@ -21563,6 +29677,16 @@ export const NORMAL_SPAWNS_BY_POKEMON: {[key: string]: NormalSpawn[]} = {
       "level": "69-70",
       "ev": "1 SP_ATK",
       "place": "Route 11-C"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/ralts.gif",
+      "pokemon": "Ralts",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "2-3",
+      "ev": "1 SP_ATK",
+      "place": "Route 102"
     }
   ],
   "Duskull": [
@@ -21735,6 +29859,46 @@ export const NORMAL_SPAWNS_BY_POKEMON: {[key: string]: NormalSpawn[]} = {
       "level": "69-70",
       "ev": "1 SP_DEF",
       "place": "Route 11-B"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/duskull.gif",
+      "pokemon": "Duskull",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "37-40",
+      "ev": "1 SP_DEF",
+      "place": "Mt. Pyre 1F"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/duskull.gif",
+      "pokemon": "Duskull",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "37-40",
+      "ev": "1 SP_DEF",
+      "place": "Mt. Pyre 2F"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/duskull.gif",
+      "pokemon": "Duskull",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "37-40",
+      "ev": "1 SP_DEF",
+      "place": "Mt. Pyre 3F"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/duskull.gif",
+      "pokemon": "Duskull",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "37-40",
+      "ev": "1 SP_DEF",
+      "place": "Mt. Pyre 4F"
     }
   ],
   "Kirlia": [
@@ -21799,6 +29963,26 @@ export const NORMAL_SPAWNS_BY_POKEMON: {[key: string]: NormalSpawn[]} = {
       "level": "24-26",
       "ev": "1 ATK",
       "place": "Route 210"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/doduo.gif",
+      "pokemon": "Doduo",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "13-15",
+      "ev": "1 ATK",
+      "place": "Route 117"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/doduo.gif",
+      "pokemon": "Doduo",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "2-10",
+      "ev": "1 ATK",
+      "place": "Hoenn Safari (Desert Biome)"
     }
   ],
   "Mightyena": [
@@ -22001,6 +30185,76 @@ export const NORMAL_SPAWNS_BY_POKEMON: {[key: string]: NormalSpawn[]} = {
       "level": "72-75",
       "ev": "2 ATK",
       "place": "Dragon Tower Floor 6"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/mightyena.gif",
+      "pokemon": "Mightyena",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "42-46",
+      "ev": "2 ATK",
+      "place": "Cave of Origin (Entrance)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/mightyena.gif",
+      "pokemon": "Mightyena",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "42-46",
+      "ev": "2 ATK",
+      "place": "Cave of Origin (1F)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/mightyena.gif",
+      "pokemon": "Mightyena",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "42-46",
+      "ev": "2 ATK",
+      "place": "Cave of Origin (B1F)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/mightyena.gif",
+      "pokemon": "Mightyena",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "42-46",
+      "ev": "2 ATK",
+      "place": "Cave of Origin (B2F)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/mightyena.gif",
+      "pokemon": "Mightyena",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "42-46",
+      "ev": "2 ATK",
+      "place": "Cave of Origin (B3F)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/mightyena.gif",
+      "pokemon": "Mightyena",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "42-46",
+      "ev": "2 ATK",
+      "place": "Cave of Origin (B4F)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/mightyena.gif",
+      "pokemon": "Mightyena",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "42-46",
+      "ev": "2 ATK",
+      "place": "Cave of Origin (Hidden Passage)"
     }
   ],
   "Miltank": [
@@ -22127,6 +30381,16 @@ export const NORMAL_SPAWNS_BY_POKEMON: {[key: string]: NormalSpawn[]} = {
       "level": "32-35",
       "ev": "1 SP_ATK",
       "place": "Old Power Plant - Generator Room"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/magnemite.gif",
+      "pokemon": "Magnemite",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "22-25",
+      "ev": "1 SP_ATK",
+      "place": "New Mauville"
     }
   ],
   "Marill": [
@@ -22169,6 +30433,96 @@ export const NORMAL_SPAWNS_BY_POKEMON: {[key: string]: NormalSpawn[]} = {
       "level": "60-64",
       "ev": "2 BASE_HP",
       "place": "Route 9-B"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/marill.gif",
+      "pokemon": "Marill",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "2-3",
+      "ev": "2 BASE_HP",
+      "place": "Route 102"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/marill.gif",
+      "pokemon": "Marill",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "2-3",
+      "ev": "2 BASE_HP",
+      "place": "Petalburg City"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/marill.gif",
+      "pokemon": "Marill",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "5-7",
+      "ev": "2 BASE_HP",
+      "place": "Route 104 (North)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/marill.gif",
+      "pokemon": "Marill",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "13-15",
+      "ev": "2 BASE_HP",
+      "place": "Route 117"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/marill.gif",
+      "pokemon": "Marill",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "17-20",
+      "ev": "2 BASE_HP",
+      "place": "Route 114"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/marill.gif",
+      "pokemon": "Marill",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "13-15",
+      "ev": "2 BASE_HP",
+      "place": "Route 111 (South)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/marill.gif",
+      "pokemon": "Marill",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "36-39",
+      "ev": "2 BASE_HP",
+      "place": "Route 120"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/marill.gif",
+      "pokemon": "Marill",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "2-10",
+      "ev": "2 BASE_HP",
+      "place": "Hoenn Safari (Water Biome)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/marill.gif",
+      "pokemon": "Marill",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "2-10",
+      "ev": "2 BASE_HP",
+      "place": "Hoenn Safari (Water Biome)"
     }
   ],
   "Burmy": [
@@ -22215,6 +30569,16 @@ export const NORMAL_SPAWNS_BY_POKEMON: {[key: string]: NormalSpawn[]} = {
       "level": "30-32",
       "ev": "2 SP_ATK",
       "place": "Valor Lakefront"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/girafarig.gif",
+      "pokemon": "Girafarig",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "2-10",
+      "ev": "2 SP_ATK",
+      "place": "Hoenn Safari Zone"
     }
   ],
   "Houndour": [
@@ -22247,6 +30611,16 @@ export const NORMAL_SPAWNS_BY_POKEMON: {[key: string]: NormalSpawn[]} = {
       "level": "72-75",
       "ev": "1 SP_ATK",
       "place": "Jannat Village"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/houndour.gif",
+      "pokemon": "Houndour",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "2-10",
+      "ev": "1 SP_ATK",
+      "place": "Hoenn Safari (Desert Biome)"
     }
   ],
   "Graveler": [
@@ -22887,6 +31261,16 @@ export const NORMAL_SPAWNS_BY_POKEMON: {[key: string]: NormalSpawn[]} = {
       "level": "68-70",
       "ev": "1 SP_DEF, 1 SP_ATK",
       "place": "Route 11-A"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/masquerain.gif",
+      "pokemon": "Masquerain",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "2-10",
+      "ev": "1 SP_ATK, 1 SP_DEF",
+      "place": "Hoenn Safari (Water Biome)"
     }
   ],
   "Tranquill": [
@@ -23055,6 +31439,46 @@ export const NORMAL_SPAWNS_BY_POKEMON: {[key: string]: NormalSpawn[]} = {
       "level": "36-40",
       "ev": "1 SP_ATK",
       "place": "Oozy Forest Northern Pass"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/remoraid.gif",
+      "pokemon": "Remoraid",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "2-3",
+      "ev": "1 SP_ATK",
+      "place": "Route 103"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/remoraid.gif",
+      "pokemon": "Remoraid",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "12-14",
+      "ev": "1 SP_ATK",
+      "place": "Route 118"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/remoraid.gif",
+      "pokemon": "Remoraid",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "31-35",
+      "ev": "1 SP_ATK",
+      "place": "Route 119 (South)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/remoraid.gif",
+      "pokemon": "Remoraid",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "33-36",
+      "ev": "1 SP_ATK",
+      "place": "Route 119 (North)"
     }
   ],
   "Octillery": [
@@ -23167,6 +31591,16 @@ export const NORMAL_SPAWNS_BY_POKEMON: {[key: string]: NormalSpawn[]} = {
       "level": "58-61",
       "ev": "1 ATK, 1 SP_ATK",
       "place": "Route 12-A"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/octillery.gif",
+      "pokemon": "Octillery",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "12-14",
+      "ev": "1 SP_ATK, 1 ATK",
+      "place": "Route 118"
     }
   ],
   "Chinchou": [
@@ -23209,6 +31643,46 @@ export const NORMAL_SPAWNS_BY_POKEMON: {[key: string]: NormalSpawn[]} = {
       "level": "69-70",
       "ev": "1 BASE_HP",
       "place": "Route 11-A"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/chinchou.gif",
+      "pokemon": "Chinchou",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "27-29",
+      "ev": "1 BASE_HP",
+      "place": "Route 110"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/chinchou.gif",
+      "pokemon": "Chinchou",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "40-44",
+      "ev": "1 BASE_HP",
+      "place": "Route 124"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/chinchou.gif",
+      "pokemon": "Chinchou",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "44-48",
+      "ev": "1 BASE_HP",
+      "place": "Route 127"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/chinchou.gif",
+      "pokemon": "Chinchou",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "44-48",
+      "ev": "1 BASE_HP",
+      "place": "Route 128"
     }
   ],
   "Gastrodon-East": [
@@ -23371,6 +31845,26 @@ export const NORMAL_SPAWNS_BY_POKEMON: {[key: string]: NormalSpawn[]} = {
       "level": "16-18",
       "ev": "1 BASE_HP",
       "place": "Bijli City"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/shellos.gif",
+      "pokemon": "Shellos",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "27-29",
+      "ev": "1 BASE_HP",
+      "place": "Route 106"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/shellos.gif",
+      "pokemon": "Shellos",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "27-29",
+      "ev": "1 BASE_HP",
+      "place": "Dewford Town"
     }
   ],
   "Croagunk": [
@@ -23395,6 +31889,26 @@ export const NORMAL_SPAWNS_BY_POKEMON: {[key: string]: NormalSpawn[]} = {
       "level": "22-24",
       "ev": "1 SPEED",
       "place": "Route 212 (North)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/trubbish.gif",
+      "pokemon": "Trubbish",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "12-14",
+      "ev": "1 SPEED",
+      "place": "Route 110"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/trubbish.gif",
+      "pokemon": "Trubbish",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "2-10",
+      "ev": "1 SPEED",
+      "place": "Hoenn Safari (Water Biome)"
     }
   ],
   "Roselia": [
@@ -23463,6 +31977,16 @@ export const NORMAL_SPAWNS_BY_POKEMON: {[key: string]: NormalSpawn[]} = {
       "level": "58-61",
       "ev": "1 SPEED",
       "place": "Route 12-B"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/aipom.gif",
+      "pokemon": "Aipom",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "35-38",
+      "ev": "1 SPEED",
+      "place": "Route 121"
     }
   ],
   "Machoke": [
@@ -23657,6 +32181,26 @@ export const NORMAL_SPAWNS_BY_POKEMON: {[key: string]: NormalSpawn[]} = {
       "level": "42-44",
       "ev": "1 SPEED",
       "place": "Amberwick Pass"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/vulpix.gif",
+      "pokemon": "Vulpix",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "37-40",
+      "ev": "1 SPEED",
+      "place": "Mt. Pyre (Exterior)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/vulpix.gif",
+      "pokemon": "Vulpix",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "37-40",
+      "ev": "1 SPEED",
+      "place": "Mt. Pyre (Summit)"
     }
   ],
   "Clefairy": [
@@ -23961,6 +32505,126 @@ export const NORMAL_SPAWNS_BY_POKEMON: {[key: string]: NormalSpawn[]} = {
       "level": "66-67",
       "ev": "1 SPEED",
       "place": "Cavity Cavern 3-A"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/staryu.gif",
+      "pokemon": "Staryu",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "6-8",
+      "ev": "1 SPEED",
+      "place": "Route 115"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/staryu.gif",
+      "pokemon": "Staryu",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "27-29",
+      "ev": "1 SPEED",
+      "place": "Route 107"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/staryu.gif",
+      "pokemon": "Staryu",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "20-25",
+      "ev": "1 SPEED",
+      "place": "Route 108"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/staryu.gif",
+      "pokemon": "Staryu",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "12-14",
+      "ev": "1 SPEED",
+      "place": "Slateport City"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/staryu.gif",
+      "pokemon": "Staryu",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "16-19",
+      "ev": "1 SPEED",
+      "place": "Meteor Falls 1F 1R"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/staryu.gif",
+      "pokemon": "Staryu",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "52-55",
+      "ev": "1 SPEED",
+      "place": "Meteor Falls 1F 2R"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/staryu.gif",
+      "pokemon": "Staryu",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "52-55",
+      "ev": "1 SPEED",
+      "place": "Meteor Falls B1F 1R"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/staryu.gif",
+      "pokemon": "Staryu",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "52-55",
+      "ev": "1 SPEED",
+      "place": "Meteor Falls B1F 2R"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/staryu.gif",
+      "pokemon": "Staryu",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "37-40",
+      "ev": "1 SPEED",
+      "place": "Lilycove City"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/staryu.gif",
+      "pokemon": "Staryu",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "40-44",
+      "ev": "1 SPEED",
+      "place": "Route 125"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/staryu.gif",
+      "pokemon": "Staryu",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "60-66",
+      "ev": "1 SPEED",
+      "place": "Route 134"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/staryu.gif",
+      "pokemon": "Staryu",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "52-55",
+      "ev": "1 SPEED",
+      "place": "Ever Grande City"
     }
   ],
   "Whiscash": [
@@ -24073,6 +32737,46 @@ export const NORMAL_SPAWNS_BY_POKEMON: {[key: string]: NormalSpawn[]} = {
       "level": "68-70",
       "ev": "2 BASE_HP",
       "place": "Goldburn City Shores"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/whiscash.gif",
+      "pokemon": "Whiscash",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "37-40",
+      "ev": "2 BASE_HP",
+      "place": "Route 123"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/whiscash.gif",
+      "pokemon": "Whiscash",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "40-42",
+      "ev": "2 BASE_HP",
+      "place": "Seafloor Cavern (Entrance)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/whiscash.gif",
+      "pokemon": "Whiscash",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "40-42",
+      "ev": "2 BASE_HP",
+      "place": "Seafloor Cavern (Room 5)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/whiscash.gif",
+      "pokemon": "Whiscash",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "40-42",
+      "ev": "2 BASE_HP",
+      "place": "Seafloor Cavern (Room 6)"
     }
   ],
   "Feebas": [
@@ -24115,6 +32819,26 @@ export const NORMAL_SPAWNS_BY_POKEMON: {[key: string]: NormalSpawn[]} = {
       "level": "60-62",
       "ev": "1 SPEED",
       "place": "Ochra Park-A"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/feebas.gif",
+      "pokemon": "Feebas",
+      "rarity": "UR",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "31-35",
+      "ev": "1 SPEED",
+      "place": "Route 119 (South)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/feebas.gif",
+      "pokemon": "Feebas",
+      "rarity": "UR",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "33-36",
+      "ev": "1 SPEED",
+      "place": "Route 119 (North)"
     }
   ],
   "Zangoose": [
@@ -24167,6 +32891,16 @@ export const NORMAL_SPAWNS_BY_POKEMON: {[key: string]: NormalSpawn[]} = {
       "level": "56-58",
       "ev": "2 ATK",
       "place": "Barfi Pass"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/zangoose.gif",
+      "pokemon": "Zangoose",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "17-20",
+      "ev": "2 ATK",
+      "place": "Route 114"
     }
   ],
   "Jynx": [
@@ -24633,6 +33367,36 @@ export const NORMAL_SPAWNS_BY_POKEMON: {[key: string]: NormalSpawn[]} = {
       "level": "64-65",
       "ev": "1 ATK",
       "place": "Matti Cliffs"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/carvanha.gif",
+      "pokemon": "Carvanha",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "31-35",
+      "ev": "1 ATK",
+      "place": "Route 119 (South)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/carvanha.gif",
+      "pokemon": "Carvanha",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "33-36",
+      "ev": "1 ATK",
+      "place": "Route 119 (North)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/carvanha.gif",
+      "pokemon": "Carvanha",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "30-40",
+      "ev": "1 ATK",
+      "place": "Abandoned Ship"
     }
   ],
   "Wingull": [
@@ -24645,6 +33409,36 @@ export const NORMAL_SPAWNS_BY_POKEMON: {[key: string]: NormalSpawn[]} = {
       "level": "52-54",
       "ev": "1 SPEED",
       "place": "Route 222"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/wingull.gif",
+      "pokemon": "Wingull",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "3-5",
+      "ev": "1 SPEED",
+      "place": "Route 104"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/wingull.gif",
+      "pokemon": "Wingull",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "20-22",
+      "ev": "1 SPEED",
+      "place": "Route 115"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/wingull.gif",
+      "pokemon": "Wingull",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "2-3",
+      "ev": "1 SPEED",
+      "place": "Route 103"
     }
   ],
   "Mantyke": [
@@ -24667,6 +33461,16 @@ export const NORMAL_SPAWNS_BY_POKEMON: {[key: string]: NormalSpawn[]} = {
       "level": "54-56",
       "ev": "1 SP_DEF",
       "place": "Route 223"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/mantyke.gif",
+      "pokemon": "Mantyke",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "12-14",
+      "ev": "1 SP_DEF",
+      "place": "Route 118"
     }
   ],
   "Onix": [
@@ -24789,6 +33593,36 @@ export const NORMAL_SPAWNS_BY_POKEMON: {[key: string]: NormalSpawn[]} = {
       "level": "72-75",
       "ev": "1 DEF",
       "place": "Champions Road #5"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/onix.gif",
+      "pokemon": "Onix",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "10-12",
+      "ev": "1 DEF",
+      "place": "Granite Cave 1F"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/onix.gif",
+      "pokemon": "Onix",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "10-12",
+      "ev": "1 DEF",
+      "place": "Granite Cave B1F"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/onix.gif",
+      "pokemon": "Onix",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "10-12",
+      "ev": "1 DEF",
+      "place": "Granite Cave B2F"
     }
   ],
   "Mawile": [
@@ -24801,6 +33635,46 @@ export const NORMAL_SPAWNS_BY_POKEMON: {[key: string]: NormalSpawn[]} = {
       "level": "50-52",
       "ev": "1 ATK, 1 DEF",
       "place": "Iron Island B2F L"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/mawile.gif",
+      "pokemon": "Mawile",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "52-55",
+      "ev": "1 DEF, 1 ATK",
+      "place": "Meteor Falls 1F 2R"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/mawile.gif",
+      "pokemon": "Mawile",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "52-55",
+      "ev": "1 DEF, 1 ATK",
+      "place": "Meteor Falls B1F 1R"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/mawile.gif",
+      "pokemon": "Mawile",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "52-55",
+      "ev": "1 DEF, 1 ATK",
+      "place": "Meteor Falls B1F 2R"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/mawile.gif",
+      "pokemon": "Mawile",
+      "rarity": "VR",
+      "time": "🌕",
+      "method": "🍀",
+      "level": "10-12",
+      "ev": "1 DEF, 1 ATK",
+      "place": "Granite Cave B1F"
     }
   ],
   "Sableye": [
@@ -24813,6 +33687,16 @@ export const NORMAL_SPAWNS_BY_POKEMON: {[key: string]: NormalSpawn[]} = {
       "level": "50-52",
       "ev": "1 ATK, 1 DEF",
       "place": "Iron Island B2F L"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/sableye.gif",
+      "pokemon": "Sableye",
+      "rarity": "VR",
+      "time": "🌑",
+      "method": "🍀",
+      "level": "10-12",
+      "ev": "1 DEF, 1 ATK",
+      "place": "Granite Cave B1F"
     }
   ],
   "Golem": [
@@ -25041,6 +33925,16 @@ export const NORMAL_SPAWNS_BY_POKEMON: {[key: string]: NormalSpawn[]} = {
       "level": "1-10",
       "ev": "1 SPEED",
       "place": "Spring Valley"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/panpour.gif",
+      "pokemon": "Panpour",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "37-40",
+      "ev": "1 SPEED",
+      "place": "Route 123"
     }
   ],
   "Poliwag": [
@@ -25177,6 +34071,16 @@ export const NORMAL_SPAWNS_BY_POKEMON: {[key: string]: NormalSpawn[]} = {
       "level": "68-70",
       "ev": "1 SP_ATK",
       "place": "Goldburn City Shores"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/spinda.gif",
+      "pokemon": "Spinda",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "16-19",
+      "ev": "1 SP_ATK",
+      "place": "Route 113"
     }
   ],
   "Lopunny": [
@@ -25263,6 +34167,56 @@ export const NORMAL_SPAWNS_BY_POKEMON: {[key: string]: NormalSpawn[]} = {
       "level": "72-75",
       "ev": "1 SP_DEF",
       "place": "Dragon Tower Floor 4"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/swablu.gif",
+      "pokemon": "Swablu",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "16-19",
+      "ev": "1 SP_DEF",
+      "place": "Meteor Falls 1F 1R"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/swablu.gif",
+      "pokemon": "Swablu",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "52-55",
+      "ev": "1 SP_DEF",
+      "place": "Meteor Falls 1F 2R"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/swablu.gif",
+      "pokemon": "Swablu",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "52-55",
+      "ev": "1 SP_DEF",
+      "place": "Meteor Falls B1F 1R"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/swablu.gif",
+      "pokemon": "Swablu",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "52-55",
+      "ev": "1 SP_DEF",
+      "place": "Meteor Falls B1F 2R"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/swablu.gif",
+      "pokemon": "Swablu",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "17-20",
+      "ev": "1 SP_DEF",
+      "place": "Route 114"
     }
   ],
   "Altaria": [
@@ -25439,6 +34393,16 @@ export const NORMAL_SPAWNS_BY_POKEMON: {[key: string]: NormalSpawn[]} = {
       "level": "56-58",
       "ev": "2 SPEED",
       "place": "Route 228"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/poliwhirl.gif",
+      "pokemon": "Poliwhirl",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "37-40",
+      "ev": "2 SPEED",
+      "place": "Route 123"
     }
   ],
   "Bruxish": [
@@ -25553,6 +34517,66 @@ export const NORMAL_SPAWNS_BY_POKEMON: {[key: string]: NormalSpawn[]} = {
       "level": "68-70",
       "ev": "1 ATK",
       "place": "Goldburn City Shores"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/qwilfish.gif",
+      "pokemon": "Qwilfish",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "3-5",
+      "ev": "1 ATK",
+      "place": "Route 104"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/qwilfish.gif",
+      "pokemon": "Qwilfish",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "6-8",
+      "ev": "1 ATK",
+      "place": "Route 115"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/qwilfish.gif",
+      "pokemon": "Qwilfish",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "27-29",
+      "ev": "1 ATK",
+      "place": "Route 115"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/qwilfish.gif",
+      "pokemon": "Qwilfish",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "37-40",
+      "ev": "1 ATK",
+      "place": "Lilycove City"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/qwilfish.gif",
+      "pokemon": "Qwilfish",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "20-25",
+      "ev": "1 ATK",
+      "place": "Route 105"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/qwilfish.gif",
+      "pokemon": "Qwilfish",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "65-67",
+      "ev": "1 ATK",
+      "place": "Hoenn Victory Road (2F)"
     }
   ],
   "Lunatone": [
@@ -25585,6 +34609,86 @@ export const NORMAL_SPAWNS_BY_POKEMON: {[key: string]: NormalSpawn[]} = {
       "level": "46-48",
       "ev": "2 SP_ATK",
       "place": "Mt. Inferno Peak"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/lunatone.gif",
+      "pokemon": "Lunatone",
+      "rarity": "C",
+      "time": "🌑",
+      "method": "🍀",
+      "level": "16-19",
+      "ev": "2 SP_ATK",
+      "place": "Meteor Falls 1F 1R"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/lunatone.gif",
+      "pokemon": "Lunatone",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "27-29",
+      "ev": "2 SP_ATK",
+      "place": "Meteor Falls 1F 1R"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/lunatone.gif",
+      "pokemon": "Lunatone",
+      "rarity": "C",
+      "time": "🌑",
+      "method": "🍀",
+      "level": "52-55",
+      "ev": "2 SP_ATK",
+      "place": "Meteor Falls 1F 2R"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/lunatone.gif",
+      "pokemon": "Lunatone",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "52-55",
+      "ev": "2 SP_ATK",
+      "place": "Meteor Falls 1F 2R"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/lunatone.gif",
+      "pokemon": "Lunatone",
+      "rarity": "C",
+      "time": "🌑",
+      "method": "🍀",
+      "level": "52-55",
+      "ev": "2 SP_ATK",
+      "place": "Meteor Falls B1F 1R"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/lunatone.gif",
+      "pokemon": "Lunatone",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "52-55",
+      "ev": "2 SP_ATK",
+      "place": "Meteor Falls B1F 1R"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/lunatone.gif",
+      "pokemon": "Lunatone",
+      "rarity": "C",
+      "time": "🌑",
+      "method": "🍀",
+      "level": "52-55",
+      "ev": "2 SP_ATK",
+      "place": "Meteor Falls B1F 2R"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/lunatone.gif",
+      "pokemon": "Lunatone",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "52-55",
+      "ev": "2 SP_ATK",
+      "place": "Meteor Falls B1F 2R"
     }
   ],
   "Solrock": [
@@ -25617,6 +34721,86 @@ export const NORMAL_SPAWNS_BY_POKEMON: {[key: string]: NormalSpawn[]} = {
       "level": "46-48",
       "ev": "2 ATK",
       "place": "Mt. Inferno Peak"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/solrock.gif",
+      "pokemon": "Solrock",
+      "rarity": "C",
+      "time": "🌕",
+      "method": "🍀",
+      "level": "16-19",
+      "ev": "2 ATK",
+      "place": "Meteor Falls 1F 1R"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/solrock.gif",
+      "pokemon": "Solrock",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "27-29",
+      "ev": "2 ATK",
+      "place": "Meteor Falls 1F 1R"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/solrock.gif",
+      "pokemon": "Solrock",
+      "rarity": "C",
+      "time": "🌕",
+      "method": "🍀",
+      "level": "52-55",
+      "ev": "2 ATK",
+      "place": "Meteor Falls 1F 2R"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/solrock.gif",
+      "pokemon": "Solrock",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "52-55",
+      "ev": "2 ATK",
+      "place": "Meteor Falls 1F 2R"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/solrock.gif",
+      "pokemon": "Solrock",
+      "rarity": "C",
+      "time": "🌕",
+      "method": "🍀",
+      "level": "52-55",
+      "ev": "2 ATK",
+      "place": "Meteor Falls B1F 1R"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/solrock.gif",
+      "pokemon": "Solrock",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "52-55",
+      "ev": "2 ATK",
+      "place": "Meteor Falls B1F 1R"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/solrock.gif",
+      "pokemon": "Solrock",
+      "rarity": "C",
+      "time": "🌕",
+      "method": "🍀",
+      "level": "52-55",
+      "ev": "2 ATK",
+      "place": "Meteor Falls B1F 2R"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/solrock.gif",
+      "pokemon": "Solrock",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "52-55",
+      "ev": "2 ATK",
+      "place": "Meteor Falls B1F 2R"
     }
   ],
   "Numel": [
@@ -25669,6 +34853,46 @@ export const NORMAL_SPAWNS_BY_POKEMON: {[key: string]: NormalSpawn[]} = {
       "level": "46-48",
       "ev": "1 SP_ATK",
       "place": "Mt. Inferno Peak"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/numel.gif",
+      "pokemon": "Numel",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "15-17",
+      "ev": "1 SP_ATK",
+      "place": "Route 112 (North)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/numel.gif",
+      "pokemon": "Numel",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "15-17",
+      "ev": "1 SP_ATK",
+      "place": "Route 112"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/numel.gif",
+      "pokemon": "Numel",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "18-21",
+      "ev": "1 SP_ATK",
+      "place": "Jagged Pass"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/numel.gif",
+      "pokemon": "Numel",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "2-10",
+      "ev": "1 SP_ATK",
+      "place": "Hoenn Safari (Desert Biome)"
     }
   ],
   "Camerupt": [
@@ -25743,6 +34967,16 @@ export const NORMAL_SPAWNS_BY_POKEMON: {[key: string]: NormalSpawn[]} = {
       "level": "58-60",
       "ev": "2 DEF",
       "place": "Stark Mountain Inside"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/torkoal.gif",
+      "pokemon": "Torkoal",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "15-17",
+      "ev": "2 DEF",
+      "place": "Fiery Path"
     }
   ],
   "Trapinch": [
@@ -25837,6 +35071,96 @@ export const NORMAL_SPAWNS_BY_POKEMON: {[key: string]: NormalSpawn[]} = {
       "level": "42-44",
       "ev": "1 BASE_HP, 1 DEF",
       "place": "Amberwick Town"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/relicanth.gif",
+      "pokemon": "Relicanth",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "50-52",
+      "ev": "1 DEF, 1 BASE_HP",
+      "place": "Route 107 (Underwater)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/relicanth.gif",
+      "pokemon": "Relicanth",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "40-44",
+      "ev": "1 DEF, 1 BASE_HP",
+      "place": "Route 124 (Underwater)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/relicanth.gif",
+      "pokemon": "Relicanth",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "43-46",
+      "ev": "1 DEF, 1 BASE_HP",
+      "place": "Route 126 (Underwater)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/relicanth.gif",
+      "pokemon": "Relicanth",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "46-50",
+      "ev": "1 DEF, 1 BASE_HP",
+      "place": "Route 128 (Underwater)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/relicanth.gif",
+      "pokemon": "Relicanth",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "46-50",
+      "ev": "1 DEF, 1 BASE_HP",
+      "place": "Route 129 (Underwater)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/relicanth.gif",
+      "pokemon": "Relicanth",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "46-50",
+      "ev": "1 DEF, 1 BASE_HP",
+      "place": "Route 130 (Underwater)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/relicanth.gif",
+      "pokemon": "Relicanth",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "60-66",
+      "ev": "1 DEF, 1 BASE_HP",
+      "place": "Route 134 (Underwater)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/relicanth.gif",
+      "pokemon": "Relicanth",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "70-76",
+      "ev": "1 DEF, 1 BASE_HP",
+      "place": "Route 134 (Underwater Tunnel)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/relicanth.gif",
+      "pokemon": "Relicanth",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "30-40",
+      "ev": "1 DEF, 1 BASE_HP",
+      "place": "Abandoned Ship"
     }
   ],
   "Heatmor": [
@@ -25881,6 +35205,26 @@ export const NORMAL_SPAWNS_BY_POKEMON: {[key: string]: NormalSpawn[]} = {
       "level": "58-60",
       "ev": "1 SP_ATK",
       "place": "Stark Mountain Inside"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/slugma.gif",
+      "pokemon": "Slugma",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "16-19",
+      "ev": "1 SP_ATK",
+      "place": "Route 113"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/slugma.gif",
+      "pokemon": "Slugma",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "15-17",
+      "ev": "1 SP_ATK",
+      "place": "Fiery Path"
     }
   ],
   "Larvitar": [
@@ -26007,6 +35351,16 @@ export const NORMAL_SPAWNS_BY_POKEMON: {[key: string]: NormalSpawn[]} = {
       "level": "38-40",
       "ev": "1 DEF",
       "place": "Gym 5"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/sandshrew.gif",
+      "pokemon": "Sandshrew",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "20-23",
+      "ev": "1 DEF",
+      "place": "Route 111 (Desert)"
     }
   ],
   "Cacnea": [
@@ -26019,6 +35373,16 @@ export const NORMAL_SPAWNS_BY_POKEMON: {[key: string]: NormalSpawn[]} = {
       "level": "56-58",
       "ev": "1 SP_ATK",
       "place": "Route 228"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/cacnea.gif",
+      "pokemon": "Cacnea",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "20-23",
+      "ev": "1 SP_ATK",
+      "place": "Route 111 (Desert)"
     }
   ],
   "Cacturne": [
@@ -26113,6 +35477,36 @@ export const NORMAL_SPAWNS_BY_POKEMON: {[key: string]: NormalSpawn[]} = {
       "level": "64-67",
       "ev": "1 BASE_HP",
       "place": "Cavity Cavern 1-B"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/whismur.gif",
+      "pokemon": "Whismur",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "5-7",
+      "ev": "1 BASE_HP",
+      "place": "Route 116"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/whismur.gif",
+      "pokemon": "Whismur",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "2-10",
+      "ev": "1 BASE_HP",
+      "place": "Hoenn Safari (Desert Biome)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/whismur.gif",
+      "pokemon": "Whismur",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "6-8",
+      "ev": "1 BASE_HP",
+      "place": "Rusturf Tunnel"
     }
   ],
   "Aron": [
@@ -26165,6 +35559,26 @@ export const NORMAL_SPAWNS_BY_POKEMON: {[key: string]: NormalSpawn[]} = {
       "level": "66-67",
       "ev": "1 DEF",
       "place": "Cavity Cavern 1-B"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/aron.gif",
+      "pokemon": "Aron",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "20-23",
+      "ev": "1 DEF",
+      "place": "Route 111 (Desert)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/aron.gif",
+      "pokemon": "Aron",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "2-10",
+      "ev": "1 DEF",
+      "place": "Hoenn Safari (Desert Biome)"
     }
   ],
   "Hippopotas": [
@@ -26177,6 +35591,16 @@ export const NORMAL_SPAWNS_BY_POKEMON: {[key: string]: NormalSpawn[]} = {
       "level": "56-58",
       "ev": "1 DEF",
       "place": "Route 228"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/hippopotas.gif",
+      "pokemon": "Hippopotas",
+      "rarity": "UR",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "20-23",
+      "ev": "1 DEF",
+      "place": "Route 111 (Desert)"
     }
   ],
   "Luvdisc": [
@@ -26279,6 +35703,126 @@ export const NORMAL_SPAWNS_BY_POKEMON: {[key: string]: NormalSpawn[]} = {
       "level": "68-70",
       "ev": "1 SPEED",
       "place": "Goldburn City Shores"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/luvdisc.gif",
+      "pokemon": "Luvdisc",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "27-29",
+      "ev": "1 SPEED",
+      "place": "Route 107"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/luvdisc.gif",
+      "pokemon": "Luvdisc",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "20-25",
+      "ev": "1 SPEED",
+      "place": "Route 108"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/luvdisc.gif",
+      "pokemon": "Luvdisc",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "2-3",
+      "ev": "1 SPEED",
+      "place": "Route 103"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/luvdisc.gif",
+      "pokemon": "Luvdisc",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "60-66",
+      "ev": "1 SPEED",
+      "place": "Route 132"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/luvdisc.gif",
+      "pokemon": "Luvdisc",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "60-66",
+      "ev": "1 SPEED",
+      "place": "Route 132"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/luvdisc.gif",
+      "pokemon": "Luvdisc",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "60-66",
+      "ev": "1 SPEED",
+      "place": "Route 133"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/luvdisc.gif",
+      "pokemon": "Luvdisc",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "60-66",
+      "ev": "1 SPEED",
+      "place": "Route 133"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/luvdisc.gif",
+      "pokemon": "Luvdisc",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "60-66",
+      "ev": "1 SPEED",
+      "place": "Route 134"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/luvdisc.gif",
+      "pokemon": "Luvdisc",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "60-66",
+      "ev": "1 SPEED",
+      "place": "Route 134"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/luvdisc.gif",
+      "pokemon": "Luvdisc",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "52-55",
+      "ev": "1 SPEED",
+      "place": "Ever Grande City"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/luvdisc.gif",
+      "pokemon": "Luvdisc",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "52-55",
+      "ev": "1 SPEED",
+      "place": "Ever Grande City"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/luvdisc.gif",
+      "pokemon": "Luvdisc",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "70-76",
+      "ev": "1 SPEED",
+      "place": "Route 134 (Underwater Tunnel)"
     }
   ],
   "Tropius": [
@@ -26341,6 +35885,46 @@ export const NORMAL_SPAWNS_BY_POKEMON: {[key: string]: NormalSpawn[]} = {
       "level": "72-75",
       "ev": "2 BASE_HP",
       "place": "Dragon Tower Floor 4"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tropius.gif",
+      "pokemon": "Tropius",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "31-35",
+      "ev": "2 BASE_HP",
+      "place": "Route 119 (South)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tropius.gif",
+      "pokemon": "Tropius",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "33-36",
+      "ev": "2 BASE_HP",
+      "place": "Route 119 (North)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tropius.gif",
+      "pokemon": "Tropius",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "35-38",
+      "ev": "2 BASE_HP",
+      "place": "Route 120"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tropius.gif",
+      "pokemon": "Tropius",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "37-40",
+      "ev": "2 BASE_HP",
+      "place": "Route 123"
     }
   ],
   "Nincada": [
@@ -26415,6 +35999,16 @@ export const NORMAL_SPAWNS_BY_POKEMON: {[key: string]: NormalSpawn[]} = {
       "level": "36-40",
       "ev": "1 SPEED",
       "place": "Oozy Forest Northern Pass"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/combee.gif",
+      "pokemon": "Combee",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "5-7",
+      "ev": "1 SPEED",
+      "place": "Route 104 (North)"
     }
   ],
   "Vespiquen": [
@@ -26481,6 +36075,16 @@ export const NORMAL_SPAWNS_BY_POKEMON: {[key: string]: NormalSpawn[]} = {
       "level": "56-58",
       "ev": "1 SPEED",
       "place": "Route 230"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/fletchling.gif",
+      "pokemon": "Fletchling",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "2-10",
+      "ev": "1 SPEED",
+      "place": "Hoenn Safari (Desert Biome)"
     }
   ],
   "Frillish": [
@@ -26523,6 +36127,36 @@ export const NORMAL_SPAWNS_BY_POKEMON: {[key: string]: NormalSpawn[]} = {
       "level": "14-16",
       "ev": "1 SP_DEF",
       "place": "Route 3"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/frillish.gif",
+      "pokemon": "Frillish",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "11-13",
+      "ev": "1 SP_DEF",
+      "place": "Route 109"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/frillish.gif",
+      "pokemon": "Frillish",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "40-44",
+      "ev": "1 SP_DEF",
+      "place": "Route 126"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/frillish.gif",
+      "pokemon": "Frillish",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "44-48",
+      "ev": "1 SP_DEF",
+      "place": "Route 127"
     }
   ],
   "Wailord": [
@@ -26589,6 +36223,76 @@ export const NORMAL_SPAWNS_BY_POKEMON: {[key: string]: NormalSpawn[]} = {
       "level": "56-58",
       "ev": "1 BASE_HP",
       "place": "Steel Cavern"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/makuhita.gif",
+      "pokemon": "Makuhita",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "15-17",
+      "ev": "1 BASE_HP",
+      "place": "Route 112 (North)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/makuhita.gif",
+      "pokemon": "Makuhita",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "15-17",
+      "ev": "1 BASE_HP",
+      "place": "Route 112"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/makuhita.gif",
+      "pokemon": "Makuhita",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "15-17",
+      "ev": "1 BASE_HP",
+      "place": "Fiery Path"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/makuhita.gif",
+      "pokemon": "Makuhita",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "18-21",
+      "ev": "1 BASE_HP",
+      "place": "Jagged Pass"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/makuhita.gif",
+      "pokemon": "Makuhita",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "10-12",
+      "ev": "1 BASE_HP",
+      "place": "Granite Cave 1F"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/makuhita.gif",
+      "pokemon": "Makuhita",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "10-12",
+      "ev": "1 BASE_HP",
+      "place": "Granite Cave B1F"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/makuhita.gif",
+      "pokemon": "Makuhita",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "10-12",
+      "ev": "1 BASE_HP",
+      "place": "Granite Cave B2F"
     }
   ],
   "Hariyama": [
@@ -26803,6 +36507,16 @@ export const NORMAL_SPAWNS_BY_POKEMON: {[key: string]: NormalSpawn[]} = {
       "level": "42-44",
       "ev": "1 SPEED",
       "place": "Amberwick Pass"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/magby.gif",
+      "pokemon": "Magby",
+      "rarity": "UR",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "16-19",
+      "ev": "1 SPEED",
+      "place": "Route 113"
     }
   ],
   "Horsea": [
@@ -26825,6 +36539,106 @@ export const NORMAL_SPAWNS_BY_POKEMON: {[key: string]: NormalSpawn[]} = {
       "level": "56-58",
       "ev": "1 SP_ATK",
       "place": "Route 230"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/horsea.gif",
+      "pokemon": "Horsea",
+      "rarity": "UR",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "27-29",
+      "ev": "1 SP_ATK",
+      "place": "Route 115"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/horsea.gif",
+      "pokemon": "Horsea",
+      "rarity": "UR",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "20-25",
+      "ev": "1 SP_ATK",
+      "place": "Route 108"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/horsea.gif",
+      "pokemon": "Horsea",
+      "rarity": "UR",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "27-29",
+      "ev": "1 SP_ATK",
+      "place": "Route 108"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/horsea.gif",
+      "pokemon": "Horsea",
+      "rarity": "UR",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "27-29",
+      "ev": "1 SP_ATK",
+      "place": "Route 109"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/horsea.gif",
+      "pokemon": "Horsea",
+      "rarity": "UR",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "60-66",
+      "ev": "1 SP_ATK",
+      "place": "Route 132"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/horsea.gif",
+      "pokemon": "Horsea",
+      "rarity": "UR",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "60-66",
+      "ev": "1 SP_ATK",
+      "place": "Route 132"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/horsea.gif",
+      "pokemon": "Horsea",
+      "rarity": "UR",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "60-66",
+      "ev": "1 SP_ATK",
+      "place": "Route 133"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/horsea.gif",
+      "pokemon": "Horsea",
+      "rarity": "UR",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "60-66",
+      "ev": "1 SP_ATK",
+      "place": "Route 133"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/horsea.gif",
+      "pokemon": "Horsea",
+      "rarity": "UR",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "60-66",
+      "ev": "1 SP_ATK",
+      "place": "Route 134"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/horsea.gif",
+      "pokemon": "Horsea",
+      "rarity": "UR",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "60-66",
+      "ev": "1 SP_ATK",
+      "place": "Route 134"
     }
   ],
   "Spinarak": [
@@ -26987,6 +36801,26 @@ export const NORMAL_SPAWNS_BY_POKEMON: {[key: string]: NormalSpawn[]} = {
       "level": "49-53",
       "ev": "1 ATK",
       "place": "Route 7-B"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/spinarak.gif",
+      "pokemon": "Spinarak",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "37-40",
+      "ev": "1 ATK",
+      "place": "Mt. Pyre (Exterior)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/spinarak.gif",
+      "pokemon": "Spinarak",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "37-40",
+      "ev": "1 ATK",
+      "place": "Mt. Pyre (Summit)"
     }
   ],
   "Shuppet": [
@@ -27139,6 +36973,66 @@ export const NORMAL_SPAWNS_BY_POKEMON: {[key: string]: NormalSpawn[]} = {
       "level": "24-26",
       "ev": "1 ATK",
       "place": "Lost Tower #5"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/shuppet.gif",
+      "pokemon": "Shuppet",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "37-40",
+      "ev": "1 ATK",
+      "place": "Mt. Pyre 1F"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/shuppet.gif",
+      "pokemon": "Shuppet",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "37-40",
+      "ev": "1 ATK",
+      "place": "Mt. Pyre 2F"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/shuppet.gif",
+      "pokemon": "Shuppet",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "37-40",
+      "ev": "1 ATK",
+      "place": "Mt. Pyre 3F"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/shuppet.gif",
+      "pokemon": "Shuppet",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "37-40",
+      "ev": "1 ATK",
+      "place": "Mt. Pyre 4F"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/shuppet.gif",
+      "pokemon": "Shuppet",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "37-40",
+      "ev": "1 ATK",
+      "place": "Mt. Pyre (Exterior)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/shuppet.gif",
+      "pokemon": "Shuppet",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "37-40",
+      "ev": "1 ATK",
+      "place": "Mt. Pyre (Summit)"
     }
   ],
   "Misdreavus": [
@@ -27291,6 +37185,16 @@ export const NORMAL_SPAWNS_BY_POKEMON: {[key: string]: NormalSpawn[]} = {
       "level": "24-26",
       "ev": "1 SP_DEF",
       "place": "Lost Tower #5"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/misdreavus.gif",
+      "pokemon": "Misdreavus",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "35-38",
+      "ev": "1 SP_DEF",
+      "place": "Route 121"
     }
   ],
   "Gastly": [
@@ -27453,6 +37357,36 @@ export const NORMAL_SPAWNS_BY_POKEMON: {[key: string]: NormalSpawn[]} = {
       "level": "72-75",
       "ev": "1 SP_ATK",
       "place": "Champions Road #6"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/gastly.gif",
+      "pokemon": "Gastly",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "37-40",
+      "ev": "1 SP_ATK",
+      "place": "Mt. Pyre 2F"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/gastly.gif",
+      "pokemon": "Gastly",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "37-40",
+      "ev": "1 SP_ATK",
+      "place": "Mt. Pyre 3F"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/gastly.gif",
+      "pokemon": "Gastly",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "37-40",
+      "ev": "1 SP_ATK",
+      "place": "Mt. Pyre 4F"
     }
   ],
   "Chimecho": [
@@ -27579,6 +37513,26 @@ export const NORMAL_SPAWNS_BY_POKEMON: {[key: string]: NormalSpawn[]} = {
       "level": "4-12",
       "ev": "1 BASE_HP",
       "place": "Great Marsh"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/shroomish.gif",
+      "pokemon": "Shroomish",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "4-6",
+      "ev": "1 BASE_HP",
+      "place": "Petalburg Woods"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/shroomish.gif",
+      "pokemon": "Shroomish",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "2-10",
+      "ev": "1 BASE_HP",
+      "place": "Hoenn Safari (Grass Biome)"
     }
   ],
   "Oddish": [
@@ -27661,6 +37615,46 @@ export const NORMAL_SPAWNS_BY_POKEMON: {[key: string]: NormalSpawn[]} = {
       "level": "4-12",
       "ev": "1 SPEED",
       "place": "Great Marsh"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/magikarp.gif",
+      "pokemon": "Magikarp",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "31-35",
+      "ev": "1 SPEED",
+      "place": "Route 119 (South)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/magikarp.gif",
+      "pokemon": "Magikarp",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "33-36",
+      "ev": "1 SPEED",
+      "place": "Route 119 (North)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/magikarp.gif",
+      "pokemon": "Magikarp",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "44-48",
+      "ev": "1 SPEED",
+      "place": "Sootopolis City"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/magikarp.gif",
+      "pokemon": "Magikarp",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "30-40",
+      "ev": "1 SPEED",
+      "place": "Abandoned Ship"
     }
   ],
   "Lapras": [
@@ -27683,6 +37677,16 @@ export const NORMAL_SPAWNS_BY_POKEMON: {[key: string]: NormalSpawn[]} = {
       "level": "74-75",
       "ev": "2 BASE_HP",
       "place": "Jannat Village"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/lapras.gif",
+      "pokemon": "Lapras",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "2-10",
+      "ev": "2 BASE_HP",
+      "place": "Hoenn Safari (Water Biome)"
     }
   ],
   "Piplup": [
@@ -27717,6 +37721,16 @@ export const NORMAL_SPAWNS_BY_POKEMON: {[key: string]: NormalSpawn[]} = {
       "level": "4-12",
       "ev": "1 SP_DEF",
       "place": "Great Marsh"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/lotad.gif",
+      "pokemon": "Lotad",
+      "rarity": "R",
+      "time": "🌕",
+      "method": "🍀",
+      "level": "5-7",
+      "ev": "1 SP_DEF",
+      "place": "Route 104 (North)"
     }
   ],
   "Wailmer": [
@@ -27729,6 +37743,56 @@ export const NORMAL_SPAWNS_BY_POKEMON: {[key: string]: NormalSpawn[]} = {
       "level": "4-12",
       "ev": "1 BASE_HP",
       "place": "Great Marsh"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/wailmer.gif",
+      "pokemon": "Wailmer",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "37-40",
+      "ev": "1 BASE_HP",
+      "place": "Route 123"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/wailmer.gif",
+      "pokemon": "Wailmer",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "9-11",
+      "ev": "1 BASE_HP",
+      "place": "Route 106"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/wailmer.gif",
+      "pokemon": "Wailmer",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "27-29",
+      "ev": "1 BASE_HP",
+      "place": "Route 106"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/wailmer.gif",
+      "pokemon": "Wailmer",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "9-11",
+      "ev": "1 BASE_HP",
+      "place": "Dewford Town"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/wailmer.gif",
+      "pokemon": "Wailmer",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "27-29",
+      "ev": "1 BASE_HP",
+      "place": "Dewford Town"
     }
   ],
   "Slowpoke": [
@@ -27925,6 +37989,26 @@ export const NORMAL_SPAWNS_BY_POKEMON: {[key: string]: NormalSpawn[]} = {
       "level": "15-18",
       "ev": "1 SPEED",
       "place": "Route 3 - Cliffside"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/pidgey.gif",
+      "pokemon": "Pidgey",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "2-3",
+      "ev": "1 SPEED",
+      "place": "Route 101"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/pidgey.gif",
+      "pokemon": "Pidgey",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "5-7",
+      "ev": "1 SPEED",
+      "place": "Route 104 (North)"
     }
   ],
   "Rattata": [
@@ -28387,6 +38471,36 @@ export const NORMAL_SPAWNS_BY_POKEMON: {[key: string]: NormalSpawn[]} = {
       "level": "58-62",
       "ev": "2 SPEED",
       "place": "Ochra Park-B"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/pidgeotto.gif",
+      "pokemon": "Pidgeotto",
+      "rarity": "C",
+      "time": "🌕",
+      "method": "🌊",
+      "level": "27-29",
+      "ev": "2 SPEED",
+      "place": "Route 114"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/pidgeotto.gif",
+      "pokemon": "Pidgeotto",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "30-34",
+      "ev": "2 SPEED",
+      "place": "Route 118"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/pidgeotto.gif",
+      "pokemon": "Pidgeotto",
+      "rarity": "C",
+      "time": "🌕",
+      "method": "🌊",
+      "level": "40-42",
+      "ev": "2 SPEED",
+      "place": "Route 120"
     }
   ],
   "Seel": [
@@ -28459,6 +38573,16 @@ export const NORMAL_SPAWNS_BY_POKEMON: {[key: string]: NormalSpawn[]} = {
       "level": "64-67",
       "ev": "1 SP_DEF",
       "place": "Cavity Cavern 3-A"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/seel.gif",
+      "pokemon": "Seel",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "40-44",
+      "ev": "1 SP_DEF",
+      "place": "Route 125"
     }
   ],
   "Voltorb": [
@@ -28521,6 +38645,16 @@ export const NORMAL_SPAWNS_BY_POKEMON: {[key: string]: NormalSpawn[]} = {
       "level": "32-35",
       "ev": "1 SPEED",
       "place": "Old Power Plant - Room 3"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/voltorb.gif",
+      "pokemon": "Voltorb",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "22-25",
+      "ev": "1 SPEED",
+      "place": "New Mauville"
     }
   ],
   "Emolga": [
@@ -28585,6 +38719,16 @@ export const NORMAL_SPAWNS_BY_POKEMON: {[key: string]: NormalSpawn[]} = {
       "level": "58-61",
       "ev": "1 ATK",
       "place": "Route 12-B"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/mankey.gif",
+      "pokemon": "Mankey",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "18-21",
+      "ev": "1 ATK",
+      "place": "Jagged Pass"
     }
   ],
   "Grubbin": [
@@ -28649,6 +38793,16 @@ export const NORMAL_SPAWNS_BY_POKEMON: {[key: string]: NormalSpawn[]} = {
       "level": "72-75",
       "ev": "1 DEF",
       "place": "Champions Road #6"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/koffing.gif",
+      "pokemon": "Koffing",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "16-19",
+      "ev": "1 DEF",
+      "place": "Route 113"
     }
   ],
   "Scraggy": [
@@ -28873,6 +39027,26 @@ export const NORMAL_SPAWNS_BY_POKEMON: {[key: string]: NormalSpawn[]} = {
       "level": "64-67",
       "ev": "1 SPEED",
       "place": "Cavity Cavern 2-A"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tynamo.gif",
+      "pokemon": "Tynamo",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "2-3",
+      "ev": "1 SPEED",
+      "place": "Route 103"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tynamo.gif",
+      "pokemon": "Tynamo",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "27-29",
+      "ev": "1 SPEED",
+      "place": "Route 110"
     }
   ],
   "Drowzee": [
@@ -28885,6 +39059,16 @@ export const NORMAL_SPAWNS_BY_POKEMON: {[key: string]: NormalSpawn[]} = {
       "level": "26-30",
       "ev": "1 SP_DEF",
       "place": "Grayroot Town - Northern Pass"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/drowzee.gif",
+      "pokemon": "Drowzee",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "35-38",
+      "ev": "1 SP_DEF",
+      "place": "Route 121"
     }
   ],
   "Oricorio-Pau": [
@@ -28961,6 +39145,26 @@ export const NORMAL_SPAWNS_BY_POKEMON: {[key: string]: NormalSpawn[]} = {
       "level": "49-53",
       "ev": "1 SPEED",
       "place": "Drenched Forest"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/cutiefly.gif",
+      "pokemon": "Cutiefly",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "31-35",
+      "ev": "1 SPEED",
+      "place": "Route 119 (South)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/cutiefly.gif",
+      "pokemon": "Cutiefly",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "33-36",
+      "ev": "1 SPEED",
+      "place": "Route 119 (North)"
     }
   ],
   "Joltik": [
@@ -29055,6 +39259,16 @@ export const NORMAL_SPAWNS_BY_POKEMON: {[key: string]: NormalSpawn[]} = {
       "level": "68-70",
       "ev": "1 SP_DEF",
       "place": "Goldburn City Shores"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/kecleon.gif",
+      "pokemon": "Kecleon",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "2-10",
+      "ev": "1 SP_DEF",
+      "place": "Hoenn Safari Zone"
     }
   ],
   "Zarude": [
@@ -29145,6 +39359,16 @@ export const NORMAL_SPAWNS_BY_POKEMON: {[key: string]: NormalSpawn[]} = {
       "level": "34-35",
       "ev": "1 DEF",
       "place": "Underground Cavern"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/klefki.gif",
+      "pokemon": "Klefki",
+      "rarity": "UR",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "35-38",
+      "ev": "1 DEF",
+      "place": "Route 121"
     }
   ],
   "Corsola": [
@@ -29207,6 +39431,16 @@ export const NORMAL_SPAWNS_BY_POKEMON: {[key: string]: NormalSpawn[]} = {
       "level": "64-67",
       "ev": "1 SP_DEF, 1 DEF",
       "place": "Cavity Cavern 3-A"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/corsola.gif",
+      "pokemon": "Corsola",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "2-10",
+      "ev": "1 DEF, 1 SP_DEF",
+      "place": "Hoenn Safari (Water Biome)"
     }
   ],
   "Minior": [
@@ -29273,6 +39507,26 @@ export const NORMAL_SPAWNS_BY_POKEMON: {[key: string]: NormalSpawn[]} = {
       "level": "58-62",
       "ev": "2 ATK",
       "place": "Ochra Cliffs"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/kingler.gif",
+      "pokemon": "Kingler",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "27-29",
+      "ev": "2 ATK",
+      "place": "Route 109"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/kingler.gif",
+      "pokemon": "Kingler",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "9-11",
+      "ev": "2 ATK",
+      "place": "Dewford Town"
     }
   ],
   "Dunsparce": [
@@ -29317,6 +39571,16 @@ export const NORMAL_SPAWNS_BY_POKEMON: {[key: string]: NormalSpawn[]} = {
       "level": "38-42",
       "ev": "1 SP_DEF",
       "place": "Cresemun Beach"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/baltoy.gif",
+      "pokemon": "Baltoy",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "20-23",
+      "ev": "1 SP_DEF",
+      "place": "Route 111 (Desert)"
     }
   ],
   "Fomantis": [
@@ -29385,6 +39649,46 @@ export const NORMAL_SPAWNS_BY_POKEMON: {[key: string]: NormalSpawn[]} = {
       "level": "40-42",
       "ev": "2 BASE_HP",
       "place": "Cresemun Beach"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/alomomola.gif",
+      "pokemon": "Alomomola",
+      "rarity": "UR",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "40-44",
+      "ev": "2 BASE_HP",
+      "place": "Route 124"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/alomomola.gif",
+      "pokemon": "Alomomola",
+      "rarity": "UR",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "40-44",
+      "ev": "2 BASE_HP",
+      "place": "Route 125"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/alomomola.gif",
+      "pokemon": "Alomomola",
+      "rarity": "UR",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "40-44",
+      "ev": "2 BASE_HP",
+      "place": "Route 126"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/alomomola.gif",
+      "pokemon": "Alomomola",
+      "rarity": "UR",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "44-48",
+      "ev": "2 BASE_HP",
+      "place": "Route 127"
     }
   ],
   "Komala": [
@@ -29461,6 +39765,16 @@ export const NORMAL_SPAWNS_BY_POKEMON: {[key: string]: NormalSpawn[]} = {
       "level": "68-70",
       "ev": "2 SP_ATK",
       "place": "Goldburn City Shores"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/oricorio.gif",
+      "pokemon": "Oricorio",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "18-21",
+      "ev": "2 SP_ATK",
+      "place": "Jagged Pass"
     }
   ],
   "Turtonator": [
@@ -29521,6 +39835,16 @@ export const NORMAL_SPAWNS_BY_POKEMON: {[key: string]: NormalSpawn[]} = {
       "level": "38-40",
       "ev": "1 SPEED",
       "place": "Oozy Forest (Faunas)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/wimpod.gif",
+      "pokemon": "Wimpod",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "4-6",
+      "ev": "1 SPEED",
+      "place": "Petalburg Woods"
     }
   ],
   "Ledian": [
@@ -29921,6 +40245,46 @@ export const NORMAL_SPAWNS_BY_POKEMON: {[key: string]: NormalSpawn[]} = {
       "level": "58-62",
       "ev": "1 ATK",
       "place": "Ochra Park-B"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/sentret.gif",
+      "pokemon": "Sentret",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "2-3",
+      "ev": "1 ATK",
+      "place": "Route 102"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/sentret.gif",
+      "pokemon": "Sentret",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "3-5",
+      "ev": "1 ATK",
+      "place": "Route 104"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/sentret.gif",
+      "pokemon": "Sentret",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "5-7",
+      "ev": "1 ATK",
+      "place": "Route 116"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/sentret.gif",
+      "pokemon": "Sentret",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "2-3",
+      "ev": "1 ATK",
+      "place": "Route 103"
     }
   ],
   "Passimian": [
@@ -29975,6 +40339,36 @@ export const NORMAL_SPAWNS_BY_POKEMON: {[key: string]: NormalSpawn[]} = {
       "level": "68-70",
       "ev": "1 ATK",
       "place": "Route 11-A"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/krabby.gif",
+      "pokemon": "Krabby",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "20-25",
+      "ev": "1 ATK",
+      "place": "Route 108"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/krabby.gif",
+      "pokemon": "Krabby",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "27-29",
+      "ev": "1 ATK",
+      "place": "Route 108"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/krabby.gif",
+      "pokemon": "Krabby",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "27-29",
+      "ev": "1 ATK",
+      "place": "Route 109"
     }
   ],
   "Pyukumuku": [
@@ -30183,6 +40577,16 @@ export const NORMAL_SPAWNS_BY_POKEMON: {[key: string]: NormalSpawn[]} = {
       "level": "64-65",
       "ev": "1 ATK, 1 SPEED",
       "place": "Matti Village"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tauros.gif",
+      "pokemon": "Tauros",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "2-10",
+      "ev": "1 ATK, 1 SPEED",
+      "place": "Hoenn Safari Zone"
     }
   ],
   "Stufful": [
@@ -30355,6 +40759,26 @@ export const NORMAL_SPAWNS_BY_POKEMON: {[key: string]: NormalSpawn[]} = {
       "level": "68-70",
       "ev": "1 BASE_HP",
       "place": "Route 11-C"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/gulpin.gif",
+      "pokemon": "Gulpin",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "12-14",
+      "ev": "1 BASE_HP",
+      "place": "Route 110"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/gulpin.gif",
+      "pokemon": "Gulpin",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "37-40",
+      "ev": "1 BASE_HP",
+      "place": "Route 123"
     }
   ],
   "Sudowoodo": [
@@ -30391,6 +40815,26 @@ export const NORMAL_SPAWNS_BY_POKEMON: {[key: string]: NormalSpawn[]} = {
       "level": "58-61",
       "ev": "2 ATK",
       "place": "Route 12-B"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/trumbeak.gif",
+      "pokemon": "Trumbeak",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "31-35",
+      "ev": "2 ATK",
+      "place": "Route 119 (South)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/trumbeak.gif",
+      "pokemon": "Trumbeak",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "33-36",
+      "ev": "2 ATK",
+      "place": "Route 119 (North)"
     }
   ],
   "MimeJr.": [
@@ -30435,6 +40879,56 @@ export const NORMAL_SPAWNS_BY_POKEMON: {[key: string]: NormalSpawn[]} = {
       "level": "72-75",
       "ev": "1 SPEED",
       "place": "Dragon Tower Floor 5"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/zigzagoon.gif",
+      "pokemon": "Zigzagoon",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "2-3",
+      "ev": "1 SPEED",
+      "place": "Route 102"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/zigzagoon.gif",
+      "pokemon": "Zigzagoon",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "5-7",
+      "ev": "1 SPEED",
+      "place": "Route 104 (North)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/zigzagoon.gif",
+      "pokemon": "Zigzagoon",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "5-7",
+      "ev": "1 SPEED",
+      "place": "Route 116"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/zigzagoon.gif",
+      "pokemon": "Zigzagoon",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "12-14",
+      "ev": "1 SPEED",
+      "place": "Route 110"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/zigzagoon.gif",
+      "pokemon": "Zigzagoon",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "2-10",
+      "ev": "1 SPEED",
+      "place": "Hoenn Safari Zone"
     }
   ],
   "Oricorio-Sensu": [
@@ -30583,6 +41077,36 @@ export const NORMAL_SPAWNS_BY_POKEMON: {[key: string]: NormalSpawn[]} = {
       "level": "66-67",
       "ev": "1 SP_DEF",
       "place": "Cavity Cavern 2-A"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/skrelp.gif",
+      "pokemon": "Skrelp",
+      "rarity": "UR",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "3-5",
+      "ev": "1 SP_DEF",
+      "place": "Route 104"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/skrelp.gif",
+      "pokemon": "Skrelp",
+      "rarity": "UR",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "9-11",
+      "ev": "1 SP_DEF",
+      "place": "Route 106"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/skrelp.gif",
+      "pokemon": "Skrelp",
+      "rarity": "UR",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "65-67",
+      "ev": "1 SP_DEF",
+      "place": "Hoenn Victory Road (2F)"
     }
   ],
   "Abomasnow": [
@@ -31013,6 +41537,16 @@ export const NORMAL_SPAWNS_BY_POKEMON: {[key: string]: NormalSpawn[]} = {
       "level": "66-67",
       "ev": "1 SP_ATK",
       "place": "Cavity Cavern 1-B"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/abra.gif",
+      "pokemon": "Abra",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "10-12",
+      "ev": "1 SP_ATK",
+      "place": "Granite Cave 1F"
     }
   ],
   "Cleffa": [
@@ -31091,6 +41625,66 @@ export const NORMAL_SPAWNS_BY_POKEMON: {[key: string]: NormalSpawn[]} = {
       "level": "72-75",
       "ev": "2 ATK",
       "place": "Dragon Tower Floor 7"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/banette.gif",
+      "pokemon": "Banette",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "37-40",
+      "ev": "2 ATK",
+      "place": "Mt. Pyre 1F"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/banette.gif",
+      "pokemon": "Banette",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "37-40",
+      "ev": "2 ATK",
+      "place": "Mt. Pyre 1F"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/banette.gif",
+      "pokemon": "Banette",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "37-40",
+      "ev": "2 ATK",
+      "place": "Mt. Pyre 1F"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/banette.gif",
+      "pokemon": "Banette",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "37-40",
+      "ev": "2 ATK",
+      "place": "Mt. Pyre 2F"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/banette.gif",
+      "pokemon": "Banette",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "37-40",
+      "ev": "2 ATK",
+      "place": "Mt. Pyre (Exterior)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/banette.gif",
+      "pokemon": "Banette",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "37-40",
+      "ev": "2 ATK",
+      "place": "Mt. Pyre (Summit)"
     }
   ],
   "Flaaffy": [
@@ -31147,6 +41741,1992 @@ export const NORMAL_SPAWNS_BY_POKEMON: {[key: string]: NormalSpawn[]} = {
       "level": "74-75",
       "ev": "1 SPEED",
       "place": "Dragon Tower Floor 7"
+    }
+  ],
+  "Voltorb-Hisui": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/voltorb-hisui.gif",
+      "pokemon": "Voltorb-Hisui",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "2-3",
+      "ev": "1 SPEED",
+      "place": "Route 101"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/voltorb-hisui.gif",
+      "pokemon": "Voltorb-Hisui",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "3-5",
+      "ev": "1 SPEED",
+      "place": "Route 104"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/voltorb-hisui.gif",
+      "pokemon": "Voltorb-Hisui",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "22-25",
+      "ev": "1 SPEED",
+      "place": "New Mauville"
+    }
+  ],
+  "Lillipup": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/lillipup.gif",
+      "pokemon": "Lillipup",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "2-3",
+      "ev": "1 ATK",
+      "place": "Route 101"
+    }
+  ],
+  "Poochyena": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/poochyena.gif",
+      "pokemon": "Poochyena",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "2-3",
+      "ev": "1 ATK",
+      "place": "Route 102"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/poochyena.gif",
+      "pokemon": "Poochyena",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "3-5",
+      "ev": "1 ATK",
+      "place": "Route 104"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/poochyena.gif",
+      "pokemon": "Poochyena",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "2-3",
+      "ev": "1 ATK",
+      "place": "Route 103"
+    }
+  ],
+  "Slakoth": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/slakoth.gif",
+      "pokemon": "Slakoth",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "2-3",
+      "ev": "1 BASE_HP",
+      "place": "Route 102"
+    }
+  ],
+  "Ducklett": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/ducklett.gif",
+      "pokemon": "Ducklett",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "20-25",
+      "ev": "1 BASE_HP",
+      "place": "Route 102"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/ducklett.gif",
+      "pokemon": "Ducklett",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "27-29",
+      "ev": "1 BASE_HP",
+      "place": "Route 104"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/ducklett.gif",
+      "pokemon": "Ducklett",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "27-29",
+      "ev": "1 BASE_HP",
+      "place": "Route 104 (North)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/ducklett.gif",
+      "pokemon": "Ducklett",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "20-25",
+      "ev": "1 BASE_HP",
+      "place": "Route 103"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/ducklett.gif",
+      "pokemon": "Ducklett",
+      "rarity": "C",
+      "time": "🌕",
+      "method": "🌊",
+      "level": "25-30",
+      "ev": "1 BASE_HP",
+      "place": "Route 122"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/ducklett.gif",
+      "pokemon": "Ducklett",
+      "rarity": "C",
+      "time": "🌕",
+      "method": "🌊",
+      "level": "40-44",
+      "ev": "1 BASE_HP",
+      "place": "Route 125"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/ducklett.gif",
+      "pokemon": "Ducklett",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "2-10",
+      "ev": "1 BASE_HP",
+      "place": "Hoenn Safari (Water Biome)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/ducklett.gif",
+      "pokemon": "Ducklett",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "27-29",
+      "ev": "1 BASE_HP",
+      "place": "Route 106"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/ducklett.gif",
+      "pokemon": "Ducklett",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "27-29",
+      "ev": "1 BASE_HP",
+      "place": "Route 105"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/ducklett.gif",
+      "pokemon": "Ducklett",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "27-29",
+      "ev": "1 BASE_HP",
+      "place": "Dewford Town"
+    }
+  ],
+  "Deerling": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/deerling.gif",
+      "pokemon": "Deerling",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "3-5",
+      "ev": "1 SPEED",
+      "place": "Route 104"
+    }
+  ],
+  "Swanna": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/swanna.gif",
+      "pokemon": "Swanna",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "27-29",
+      "ev": "2 SPEED",
+      "place": "Route 104"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/swanna.gif",
+      "pokemon": "Swanna",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "27-29",
+      "ev": "2 SPEED",
+      "place": "Route 104 (North)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/swanna.gif",
+      "pokemon": "Swanna",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "27-29",
+      "ev": "2 SPEED",
+      "place": "Route 115"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/swanna.gif",
+      "pokemon": "Swanna",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "20-25",
+      "ev": "2 SPEED",
+      "place": "Route 103"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/swanna.gif",
+      "pokemon": "Swanna",
+      "rarity": "C",
+      "time": "🌕",
+      "method": "🌊",
+      "level": "25-30",
+      "ev": "2 SPEED",
+      "place": "Route 122"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/swanna.gif",
+      "pokemon": "Swanna",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "40-44",
+      "ev": "2 SPEED",
+      "place": "Route 124"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/swanna.gif",
+      "pokemon": "Swanna",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "40-44",
+      "ev": "2 SPEED",
+      "place": "Mossdeep City"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/swanna.gif",
+      "pokemon": "Swanna",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "40-44",
+      "ev": "2 SPEED",
+      "place": "Route 125"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/swanna.gif",
+      "pokemon": "Swanna",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "40-44",
+      "ev": "2 SPEED",
+      "place": "Route 126"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/swanna.gif",
+      "pokemon": "Swanna",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "44-48",
+      "ev": "2 SPEED",
+      "place": "Route 127"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/swanna.gif",
+      "pokemon": "Swanna",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "44-48",
+      "ev": "2 SPEED",
+      "place": "Route 128"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/swanna.gif",
+      "pokemon": "Swanna",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "44-48",
+      "ev": "2 SPEED",
+      "place": "Route 129"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/swanna.gif",
+      "pokemon": "Swanna",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "44-48",
+      "ev": "2 SPEED",
+      "place": "Route 130"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/swanna.gif",
+      "pokemon": "Swanna",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "60-66",
+      "ev": "2 SPEED",
+      "place": "Route 132"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/swanna.gif",
+      "pokemon": "Swanna",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "60-66",
+      "ev": "2 SPEED",
+      "place": "Route 133"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/swanna.gif",
+      "pokemon": "Swanna",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "60-66",
+      "ev": "2 SPEED",
+      "place": "Route 134"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/swanna.gif",
+      "pokemon": "Swanna",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "52-55",
+      "ev": "2 SPEED",
+      "place": "Ever Grande City"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/swanna.gif",
+      "pokemon": "Swanna",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "2-10",
+      "ev": "2 SPEED",
+      "place": "Hoenn Safari (Water Biome)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/swanna.gif",
+      "pokemon": "Swanna",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "27-29",
+      "ev": "2 SPEED",
+      "place": "Route 106"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/swanna.gif",
+      "pokemon": "Swanna",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "27-29",
+      "ev": "2 SPEED",
+      "place": "Dewford Town"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/swanna.gif",
+      "pokemon": "Swanna",
+      "rarity": "C",
+      "time": "🌑",
+      "method": "🍀",
+      "level": "56-58",
+      "ev": "2 SPEED",
+      "place": "Hoenn Victory Road (Entrance)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/swanna.gif",
+      "pokemon": "Swanna",
+      "rarity": "C",
+      "time": "🌑",
+      "method": "🌊",
+      "level": "56-58",
+      "ev": "2 SPEED",
+      "place": "Hoenn Victory Road (Entrance)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/swanna.gif",
+      "pokemon": "Swanna",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "58-60",
+      "ev": "2 SPEED",
+      "place": "Hoenn Victory Road (B1F)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/swanna.gif",
+      "pokemon": "Swanna",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "58-60",
+      "ev": "2 SPEED",
+      "place": "Hoenn Victory Road (B1F)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/swanna.gif",
+      "pokemon": "Swanna",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "56-58",
+      "ev": "2 SPEED",
+      "place": "Hoenn Victory Road (1F)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/swanna.gif",
+      "pokemon": "Swanna",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "56-58",
+      "ev": "2 SPEED",
+      "place": "Hoenn Victory Road (1F)"
+    }
+  ],
+  "Tarountula": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/tarountula.gif",
+      "pokemon": "Tarountula",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "4-6",
+      "ev": "1 DEF",
+      "place": "Petalburg Woods"
+    }
+  ],
+  "Taillow": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/taillow.gif",
+      "pokemon": "Taillow",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "5-7",
+      "ev": "1 SPEED",
+      "place": "Route 104 (North)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/taillow.gif",
+      "pokemon": "Taillow",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "5-7",
+      "ev": "1 SPEED",
+      "place": "Route 116"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/taillow.gif",
+      "pokemon": "Taillow",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "20-22",
+      "ev": "1 SPEED",
+      "place": "Route 115"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/taillow.gif",
+      "pokemon": "Taillow",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "2-10",
+      "ev": "1 SPEED",
+      "place": "Hoenn Safari (Grass Biome)"
+    }
+  ],
+  "Lickitung": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/lickitung.gif",
+      "pokemon": "Lickitung",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "5-7",
+      "ev": "2 BASE_HP",
+      "place": "Route 116"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/lickitung.gif",
+      "pokemon": "Lickitung",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "13-15",
+      "ev": "2 BASE_HP",
+      "place": "Route 117"
+    }
+  ],
+  "Jigglypuff": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/jigglypuff.gif",
+      "pokemon": "Jigglypuff",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "20-22",
+      "ev": "2 BASE_HP",
+      "place": "Route 115"
+    }
+  ],
+  "Pelipper": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/pelipper.gif",
+      "pokemon": "Pelipper",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "27-29",
+      "ev": "2 DEF",
+      "place": "Route 107"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/pelipper.gif",
+      "pokemon": "Pelipper",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "27-29",
+      "ev": "2 DEF",
+      "place": "Route 108"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/pelipper.gif",
+      "pokemon": "Pelipper",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "27-29",
+      "ev": "2 DEF",
+      "place": "Route 109"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/pelipper.gif",
+      "pokemon": "Pelipper",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "40-44",
+      "ev": "2 DEF",
+      "place": "Route 124"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/pelipper.gif",
+      "pokemon": "Pelipper",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "40-44",
+      "ev": "2 DEF",
+      "place": "Mossdeep City"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/pelipper.gif",
+      "pokemon": "Pelipper",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "40-44",
+      "ev": "2 DEF",
+      "place": "Route 125"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/pelipper.gif",
+      "pokemon": "Pelipper",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "40-44",
+      "ev": "2 DEF",
+      "place": "Route 126"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/pelipper.gif",
+      "pokemon": "Pelipper",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "44-48",
+      "ev": "2 DEF",
+      "place": "Route 127"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/pelipper.gif",
+      "pokemon": "Pelipper",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "44-48",
+      "ev": "2 DEF",
+      "place": "Route 128"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/pelipper.gif",
+      "pokemon": "Pelipper",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "44-48",
+      "ev": "2 DEF",
+      "place": "Route 129"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/pelipper.gif",
+      "pokemon": "Pelipper",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "44-48",
+      "ev": "2 DEF",
+      "place": "Route 130"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/pelipper.gif",
+      "pokemon": "Pelipper",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "45-49",
+      "ev": "2 DEF",
+      "place": "Route 131"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/pelipper.gif",
+      "pokemon": "Pelipper",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "60-66",
+      "ev": "2 DEF",
+      "place": "Route 132"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/pelipper.gif",
+      "pokemon": "Pelipper",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "60-66",
+      "ev": "2 DEF",
+      "place": "Route 133"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/pelipper.gif",
+      "pokemon": "Pelipper",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "60-66",
+      "ev": "2 DEF",
+      "place": "Route 134"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/pelipper.gif",
+      "pokemon": "Pelipper",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "52-55",
+      "ev": "2 DEF",
+      "place": "Ever Grande City"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/pelipper.gif",
+      "pokemon": "Pelipper",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "27-29",
+      "ev": "2 DEF",
+      "place": "Route 105"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/pelipper.gif",
+      "pokemon": "Pelipper",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "58-60",
+      "ev": "2 DEF",
+      "place": "Hoenn Victory Road (B1F)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/pelipper.gif",
+      "pokemon": "Pelipper",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "56-58",
+      "ev": "2 DEF",
+      "place": "Hoenn Victory Road (1F)"
+    }
+  ],
+  "Blitzle": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/blitzle.gif",
+      "pokemon": "Blitzle",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "12-14",
+      "ev": "1 SPEED",
+      "place": "Route 110"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/blitzle.gif",
+      "pokemon": "Blitzle",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "13-15",
+      "ev": "1 SPEED",
+      "place": "Route 117"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/blitzle.gif",
+      "pokemon": "Blitzle",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "30-34",
+      "ev": "1 SPEED",
+      "place": "Route 118"
+    }
+  ],
+  "Minccino": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/minccino.gif",
+      "pokemon": "Minccino",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "13-15",
+      "ev": "1 SPEED",
+      "place": "Route 117"
+    }
+  ],
+  "Tatsugiri": [
+    {
+      "sprite": "https://forums.pokemonblazeonline.com/data/attachments/0/983-f737c12027fb49621ff64d58a7f57a47.jpg",
+      "pokemon": "Tatsugiri",
+      "rarity": "UR",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "16-19",
+      "ev": "",
+      "place": "Meteor Falls 1F 1R"
+    },
+    {
+      "sprite": "https://forums.pokemonblazeonline.com/data/attachments/0/983-f737c12027fb49621ff64d58a7f57a47.jpg",
+      "pokemon": "Tatsugiri",
+      "rarity": "UR",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "52-55",
+      "ev": "",
+      "place": "Meteor Falls 1F 2R"
+    },
+    {
+      "sprite": "https://forums.pokemonblazeonline.com/data/attachments/0/983-f737c12027fb49621ff64d58a7f57a47.jpg",
+      "pokemon": "Tatsugiri",
+      "rarity": "UR",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "52-55",
+      "ev": "",
+      "place": "Meteor Falls B1F 1R"
+    }
+  ],
+  "Frigibax": [
+    {
+      "sprite": "https://forums.pokemonblazeonline.com/data/attachments/0/982-ad81165b1e49ff26480001356afcb2f1.jpg",
+      "pokemon": "Frigibax",
+      "rarity": "UR",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "52-55",
+      "ev": "1 ATK",
+      "place": "Meteor Falls B1F 2R"
+    }
+  ],
+  "Toedscool": [
+    {
+      "sprite": "https://forums.pokemonblazeonline.com/data/attachments/0/984-4efb0a3d59c3d2b03638b56c1d7e4123.jpg",
+      "pokemon": "Toedscool",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "17-20",
+      "ev": "1 SP_DEF",
+      "place": "Route 114"
+    },
+    {
+      "sprite": "https://forums.pokemonblazeonline.com/data/attachments/0/988-4efb0a3d59c3d2b03638b56c1d7e4123.jpg",
+      "pokemon": "Toedscool",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "2-10",
+      "ev": "1 SP_DEF",
+      "place": "Hoenn Safari Zone"
+    },
+    {
+      "sprite": "https://forums.pokemonblazeonline.com/data/attachments/0/988-4efb0a3d59c3d2b03638b56c1d7e4123.jpg",
+      "pokemon": "Toedscool",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "2-10",
+      "ev": "1 SP_DEF",
+      "place": "Hoenn Safari (Grass Biome)"
+    },
+    {
+      "sprite": "https://forums.pokemonblazeonline.com/data/attachments/0/988-4efb0a3d59c3d2b03638b56c1d7e4123.jpg",
+      "pokemon": "Toedscool",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "2-10",
+      "ev": "1 SP_DEF",
+      "place": "Hoenn Safari (Water Biome)"
+    }
+  ],
+  "Lombre": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/lombre.gif",
+      "pokemon": "Lombre",
+      "rarity": "R",
+      "time": "🌕",
+      "method": "🍀",
+      "level": "17-20",
+      "ev": "2 SP_DEF",
+      "place": "Route 114"
+    }
+  ],
+  "Nuzleaf": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/nuzleaf.gif",
+      "pokemon": "Nuzleaf",
+      "rarity": "R",
+      "time": "🌑",
+      "method": "🍀",
+      "level": "17-20",
+      "ev": "2 ATK",
+      "place": "Route 114"
+    }
+  ],
+  "Grimer": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/grimer.gif",
+      "pokemon": "Grimer",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "16-19",
+      "ev": "1 BASE_HP",
+      "place": "Route 113"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/grimer.gif",
+      "pokemon": "Grimer",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "15-17",
+      "ev": "1 BASE_HP",
+      "place": "Fiery Path"
+    }
+  ],
+  "Bouffalant": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/bouffalant.gif",
+      "pokemon": "Bouffalant",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "16-19",
+      "ev": "2 ATK",
+      "place": "Route 113"
+    }
+  ],
+  "Silicobra": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/silicobra.gif",
+      "pokemon": "Silicobra",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "20-23",
+      "ev": "1 DEF",
+      "place": "Route 111 (Desert)"
+    }
+  ],
+  "Sawk": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/sawk.gif",
+      "pokemon": "Sawk",
+      "rarity": "VR",
+      "time": "🌕",
+      "method": "🍀",
+      "level": "15-17",
+      "ev": "2 ATK",
+      "place": "Route 112 (North)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/sawk.gif",
+      "pokemon": "Sawk",
+      "rarity": "VR",
+      "time": "🌕",
+      "method": "🍀",
+      "level": "15-17",
+      "ev": "2 ATK",
+      "place": "Route 112"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/sawk.gif",
+      "pokemon": "Sawk",
+      "rarity": "VR",
+      "time": "🌕",
+      "method": "🍀",
+      "level": "18-21",
+      "ev": "2 ATK",
+      "place": "Jagged Pass"
+    }
+  ],
+  "Throh": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/throh.gif",
+      "pokemon": "Throh",
+      "rarity": "VR",
+      "time": "🌑",
+      "method": "🍀",
+      "level": "15-17",
+      "ev": "2 BASE_HP",
+      "place": "Route 112 (North)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/throh.gif",
+      "pokemon": "Throh",
+      "rarity": "VR",
+      "time": "🌑",
+      "method": "🍀",
+      "level": "15-17",
+      "ev": "2 BASE_HP",
+      "place": "Route 112"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/throh.gif",
+      "pokemon": "Throh",
+      "rarity": "VR",
+      "time": "🌑",
+      "method": "🍀",
+      "level": "18-21",
+      "ev": "2 BASE_HP",
+      "place": "Jagged Pass"
+    }
+  ],
+  "Salandit": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/salandit.gif",
+      "pokemon": "Salandit",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "15-17",
+      "ev": "1 SPEED",
+      "place": "Fiery Path"
+    }
+  ],
+  "Vigoroth": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/vigoroth.gif",
+      "pokemon": "Vigoroth",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "30-34",
+      "ev": "2 SPEED",
+      "place": "Route 118"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/vigoroth.gif",
+      "pokemon": "Vigoroth",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "42-46",
+      "ev": "2 SPEED",
+      "place": "Cave of Origin (Entrance)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/vigoroth.gif",
+      "pokemon": "Vigoroth",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "42-46",
+      "ev": "2 SPEED",
+      "place": "Cave of Origin (1F)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/vigoroth.gif",
+      "pokemon": "Vigoroth",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "42-46",
+      "ev": "2 SPEED",
+      "place": "Cave of Origin (B1F)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/vigoroth.gif",
+      "pokemon": "Vigoroth",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "42-46",
+      "ev": "2 SPEED",
+      "place": "Cave of Origin (B2F)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/vigoroth.gif",
+      "pokemon": "Vigoroth",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "42-46",
+      "ev": "2 SPEED",
+      "place": "Cave of Origin (B3F)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/vigoroth.gif",
+      "pokemon": "Vigoroth",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "42-46",
+      "ev": "2 SPEED",
+      "place": "Cave of Origin (B4F)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/vigoroth.gif",
+      "pokemon": "Vigoroth",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "42-46",
+      "ev": "2 SPEED",
+      "place": "Cave of Origin (Hidden Passage)"
+    }
+  ],
+  "Electrode-Hisui": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/electrode-hisui.gif",
+      "pokemon": "Electrode-Hisui",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "31-35",
+      "ev": "2 SPEED",
+      "place": "Route 119 (South)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/electrode-hisui.gif",
+      "pokemon": "Electrode-Hisui",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "33-36",
+      "ev": "2 SPEED",
+      "place": "Route 119 (North)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/electrode-hisui.gif",
+      "pokemon": "Electrode-Hisui",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "37-40",
+      "ev": "2 SPEED",
+      "place": "Route 123"
+    }
+  ],
+  "Linoone": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/linoone.gif",
+      "pokemon": "Linoone",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "35-38",
+      "ev": "2 SPEED",
+      "place": "Route 120"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/linoone.gif",
+      "pokemon": "Linoone",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "35-38",
+      "ev": "2 SPEED",
+      "place": "Route 121"
+    }
+  ],
+  "Nickit": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/nickit.gif",
+      "pokemon": "Nickit",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "35-38",
+      "ev": "1 SP_DEF",
+      "place": "Route 120"
+    }
+  ],
+  "Gloom": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/gloom.gif",
+      "pokemon": "Gloom",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "35-38",
+      "ev": "2 SP_ATK",
+      "place": "Route 120"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/gloom.gif",
+      "pokemon": "Gloom",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "37-40",
+      "ev": "2 SP_ATK",
+      "place": "Route 123"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/gloom.gif",
+      "pokemon": "Gloom",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "58-60",
+      "ev": "2 SP_ATK",
+      "place": "Hoenn Victory Road (B1F)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/gloom.gif",
+      "pokemon": "Gloom",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "56-58",
+      "ev": "2 SP_ATK",
+      "place": "Hoenn Victory Road (1F)"
+    }
+  ],
+  "Haunter": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/haunter.gif",
+      "pokemon": "Haunter",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "35-38",
+      "ev": "2 SP_ATK",
+      "place": "Route 121"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/haunter.gif",
+      "pokemon": "Haunter",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "37-40",
+      "ev": "2 SP_ATK",
+      "place": "Mt. Pyre 1F"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/haunter.gif",
+      "pokemon": "Haunter",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "37-40",
+      "ev": "2 SP_ATK",
+      "place": "Mt. Pyre (Exterior)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/haunter.gif",
+      "pokemon": "Haunter",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "37-40",
+      "ev": "2 SP_ATK",
+      "place": "Mt. Pyre (Summit)"
+    }
+  ],
+  "Elgyem": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/elgyem.gif",
+      "pokemon": "Elgyem",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "35-38",
+      "ev": "1 SP_ATK",
+      "place": "Route 121"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/elgyem.gif",
+      "pokemon": "Elgyem",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "58-60",
+      "ev": "1 SP_ATK",
+      "place": "Hoenn Victory Road (B1F)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/elgyem.gif",
+      "pokemon": "Elgyem",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "56-58",
+      "ev": "1 SP_ATK",
+      "place": "Hoenn Victory Road (1F)"
+    }
+  ],
+  "Pansage": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/pansage.gif",
+      "pokemon": "Pansage",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "37-40",
+      "ev": "1 SPEED",
+      "place": "Route 123"
+    }
+  ],
+  "Poliwrath": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/poliwrath.gif",
+      "pokemon": "Poliwrath",
+      "rarity": "C",
+      "time": "🌑",
+      "method": "🎣",
+      "level": "58-60",
+      "ev": "3 DEF",
+      "place": "Mossdeep City"
+    }
+  ],
+  "Politoed": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/politoed.gif",
+      "pokemon": "Politoed",
+      "rarity": "C",
+      "time": "🌕",
+      "method": "🎣",
+      "level": "58-60",
+      "ev": "3 SP_DEF",
+      "place": "Mossdeep City"
+    }
+  ],
+  "Dewgong": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/dewgong.gif",
+      "pokemon": "Dewgong",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "40-44",
+      "ev": "2 SP_DEF",
+      "place": "Route 125"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/dewgong.gif",
+      "pokemon": "Dewgong",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "58-60",
+      "ev": "2 SP_DEF",
+      "place": "Hoenn Victory Road (B1F)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/dewgong.gif",
+      "pokemon": "Dewgong",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "56-58",
+      "ev": "2 SP_DEF",
+      "place": "Hoenn Victory Road (1F)"
+    }
+  ],
+  "Cramorant": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/cramorant.gif",
+      "pokemon": "Cramorant",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "60-66",
+      "ev": "2 SP_DEF",
+      "place": "Route 132"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/cramorant.gif",
+      "pokemon": "Cramorant",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "60-66",
+      "ev": "2 SP_DEF",
+      "place": "Route 133"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/cramorant.gif",
+      "pokemon": "Cramorant",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "60-66",
+      "ev": "2 SP_DEF",
+      "place": "Route 134"
+    }
+  ],
+  "Gyarados": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/gyarados.gif",
+      "pokemon": "Gyarados",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "44-48",
+      "ev": "2 ATK",
+      "place": "Sootopolis City"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/gyarados.gif",
+      "pokemon": "Gyarados",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "60-60",
+      "ev": "2 ATK",
+      "place": "Abandoned Ship"
+    }
+  ],
+  "Wattrel": [
+    {
+      "sprite": "https://forums.pokemonblazeonline.com/data/attachments/0/989-d39531d02e420ecbf115c57f24502d05.jpg",
+      "pokemon": "Wattrel",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "2-10",
+      "ev": "1 SPEED",
+      "place": "Hoenn Safari Zone"
+    }
+  ],
+  "Wynaut": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/wynaut.gif",
+      "pokemon": "Wynaut",
+      "rarity": "UR",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "2-10",
+      "ev": "1 BASE_HP",
+      "place": "Hoenn Safari Zone"
+    }
+  ],
+  "Torchic": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/torchic.gif",
+      "pokemon": "Torchic",
+      "rarity": "UR",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "2-10",
+      "ev": "1 SP_ATK",
+      "place": "Hoenn Safari (Desert Biome)"
+    }
+  ],
+  "Bellsprout": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/bellsprout.gif",
+      "pokemon": "Bellsprout",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "2-10",
+      "ev": "1 ATK",
+      "place": "Hoenn Safari (Grass Biome)"
+    }
+  ],
+  "Treecko": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/treecko.gif",
+      "pokemon": "Treecko",
+      "rarity": "UR",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "2-10",
+      "ev": "1 SPEED",
+      "place": "Hoenn Safari (Grass Biome)"
+    }
+  ],
+  "Arrokuda": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/arrokuda.gif",
+      "pokemon": "Arrokuda",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "2-10",
+      "ev": "1 SPEED",
+      "place": "Hoenn Safari (Water Biome)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/arrokuda.gif",
+      "pokemon": "Arrokuda",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "30-40",
+      "ev": "1 SPEED",
+      "place": "Abandoned Ship"
+    }
+  ],
+  "Mudkip": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/mudkip.gif",
+      "pokemon": "Mudkip",
+      "rarity": "UR",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "2-10",
+      "ev": "1 ATK",
+      "place": "Hoenn Safari (Water Biome)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/mudkip.gif",
+      "pokemon": "Mudkip",
+      "rarity": "UR",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "2-10",
+      "ev": "1 ATK",
+      "place": "Hoenn Safari (Water Biome)"
+    }
+  ],
+  "Tinkatink": [
+    {
+      "sprite": "https://forums.pokemonblazeonline.com/data/attachments/0/990-4332112348782b93517be23ae152ea20.jpg",
+      "pokemon": "Tinkatink",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "10-12",
+      "ev": "1 SP_DEF",
+      "place": "Granite Cave B2F"
+    },
+    {
+      "sprite": "https://forums.pokemonblazeonline.com/data/attachments/0/990-4332112348782b93517be23ae152ea20.jpg",
+      "pokemon": "Tinkatink",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "42-46",
+      "ev": "1 SP_DEF",
+      "place": "Cave of Origin (Entrance)"
+    },
+    {
+      "sprite": "https://forums.pokemonblazeonline.com/data/attachments/0/990-4332112348782b93517be23ae152ea20.jpg",
+      "pokemon": "Tinkatink",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "42-46",
+      "ev": "1 SP_DEF",
+      "place": "Cave of Origin (1F)"
+    },
+    {
+      "sprite": "https://forums.pokemonblazeonline.com/data/attachments/0/990-4332112348782b93517be23ae152ea20.jpg",
+      "pokemon": "Tinkatink",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "42-46",
+      "ev": "1 SP_DEF",
+      "place": "Cave of Origin (B1F)"
+    },
+    {
+      "sprite": "https://forums.pokemonblazeonline.com/data/attachments/0/990-4332112348782b93517be23ae152ea20.jpg",
+      "pokemon": "Tinkatink",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "42-46",
+      "ev": "1 SP_DEF",
+      "place": "Cave of Origin (B2F)"
+    },
+    {
+      "sprite": "https://forums.pokemonblazeonline.com/data/attachments/0/990-4332112348782b93517be23ae152ea20.jpg",
+      "pokemon": "Tinkatink",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "42-46",
+      "ev": "1 SP_DEF",
+      "place": "Cave of Origin (B3F)"
+    },
+    {
+      "sprite": "https://forums.pokemonblazeonline.com/data/attachments/0/990-4332112348782b93517be23ae152ea20.jpg",
+      "pokemon": "Tinkatink",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "42-46",
+      "ev": "1 SP_DEF",
+      "place": "Cave of Origin (B4F)"
+    },
+    {
+      "sprite": "https://forums.pokemonblazeonline.com/data/attachments/0/990-4332112348782b93517be23ae152ea20.jpg",
+      "pokemon": "Tinkatink",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "42-46",
+      "ev": "1 SP_DEF",
+      "place": "Cave of Origin (Hidden Passage)"
+    }
+  ],
+  "Wiglett": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/wiglett.gif",
+      "pokemon": "Wiglett",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "50-52",
+      "ev": "1 SPEED",
+      "place": "Route 107 (Underwater)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/wiglett.gif",
+      "pokemon": "Wiglett",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "40-44",
+      "ev": "1 SPEED",
+      "place": "Route 124 (Underwater)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/wiglett.gif",
+      "pokemon": "Wiglett",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "43-46",
+      "ev": "1 SPEED",
+      "place": "Route 126 (Underwater)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/wiglett.gif",
+      "pokemon": "Wiglett",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "46-50",
+      "ev": "1 SPEED",
+      "place": "Route 128 (Underwater)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/wiglett.gif",
+      "pokemon": "Wiglett",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "46-50",
+      "ev": "1 SPEED",
+      "place": "Route 129 (Underwater)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/wiglett.gif",
+      "pokemon": "Wiglett",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "46-50",
+      "ev": "1 SPEED",
+      "place": "Route 130 (Underwater)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/wiglett.gif",
+      "pokemon": "Wiglett",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "60-66",
+      "ev": "1 SPEED",
+      "place": "Route 134 (Underwater)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/wiglett.gif",
+      "pokemon": "Wiglett",
+      "rarity": "R",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "70-76",
+      "ev": "1 SPEED",
+      "place": "Route 134 (Underwater Tunnel)"
+    }
+  ],
+  "Pikachu-Hoenn": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/pikachu-hoenn.gif",
+      "pokemon": "Pikachu-Hoenn",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "22-25",
+      "ev": "",
+      "place": "New Mauville"
+    }
+  ],
+  "Pawmi": [
+    {
+      "sprite": "https://forums.pokemonblazeonline.com/data/attachments/0/991-050039583df57037ca69796c183a9d25.jpg",
+      "pokemon": "Pawmi",
+      "rarity": "UR",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "22-25",
+      "ev": "1 SPEED",
+      "place": "New Mauville"
+    }
+  ],
+  "Greavard": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/greavard.gif",
+      "pokemon": "Greavard",
+      "rarity": "UR",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "37-40",
+      "ev": "1 ATK",
+      "place": "Mt. Pyre 1F"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/greavard.gif",
+      "pokemon": "Greavard",
+      "rarity": "UR",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "37-40",
+      "ev": "1 ATK",
+      "place": "Mt. Pyre 2F"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/greavard.gif",
+      "pokemon": "Greavard",
+      "rarity": "UR",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "37-40",
+      "ev": "1 ATK",
+      "place": "Mt. Pyre 3F"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/greavard.gif",
+      "pokemon": "Greavard",
+      "rarity": "UR",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "37-40",
+      "ev": "1 ATK",
+      "place": "Mt. Pyre 4F"
+    }
+  ],
+  "Charcadet": [
+    {
+      "sprite": "https://forums.pokemonblazeonline.com/data/attachments/0/995-150eb4e344b5b9f720c160e538dcad24.jpg",
+      "pokemon": "Charcadet",
+      "rarity": "UR",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "37-40",
+      "ev": "1 SP_ATK",
+      "place": "Mt. Pyre (Summit)"
+    }
+  ],
+  "Dondozo": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/dondozo.gif",
+      "pokemon": "Dondozo",
+      "rarity": "UR",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "40-44",
+      "ev": "3 BASE_HP",
+      "place": "Route 124 (Underwater)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/dondozo.gif",
+      "pokemon": "Dondozo",
+      "rarity": "UR",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "43-46",
+      "ev": "3 BASE_HP",
+      "place": "Route 126 (Underwater)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/dondozo.gif",
+      "pokemon": "Dondozo",
+      "rarity": "UR",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "46-50",
+      "ev": "3 BASE_HP",
+      "place": "Route 128 (Underwater)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/dondozo.gif",
+      "pokemon": "Dondozo",
+      "rarity": "UR",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "46-50",
+      "ev": "3 BASE_HP",
+      "place": "Route 129 (Underwater)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/dondozo.gif",
+      "pokemon": "Dondozo",
+      "rarity": "UR",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "46-50",
+      "ev": "3 BASE_HP",
+      "place": "Route 130 (Underwater)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/dondozo.gif",
+      "pokemon": "Dondozo",
+      "rarity": "UR",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "60-66",
+      "ev": "3 BASE_HP",
+      "place": "Route 134 (Underwater)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/dondozo.gif",
+      "pokemon": "Dondozo",
+      "rarity": "UR",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "70-76",
+      "ev": "3 BASE_HP",
+      "place": "Route 134 (Underwater Tunnel)"
+    }
+  ],
+  "Basculin-Blue": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/basculin-bluestriped.gif",
+      "pokemon": "Basculin-Blue",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🌊",
+      "level": "70-76",
+      "ev": "2 SPEED",
+      "place": "Route 134 (Underwater Tunnel)"
+    }
+  ],
+  "Crobat": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/crobat.gif",
+      "pokemon": "Crobat",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "42-46",
+      "ev": "3 SPEED",
+      "place": "Cave of Origin (Entrance)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/crobat.gif",
+      "pokemon": "Crobat",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "42-46",
+      "ev": "3 SPEED",
+      "place": "Cave of Origin (1F)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/crobat.gif",
+      "pokemon": "Crobat",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "42-46",
+      "ev": "3 SPEED",
+      "place": "Cave of Origin (B1F)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/crobat.gif",
+      "pokemon": "Crobat",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "42-46",
+      "ev": "3 SPEED",
+      "place": "Cave of Origin (B2F)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/crobat.gif",
+      "pokemon": "Crobat",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "42-46",
+      "ev": "3 SPEED",
+      "place": "Cave of Origin (B3F)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/crobat.gif",
+      "pokemon": "Crobat",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "42-46",
+      "ev": "3 SPEED",
+      "place": "Cave of Origin (B4F)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/crobat.gif",
+      "pokemon": "Crobat",
+      "rarity": "C",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "42-46",
+      "ev": "3 SPEED",
+      "place": "Cave of Origin (Hidden Passage)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/crobat.gif",
+      "pokemon": "Crobat",
+      "rarity": "C",
+      "time": "🌕",
+      "method": "🍀",
+      "level": "56-58",
+      "ev": "3 SPEED",
+      "place": "Hoenn Victory Road (Entrance)"
+    },
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/crobat.gif",
+      "pokemon": "Crobat",
+      "rarity": "C",
+      "time": "🌕",
+      "method": "🌊",
+      "level": "56-58",
+      "ev": "3 SPEED",
+      "place": "Hoenn Victory Road (Entrance)"
+    }
+  ],
+  "Toedscruel": [
+    {
+      "sprite": "https://forums.pokemonblazeonline.com/data/attachments/0/993-c418f25b24c1d837acc5e313ca182ae6.jpg",
+      "pokemon": "Toedscruel",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "58-60",
+      "ev": "2 SP_DEF",
+      "place": "Hoenn Victory Road (B1F)"
+    },
+    {
+      "sprite": "https://forums.pokemonblazeonline.com/data/attachments/0/993-c418f25b24c1d837acc5e313ca182ae6.jpg",
+      "pokemon": "Toedscruel",
+      "rarity": "UC",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "56-58",
+      "ev": "2 SP_DEF",
+      "place": "Hoenn Victory Road (1F)"
+    }
+  ],
+  "Beldum": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/beldum.gif",
+      "pokemon": "Beldum",
+      "rarity": "UR",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "58-60",
+      "ev": "1 DEF",
+      "place": "Hoenn Victory Road (B1F)"
+    }
+  ],
+  "Slowpoke-Galar": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/slowpoke-galar.gif",
+      "pokemon": "Slowpoke-Galar",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🎣",
+      "level": "65-67",
+      "ev": "1 BASE_HP",
+      "place": "Hoenn Victory Road (2F)"
+    }
+  ],
+  "Sharpedo": [
+    {
+      "sprite": "https://play.pokemonshowdown.com/sprites/ani/sharpedo.gif",
+      "pokemon": "Sharpedo",
+      "rarity": "VR",
+      "time": "🌓",
+      "method": "🍀",
+      "level": "60-60",
+      "ev": "2 ATK",
+      "place": "Abandoned Ship"
     }
   ]
 }

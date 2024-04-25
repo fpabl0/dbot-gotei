@@ -66,18 +66,18 @@ const createByPokeTable = (prefix, poke, spawnsByPoke) => {
     for (let i = 0; i < parts; i++) {
         const slicedSpawn = parts === 1 ? spawns : i === 0 ? spawns.slice(0, 15) : spawns.slice(15);
         const table = new embed_table_1.Table({
-            titles: ["Place", "T", "M", "Lvl"],
-            titleIndexes: [0, 33, 40, 62],
-            columnIndexes: [0, cIndexStart, cIndexStart + 5, cIndexStart + 10],
+            titles: ["Place", "R", "T", "M", "Lvl"],
+            titleIndexes: [0, 33, 41, 48, 70],
+            columnIndexes: [0, cIndexStart, cIndexStart + 4, cIndexStart + 9, cIndexStart + 14],
             start: '`',
             end: '`',
             padEnd: 3,
         });
         for (const s of slicedSpawn) {
-            table.addRow([s.place, s.time, s.method, s.level]);
+            table.addRow([s.place, s.rarity, s.time, s.method, s.level]);
         }
         const embed = new discord_js_1.EmbedBuilder().setFields({
-            name: `${prefix}**Pokemon:** ${poke} (${spawns[0].rarity})${parts > 1 ? ` Part ${i + 1}` : ""}`,
+            name: `${prefix}**Pokemon:** ${poke}${parts > 1 ? ` Part ${i + 1}` : ""}`,
             value: table.rows.join("\n"),
         });
         embeds.push(embed);
